@@ -1,0 +1,10 @@
+E:\privat\HiDrive\privat\Yoke\Austausch\Arduino_FFB_Yoke_App\Arduino_FFB_Yoke_App\obj\Debug\Arduino_FFB_Yoke_App.csproj.AssemblyReference.cache
+E:\privat\HiDrive\privat\Yoke\Austausch\Arduino_FFB_Yoke_App\Arduino_FFB_Yoke_App\obj\Debug\Arduino_FFB_Yoke_App.Properties.Resources.resources
+E:\privat\HiDrive\privat\Yoke\Austausch\Arduino_FFB_Yoke_App\Arduino_FFB_Yoke_App\obj\Debug\Arduino_FFB_Yoke_App.csproj.GenerateResource.cache
+E:\privat\HiDrive\privat\Yoke\Austausch\Arduino_FFB_Yoke_App\Arduino_FFB_Yoke_App\obj\Debug\Arduino_FFB_Yoke_App.csproj.CoreCompileInputs.cache
+E:\privat\HiDrive\privat\Yoke\Austausch\Arduino_FFB_Yoke_App\Arduino_FFB_Yoke_App\bin\Debug\Arduino_FFB_Yoke_App.exe.config
+E:\privat\HiDrive\privat\Yoke\Austausch\Arduino_FFB_Yoke_App\Arduino_FFB_Yoke_App\bin\Debug\Arduino_FFB_Yoke_App.exe
+E:\privat\HiDrive\privat\Yoke\Austausch\Arduino_FFB_Yoke_App\Arduino_FFB_Yoke_App\bin\Debug\Arduino_FFB_Yoke_App.pdb
+E:\privat\HiDrive\privat\Yoke\Austausch\Arduino_FFB_Yoke_App\Arduino_FFB_Yoke_App\obj\Debug\Arduino_FFB_Yoke_App.exe
+E:\privat\HiDrive\privat\Yoke\Austausch\Arduino_FFB_Yoke_App\Arduino_FFB_Yoke_App\obj\Debug\Arduino_FFB_Yoke_App.pdb
+E:\privat\HiDrive\privat\Yoke\Austausch\Arduino_FFB_Yoke_App\Arduino_FFB_Yoke_App\obj\Debug\Arduino_FFB_Yoke_App.Mainform.resources
