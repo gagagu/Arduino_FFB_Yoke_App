@@ -527,6 +527,15 @@ namespace Arduino_FFB_Yoke_App
       catch { }
     }
 
+    private void websiteToolStripMenuItem_Click(object sender, EventArgs e)
+    {
+      System.Diagnostics.Process.Start("http://www.gagagu.de/Arduino_FFB_Yoke");
+    }
+
+    private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+    {
+      System.Diagnostics.Process.Start("http://www.gagagu.de/Arduino_FFB_Yoke_App");
+    }
   }// class
 
 }// namespace

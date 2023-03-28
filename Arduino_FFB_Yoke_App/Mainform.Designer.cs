@@ -451,9 +451,11 @@ namespace Arduino_FFB_Yoke_App
       this.groupBox1.Controls.Add(this.cbAvailablePortsBox);
       this.groupBox1.Controls.Add(this.btRefreshPortList);
       this.groupBox1.Controls.Add(this.btConnectToPort);
-      this.groupBox1.Location = new System.Drawing.Point(5, 26);
+      this.groupBox1.Location = new System.Drawing.Point(8, 40);
+      this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.groupBox1.Name = "groupBox1";
-      this.groupBox1.Size = new System.Drawing.Size(502, 50);
+      this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+      this.groupBox1.Size = new System.Drawing.Size(753, 77);
       this.groupBox1.TabIndex = 6;
       this.groupBox1.TabStop = false;
       this.groupBox1.Text = "USB Settings";
@@ -462,9 +464,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.btDisconnect.Enabled = false;
       this.btDisconnect.Image = ((System.Drawing.Image)(resources.GetObject("btDisconnect.Image")));
-      this.btDisconnect.Location = new System.Drawing.Point(461, 15);
+      this.btDisconnect.Location = new System.Drawing.Point(692, 23);
+      this.btDisconnect.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.btDisconnect.Name = "btDisconnect";
-      this.btDisconnect.Size = new System.Drawing.Size(27, 26);
+      this.btDisconnect.Size = new System.Drawing.Size(40, 40);
       this.btDisconnect.TabIndex = 4;
       this.btDisconnect.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
       this.mainToolTip.SetToolTip(this.btDisconnect, "Disconnect from Port");
@@ -474,9 +477,10 @@ namespace Arduino_FFB_Yoke_App
       // cbAvailablePortsBox
       // 
       this.cbAvailablePortsBox.FormattingEnabled = true;
-      this.cbAvailablePortsBox.Location = new System.Drawing.Point(6, 17);
+      this.cbAvailablePortsBox.Location = new System.Drawing.Point(9, 26);
+      this.cbAvailablePortsBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.cbAvailablePortsBox.Name = "cbAvailablePortsBox";
-      this.cbAvailablePortsBox.Size = new System.Drawing.Size(385, 21);
+      this.cbAvailablePortsBox.Size = new System.Drawing.Size(576, 28);
       this.cbAvailablePortsBox.TabIndex = 1;
       this.mainToolTip.SetToolTip(this.cbAvailablePortsBox, "Available USB Ports");
       // 
@@ -485,9 +489,10 @@ namespace Arduino_FFB_Yoke_App
       this.btRefreshPortList.AutoSize = true;
       this.btRefreshPortList.Cursor = System.Windows.Forms.Cursors.Default;
       this.btRefreshPortList.Image = ((System.Drawing.Image)(resources.GetObject("btRefreshPortList.Image")));
-      this.btRefreshPortList.Location = new System.Drawing.Point(396, 15);
+      this.btRefreshPortList.Location = new System.Drawing.Point(594, 23);
+      this.btRefreshPortList.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.btRefreshPortList.Name = "btRefreshPortList";
-      this.btRefreshPortList.Size = new System.Drawing.Size(27, 26);
+      this.btRefreshPortList.Size = new System.Drawing.Size(40, 40);
       this.btRefreshPortList.TabIndex = 2;
       this.btRefreshPortList.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
       this.mainToolTip.SetToolTip(this.btRefreshPortList, "Refresh");
@@ -497,9 +502,10 @@ namespace Arduino_FFB_Yoke_App
       // btConnectToPort
       // 
       this.btConnectToPort.Image = ((System.Drawing.Image)(resources.GetObject("btConnectToPort.Image")));
-      this.btConnectToPort.Location = new System.Drawing.Point(428, 15);
+      this.btConnectToPort.Location = new System.Drawing.Point(642, 23);
+      this.btConnectToPort.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.btConnectToPort.Name = "btConnectToPort";
-      this.btConnectToPort.Size = new System.Drawing.Size(27, 26);
+      this.btConnectToPort.Size = new System.Drawing.Size(40, 40);
       this.btConnectToPort.TabIndex = 3;
       this.btConnectToPort.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
       this.mainToolTip.SetToolTip(this.btConnectToPort, "Connect to selected USB Port");
@@ -513,10 +519,11 @@ namespace Arduino_FFB_Yoke_App
             | System.Windows.Forms.AnchorStyles.Right)));
       this.tabControlMain.Controls.Add(this.tabPageMainSettings);
       this.tabControlMain.Controls.Add(this.tabPageMainDebug);
-      this.tabControlMain.Location = new System.Drawing.Point(4, 82);
+      this.tabControlMain.Location = new System.Drawing.Point(6, 126);
+      this.tabControlMain.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tabControlMain.Name = "tabControlMain";
       this.tabControlMain.SelectedIndex = 0;
-      this.tabControlMain.Size = new System.Drawing.Size(1056, 675);
+      this.tabControlMain.Size = new System.Drawing.Size(1584, 1038);
       this.tabControlMain.TabIndex = 9;
       // 
       // tabPageMainSettings
@@ -524,10 +531,11 @@ namespace Arduino_FFB_Yoke_App
       this.tabPageMainSettings.BackColor = System.Drawing.Color.Transparent;
       this.tabPageMainSettings.Controls.Add(this.tabControlMainSettings);
       this.tabPageMainSettings.Controls.Add(this.groupBox3);
-      this.tabPageMainSettings.Location = new System.Drawing.Point(4, 22);
+      this.tabPageMainSettings.Location = new System.Drawing.Point(4, 29);
+      this.tabPageMainSettings.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tabPageMainSettings.Name = "tabPageMainSettings";
-      this.tabPageMainSettings.Padding = new System.Windows.Forms.Padding(3);
-      this.tabPageMainSettings.Size = new System.Drawing.Size(1048, 649);
+      this.tabPageMainSettings.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+      this.tabPageMainSettings.Size = new System.Drawing.Size(1576, 1005);
       this.tabPageMainSettings.TabIndex = 0;
       this.tabPageMainSettings.Text = "Settings";
       // 
@@ -537,10 +545,11 @@ namespace Arduino_FFB_Yoke_App
             | System.Windows.Forms.AnchorStyles.Left)));
       this.tabControlMainSettings.Controls.Add(this.tabPageMainSettingsRoll);
       this.tabControlMainSettings.Controls.Add(this.tabPageMainSettingsPitch);
-      this.tabControlMainSettings.Location = new System.Drawing.Point(6, 8);
+      this.tabControlMainSettings.Location = new System.Drawing.Point(9, 12);
+      this.tabControlMainSettings.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tabControlMainSettings.Name = "tabControlMainSettings";
       this.tabControlMainSettings.SelectedIndex = 0;
-      this.tabControlMainSettings.Size = new System.Drawing.Size(863, 627);
+      this.tabControlMainSettings.Size = new System.Drawing.Size(1294, 965);
       this.tabControlMainSettings.TabIndex = 2;
       // 
       // tabPageMainSettingsRoll
@@ -664,10 +673,11 @@ namespace Arduino_FFB_Yoke_App
       this.tabPageMainSettingsRoll.Controls.Add(this.label11);
       this.tabPageMainSettingsRoll.Controls.Add(this.tb_ROLL_TOTAL_GAIN);
       this.tabPageMainSettingsRoll.Controls.Add(this.tb_ROLL_PWM_MAX);
-      this.tabPageMainSettingsRoll.Location = new System.Drawing.Point(4, 22);
+      this.tabPageMainSettingsRoll.Location = new System.Drawing.Point(4, 29);
+      this.tabPageMainSettingsRoll.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tabPageMainSettingsRoll.Name = "tabPageMainSettingsRoll";
-      this.tabPageMainSettingsRoll.Padding = new System.Windows.Forms.Padding(3);
-      this.tabPageMainSettingsRoll.Size = new System.Drawing.Size(855, 601);
+      this.tabPageMainSettingsRoll.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+      this.tabPageMainSettingsRoll.Size = new System.Drawing.Size(1286, 932);
       this.tabPageMainSettingsRoll.TabIndex = 0;
       this.tabPageMainSettingsRoll.Text = "Roll";
       // 
@@ -675,9 +685,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label118.AutoSize = true;
       this.label118.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label118.Location = new System.Drawing.Point(810, 52);
+      this.label118.Location = new System.Drawing.Point(1215, 80);
+      this.label118.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label118.Name = "label118";
-      this.label118.Size = new System.Drawing.Size(25, 13);
+      this.label118.Size = new System.Drawing.Size(36, 20);
       this.label118.TabIndex = 149;
       this.label118.Text = "255";
       // 
@@ -685,9 +696,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label117.AutoSize = true;
       this.label117.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label117.Location = new System.Drawing.Point(524, 52);
+      this.label117.Location = new System.Drawing.Point(786, 80);
+      this.label117.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label117.Name = "label117";
-      this.label117.Size = new System.Drawing.Size(25, 13);
+      this.label117.Size = new System.Drawing.Size(36, 20);
       this.label117.TabIndex = 148;
       this.label117.Text = "255";
       // 
@@ -695,9 +707,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label116.AutoSize = true;
       this.label116.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label116.Location = new System.Drawing.Point(592, 52);
+      this.label116.Location = new System.Drawing.Point(888, 80);
+      this.label116.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label116.Name = "label116";
-      this.label116.Size = new System.Drawing.Size(13, 13);
+      this.label116.Size = new System.Drawing.Size(18, 20);
       this.label116.TabIndex = 147;
       this.label116.Text = "0";
       // 
@@ -705,9 +718,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label115.AutoSize = true;
       this.label115.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label115.Location = new System.Drawing.Point(305, 52);
+      this.label115.Location = new System.Drawing.Point(458, 80);
+      this.label115.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label115.Name = "label115";
-      this.label115.Size = new System.Drawing.Size(13, 13);
+      this.label115.Size = new System.Drawing.Size(18, 20);
       this.label115.TabIndex = 146;
       this.label115.Text = "0";
       // 
@@ -716,9 +730,10 @@ namespace Arduino_FFB_Yoke_App
       this.label114.AutoSize = true;
       this.label114.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.label114.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-      this.label114.Location = new System.Drawing.Point(121, 52);
+      this.label114.Location = new System.Drawing.Point(182, 80);
+      this.label114.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label114.Name = "label114";
-      this.label114.Size = new System.Drawing.Size(37, 13);
+      this.label114.Size = new System.Drawing.Size(54, 20);
       this.label114.TabIndex = 145;
       this.label114.Text = "16250";
       // 
@@ -726,9 +741,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label113.AutoSize = true;
       this.label113.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label113.Location = new System.Drawing.Point(21, 52);
+      this.label113.Location = new System.Drawing.Point(32, 80);
+      this.label113.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label113.Name = "label113";
-      this.label113.Size = new System.Drawing.Size(13, 13);
+      this.label113.Size = new System.Drawing.Size(18, 20);
       this.label113.TabIndex = 144;
       this.label113.Text = "0";
       // 
@@ -736,27 +752,30 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label112.AutoSize = true;
       this.label112.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label112.Location = new System.Drawing.Point(225, 52);
+      this.label112.Location = new System.Drawing.Point(338, 80);
+      this.label112.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label112.Name = "label112";
-      this.label112.Size = new System.Drawing.Size(37, 13);
+      this.label112.Size = new System.Drawing.Size(54, 20);
       this.label112.TabIndex = 143;
       this.label112.Text = "32500";
       // 
       // lb_ROLL_PWM_MAX
       // 
       this.lb_ROLL_PWM_MAX.AutoSize = true;
-      this.lb_ROLL_PWM_MAX.Location = new System.Drawing.Point(661, 6);
+      this.lb_ROLL_PWM_MAX.Location = new System.Drawing.Point(992, 9);
+      this.lb_ROLL_PWM_MAX.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_ROLL_PWM_MAX.Name = "lb_ROLL_PWM_MAX";
-      this.lb_ROLL_PWM_MAX.Size = new System.Drawing.Size(90, 13);
+      this.lb_ROLL_PWM_MAX.Size = new System.Drawing.Size(131, 20);
       this.lb_ROLL_PWM_MAX.TabIndex = 142;
       this.lb_ROLL_PWM_MAX.Text = "Max Motor Power";
       // 
       // lb_ROLL_PWM_MIN
       // 
       this.lb_ROLL_PWM_MIN.AutoSize = true;
-      this.lb_ROLL_PWM_MIN.Location = new System.Drawing.Point(373, 6);
+      this.lb_ROLL_PWM_MIN.Location = new System.Drawing.Point(560, 9);
+      this.lb_ROLL_PWM_MIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_ROLL_PWM_MIN.Name = "lb_ROLL_PWM_MIN";
-      this.lb_ROLL_PWM_MIN.Size = new System.Drawing.Size(92, 13);
+      this.lb_ROLL_PWM_MIN.Size = new System.Drawing.Size(137, 20);
       this.lb_ROLL_PWM_MIN.TabIndex = 140;
       this.lb_ROLL_PWM_MIN.Text = "Start Motor Power";
       // 
@@ -764,10 +783,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_ROLL_PWM_MIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_ROLL_PWM_MIN.LargeChange = 10;
-      this.tb_ROLL_PWM_MIN.Location = new System.Drawing.Point(298, 21);
+      this.tb_ROLL_PWM_MIN.Location = new System.Drawing.Point(447, 32);
+      this.tb_ROLL_PWM_MIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_ROLL_PWM_MIN.Maximum = 255;
       this.tb_ROLL_PWM_MIN.Name = "tb_ROLL_PWM_MIN";
-      this.tb_ROLL_PWM_MIN.Size = new System.Drawing.Size(250, 45);
+      this.tb_ROLL_PWM_MIN.Size = new System.Drawing.Size(375, 69);
       this.tb_ROLL_PWM_MIN.TabIndex = 5;
       this.tb_ROLL_PWM_MIN.TickFrequency = 15;
       this.tb_ROLL_PWM_MIN.Scroll += new System.EventHandler(this.tb_ROLL_PWM_MIN_Scroll);
@@ -776,9 +796,10 @@ namespace Arduino_FFB_Yoke_App
       // lb_ROLL_FORCE_MAX
       // 
       this.lb_ROLL_FORCE_MAX.AutoSize = true;
-      this.lb_ROLL_FORCE_MAX.Location = new System.Drawing.Point(79, 6);
+      this.lb_ROLL_FORCE_MAX.Location = new System.Drawing.Point(118, 9);
+      this.lb_ROLL_FORCE_MAX.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_ROLL_FORCE_MAX.Name = "lb_ROLL_FORCE_MAX";
-      this.lb_ROLL_FORCE_MAX.Size = new System.Drawing.Size(106, 13);
+      this.lb_ROLL_FORCE_MAX.Size = new System.Drawing.Size(155, 20);
       this.lb_ROLL_FORCE_MAX.TabIndex = 138;
       this.lb_ROLL_FORCE_MAX.Text = "Max Accepted Force";
       // 
@@ -786,10 +807,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_ROLL_FORCE_MAX.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_ROLL_FORCE_MAX.LargeChange = 1000;
-      this.tb_ROLL_FORCE_MAX.Location = new System.Drawing.Point(13, 21);
+      this.tb_ROLL_FORCE_MAX.Location = new System.Drawing.Point(20, 32);
+      this.tb_ROLL_FORCE_MAX.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_ROLL_FORCE_MAX.Maximum = 32500;
       this.tb_ROLL_FORCE_MAX.Name = "tb_ROLL_FORCE_MAX";
-      this.tb_ROLL_FORCE_MAX.Size = new System.Drawing.Size(250, 45);
+      this.tb_ROLL_FORCE_MAX.Size = new System.Drawing.Size(375, 69);
       this.tb_ROLL_FORCE_MAX.SmallChange = 100;
       this.tb_ROLL_FORCE_MAX.TabIndex = 4;
       this.tb_ROLL_FORCE_MAX.TickFrequency = 1500;
@@ -800,9 +822,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label61.AutoSize = true;
       this.label61.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label61.Location = new System.Drawing.Point(539, 561);
+      this.label61.Location = new System.Drawing.Point(808, 863);
+      this.label61.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label61.Name = "label61";
-      this.label61.Size = new System.Drawing.Size(25, 13);
+      this.label61.Size = new System.Drawing.Size(36, 20);
       this.label61.TabIndex = 136;
       this.label61.Text = "250";
       // 
@@ -810,9 +833,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label62.AutoSize = true;
       this.label62.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label62.Location = new System.Drawing.Point(727, 561);
+      this.label62.Location = new System.Drawing.Point(1090, 863);
+      this.label62.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label62.Name = "label62";
-      this.label62.Size = new System.Drawing.Size(25, 13);
+      this.label62.Size = new System.Drawing.Size(36, 20);
       this.label62.TabIndex = 135;
       this.label62.Text = "750";
       // 
@@ -820,9 +844,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label63.AutoSize = true;
       this.label63.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label63.Location = new System.Drawing.Point(633, 561);
+      this.label63.Location = new System.Drawing.Point(950, 863);
+      this.label63.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label63.Name = "label63";
-      this.label63.Size = new System.Drawing.Size(25, 13);
+      this.label63.Size = new System.Drawing.Size(36, 20);
       this.label63.TabIndex = 134;
       this.label63.Text = "500";
       // 
@@ -830,9 +855,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label64.AutoSize = true;
       this.label64.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label64.Location = new System.Drawing.Point(810, 561);
+      this.label64.Location = new System.Drawing.Point(1215, 863);
+      this.label64.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label64.Name = "label64";
-      this.label64.Size = new System.Drawing.Size(31, 13);
+      this.label64.Size = new System.Drawing.Size(45, 20);
       this.label64.TabIndex = 133;
       this.label64.Text = "1000";
       // 
@@ -840,18 +866,20 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label65.AutoSize = true;
       this.label65.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label65.Location = new System.Drawing.Point(452, 561);
+      this.label65.Location = new System.Drawing.Point(678, 863);
+      this.label65.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label65.Name = "label65";
-      this.label65.Size = new System.Drawing.Size(13, 13);
+      this.label65.Size = new System.Drawing.Size(18, 20);
       this.label65.TabIndex = 132;
       this.label65.Text = "0";
       // 
       // lb_ROLL_DAMPER_MAX_VELOCITY
       // 
       this.lb_ROLL_DAMPER_MAX_VELOCITY.AutoSize = true;
-      this.lb_ROLL_DAMPER_MAX_VELOCITY.Location = new System.Drawing.Point(595, 518);
+      this.lb_ROLL_DAMPER_MAX_VELOCITY.Location = new System.Drawing.Point(892, 797);
+      this.lb_ROLL_DAMPER_MAX_VELOCITY.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_ROLL_DAMPER_MAX_VELOCITY.Name = "lb_ROLL_DAMPER_MAX_VELOCITY";
-      this.lb_ROLL_DAMPER_MAX_VELOCITY.Size = new System.Drawing.Size(107, 13);
+      this.lb_ROLL_DAMPER_MAX_VELOCITY.Size = new System.Drawing.Size(158, 20);
       this.lb_ROLL_DAMPER_MAX_VELOCITY.TabIndex = 131;
       this.lb_ROLL_DAMPER_MAX_VELOCITY.Text = "Damper Max Velocity";
       // 
@@ -859,10 +887,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_ROLL_DAMPER_MAX_VELOCITY.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_ROLL_DAMPER_MAX_VELOCITY.LargeChange = 10;
-      this.tb_ROLL_DAMPER_MAX_VELOCITY.Location = new System.Drawing.Point(444, 531);
+      this.tb_ROLL_DAMPER_MAX_VELOCITY.Location = new System.Drawing.Point(666, 817);
+      this.tb_ROLL_DAMPER_MAX_VELOCITY.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_ROLL_DAMPER_MAX_VELOCITY.Maximum = 1000;
       this.tb_ROLL_DAMPER_MAX_VELOCITY.Name = "tb_ROLL_DAMPER_MAX_VELOCITY";
-      this.tb_ROLL_DAMPER_MAX_VELOCITY.Size = new System.Drawing.Size(400, 45);
+      this.tb_ROLL_DAMPER_MAX_VELOCITY.Size = new System.Drawing.Size(600, 69);
       this.tb_ROLL_DAMPER_MAX_VELOCITY.TabIndex = 22;
       this.tb_ROLL_DAMPER_MAX_VELOCITY.TickFrequency = 25;
       this.tb_ROLL_DAMPER_MAX_VELOCITY.Scroll += new System.EventHandler(this.tb_ROLL_DAMPER_MAX_VELOCITY_Scroll);
@@ -871,9 +900,10 @@ namespace Arduino_FFB_Yoke_App
       // lb_ROLL_INERTIA_MAX_ACCELERATION
       // 
       this.lb_ROLL_INERTIA_MAX_ACCELERATION.AutoSize = true;
-      this.lb_ROLL_INERTIA_MAX_ACCELERATION.Location = new System.Drawing.Point(155, 518);
+      this.lb_ROLL_INERTIA_MAX_ACCELERATION.Location = new System.Drawing.Point(232, 797);
+      this.lb_ROLL_INERTIA_MAX_ACCELERATION.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_ROLL_INERTIA_MAX_ACCELERATION.Name = "lb_ROLL_INERTIA_MAX_ACCELERATION";
-      this.lb_ROLL_INERTIA_MAX_ACCELERATION.Size = new System.Drawing.Size(121, 13);
+      this.lb_ROLL_INERTIA_MAX_ACCELERATION.Size = new System.Drawing.Size(179, 20);
       this.lb_ROLL_INERTIA_MAX_ACCELERATION.TabIndex = 129;
       this.lb_ROLL_INERTIA_MAX_ACCELERATION.Text = "Inertia Max Acceleration";
       // 
@@ -881,9 +911,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label68.AutoSize = true;
       this.label68.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label68.Location = new System.Drawing.Point(108, 561);
+      this.label68.Location = new System.Drawing.Point(162, 863);
+      this.label68.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label68.Name = "label68";
-      this.label68.Size = new System.Drawing.Size(25, 13);
+      this.label68.Size = new System.Drawing.Size(36, 20);
       this.label68.TabIndex = 128;
       this.label68.Text = "250";
       // 
@@ -891,9 +922,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label69.AutoSize = true;
       this.label69.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label69.Location = new System.Drawing.Point(294, 561);
+      this.label69.Location = new System.Drawing.Point(441, 863);
+      this.label69.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label69.Name = "label69";
-      this.label69.Size = new System.Drawing.Size(25, 13);
+      this.label69.Size = new System.Drawing.Size(36, 20);
       this.label69.TabIndex = 127;
       this.label69.Text = "750";
       // 
@@ -901,9 +933,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label70.AutoSize = true;
       this.label70.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label70.Location = new System.Drawing.Point(200, 561);
+      this.label70.Location = new System.Drawing.Point(300, 863);
+      this.label70.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label70.Name = "label70";
-      this.label70.Size = new System.Drawing.Size(25, 13);
+      this.label70.Size = new System.Drawing.Size(36, 20);
       this.label70.TabIndex = 126;
       this.label70.Text = "500";
       // 
@@ -911,9 +944,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label71.AutoSize = true;
       this.label71.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label71.Location = new System.Drawing.Point(381, 561);
+      this.label71.Location = new System.Drawing.Point(572, 863);
+      this.label71.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label71.Name = "label71";
-      this.label71.Size = new System.Drawing.Size(31, 13);
+      this.label71.Size = new System.Drawing.Size(45, 20);
       this.label71.TabIndex = 125;
       this.label71.Text = "1000";
       // 
@@ -921,9 +955,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label72.AutoSize = true;
       this.label72.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label72.Location = new System.Drawing.Point(20, 561);
+      this.label72.Location = new System.Drawing.Point(30, 863);
+      this.label72.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label72.Name = "label72";
-      this.label72.Size = new System.Drawing.Size(13, 13);
+      this.label72.Size = new System.Drawing.Size(18, 20);
       this.label72.TabIndex = 124;
       this.label72.Text = "0";
       // 
@@ -931,10 +966,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_ROLL_INERTIA_MAX_ACCELERATION.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_ROLL_INERTIA_MAX_ACCELERATION.LargeChange = 10;
-      this.tb_ROLL_INERTIA_MAX_ACCELERATION.Location = new System.Drawing.Point(13, 531);
+      this.tb_ROLL_INERTIA_MAX_ACCELERATION.Location = new System.Drawing.Point(20, 817);
+      this.tb_ROLL_INERTIA_MAX_ACCELERATION.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_ROLL_INERTIA_MAX_ACCELERATION.Maximum = 1000;
       this.tb_ROLL_INERTIA_MAX_ACCELERATION.Name = "tb_ROLL_INERTIA_MAX_ACCELERATION";
-      this.tb_ROLL_INERTIA_MAX_ACCELERATION.Size = new System.Drawing.Size(400, 45);
+      this.tb_ROLL_INERTIA_MAX_ACCELERATION.Size = new System.Drawing.Size(600, 69);
       this.tb_ROLL_INERTIA_MAX_ACCELERATION.TabIndex = 21;
       this.tb_ROLL_INERTIA_MAX_ACCELERATION.TickFrequency = 25;
       this.tb_ROLL_INERTIA_MAX_ACCELERATION.Scroll += new System.EventHandler(this.tb_ROLL_INERTIA_MAX_ACCELERATION_Scroll);
@@ -944,9 +980,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label73.AutoSize = true;
       this.label73.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label73.Location = new System.Drawing.Point(108, 502);
+      this.label73.Location = new System.Drawing.Point(162, 772);
+      this.label73.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label73.Name = "label73";
-      this.label73.Size = new System.Drawing.Size(25, 13);
+      this.label73.Size = new System.Drawing.Size(36, 20);
       this.label73.TabIndex = 122;
       this.label73.Text = "250";
       // 
@@ -954,9 +991,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label74.AutoSize = true;
       this.label74.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label74.Location = new System.Drawing.Point(295, 502);
+      this.label74.Location = new System.Drawing.Point(442, 772);
+      this.label74.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label74.Name = "label74";
-      this.label74.Size = new System.Drawing.Size(25, 13);
+      this.label74.Size = new System.Drawing.Size(36, 20);
       this.label74.TabIndex = 121;
       this.label74.Text = "750";
       // 
@@ -964,9 +1002,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label75.AutoSize = true;
       this.label75.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label75.Location = new System.Drawing.Point(203, 502);
+      this.label75.Location = new System.Drawing.Point(304, 772);
+      this.label75.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label75.Name = "label75";
-      this.label75.Size = new System.Drawing.Size(25, 13);
+      this.label75.Size = new System.Drawing.Size(36, 20);
       this.label75.TabIndex = 120;
       this.label75.Text = "500";
       // 
@@ -974,9 +1013,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label76.AutoSize = true;
       this.label76.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label76.Location = new System.Drawing.Point(379, 502);
+      this.label76.Location = new System.Drawing.Point(568, 772);
+      this.label76.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label76.Name = "label76";
-      this.label76.Size = new System.Drawing.Size(31, 13);
+      this.label76.Size = new System.Drawing.Size(45, 20);
       this.label76.TabIndex = 119;
       this.label76.Text = "1000";
       // 
@@ -984,18 +1024,20 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label77.AutoSize = true;
       this.label77.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label77.Location = new System.Drawing.Point(21, 502);
+      this.label77.Location = new System.Drawing.Point(32, 772);
+      this.label77.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label77.Name = "label77";
-      this.label77.Size = new System.Drawing.Size(13, 13);
+      this.label77.Size = new System.Drawing.Size(18, 20);
       this.label77.TabIndex = 118;
       this.label77.Text = "0";
       // 
       // lb_ROLL_FRICTION_MAX_POSITION_CHANGE
       // 
       this.lb_ROLL_FRICTION_MAX_POSITION_CHANGE.AutoSize = true;
-      this.lb_ROLL_FRICTION_MAX_POSITION_CHANGE.Location = new System.Drawing.Point(144, 457);
+      this.lb_ROLL_FRICTION_MAX_POSITION_CHANGE.Location = new System.Drawing.Point(216, 703);
+      this.lb_ROLL_FRICTION_MAX_POSITION_CHANGE.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_ROLL_FRICTION_MAX_POSITION_CHANGE.Name = "lb_ROLL_FRICTION_MAX_POSITION_CHANGE";
-      this.lb_ROLL_FRICTION_MAX_POSITION_CHANGE.Size = new System.Drawing.Size(144, 13);
+      this.lb_ROLL_FRICTION_MAX_POSITION_CHANGE.Size = new System.Drawing.Size(214, 20);
       this.lb_ROLL_FRICTION_MAX_POSITION_CHANGE.TabIndex = 117;
       this.lb_ROLL_FRICTION_MAX_POSITION_CHANGE.Text = "Friction Max Position Change";
       // 
@@ -1003,10 +1045,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_ROLL_FRICTION_MAX_POSITION_CHANGE.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_ROLL_FRICTION_MAX_POSITION_CHANGE.LargeChange = 10;
-      this.tb_ROLL_FRICTION_MAX_POSITION_CHANGE.Location = new System.Drawing.Point(13, 470);
+      this.tb_ROLL_FRICTION_MAX_POSITION_CHANGE.Location = new System.Drawing.Point(20, 723);
+      this.tb_ROLL_FRICTION_MAX_POSITION_CHANGE.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_ROLL_FRICTION_MAX_POSITION_CHANGE.Maximum = 1000;
       this.tb_ROLL_FRICTION_MAX_POSITION_CHANGE.Name = "tb_ROLL_FRICTION_MAX_POSITION_CHANGE";
-      this.tb_ROLL_FRICTION_MAX_POSITION_CHANGE.Size = new System.Drawing.Size(400, 45);
+      this.tb_ROLL_FRICTION_MAX_POSITION_CHANGE.Size = new System.Drawing.Size(600, 69);
       this.tb_ROLL_FRICTION_MAX_POSITION_CHANGE.TabIndex = 20;
       this.tb_ROLL_FRICTION_MAX_POSITION_CHANGE.TickFrequency = 25;
       this.tb_ROLL_FRICTION_MAX_POSITION_CHANGE.Scroll += new System.EventHandler(this.tb_ROLL_FRICTION_MAX_POSITION_CHANGE_Scroll);
@@ -1015,9 +1058,10 @@ namespace Arduino_FFB_Yoke_App
       // lb_ROLL_FRICTION_GAIN
       // 
       this.lb_ROLL_FRICTION_GAIN.AutoSize = true;
-      this.lb_ROLL_FRICTION_GAIN.Location = new System.Drawing.Point(612, 389);
+      this.lb_ROLL_FRICTION_GAIN.Location = new System.Drawing.Point(918, 598);
+      this.lb_ROLL_FRICTION_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_ROLL_FRICTION_GAIN.Name = "lb_ROLL_FRICTION_GAIN";
-      this.lb_ROLL_FRICTION_GAIN.Size = new System.Drawing.Size(66, 13);
+      this.lb_ROLL_FRICTION_GAIN.Size = new System.Drawing.Size(99, 20);
       this.lb_ROLL_FRICTION_GAIN.TabIndex = 115;
       this.lb_ROLL_FRICTION_GAIN.Text = "Friction Gain";
       // 
@@ -1025,9 +1069,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label80.AutoSize = true;
       this.label80.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label80.Location = new System.Drawing.Point(539, 434);
+      this.label80.Location = new System.Drawing.Point(808, 668);
+      this.label80.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label80.Name = "label80";
-      this.label80.Size = new System.Drawing.Size(19, 13);
+      this.label80.Size = new System.Drawing.Size(27, 20);
       this.label80.TabIndex = 114;
       this.label80.Text = "25";
       // 
@@ -1035,9 +1080,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label81.AutoSize = true;
       this.label81.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label81.Location = new System.Drawing.Point(729, 434);
+      this.label81.Location = new System.Drawing.Point(1094, 668);
+      this.label81.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label81.Name = "label81";
-      this.label81.Size = new System.Drawing.Size(19, 13);
+      this.label81.Size = new System.Drawing.Size(27, 20);
       this.label81.TabIndex = 113;
       this.label81.Text = "75";
       // 
@@ -1045,9 +1091,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label82.AutoSize = true;
       this.label82.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label82.Location = new System.Drawing.Point(635, 434);
+      this.label82.Location = new System.Drawing.Point(952, 668);
+      this.label82.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label82.Name = "label82";
-      this.label82.Size = new System.Drawing.Size(19, 13);
+      this.label82.Size = new System.Drawing.Size(27, 20);
       this.label82.TabIndex = 112;
       this.label82.Text = "50";
       // 
@@ -1055,9 +1102,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label83.AutoSize = true;
       this.label83.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label83.Location = new System.Drawing.Point(819, 434);
+      this.label83.Location = new System.Drawing.Point(1228, 668);
+      this.label83.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label83.Name = "label83";
-      this.label83.Size = new System.Drawing.Size(25, 13);
+      this.label83.Size = new System.Drawing.Size(36, 20);
       this.label83.TabIndex = 111;
       this.label83.Text = "100";
       // 
@@ -1065,9 +1113,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label84.AutoSize = true;
       this.label84.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label84.Location = new System.Drawing.Point(451, 434);
+      this.label84.Location = new System.Drawing.Point(676, 668);
+      this.label84.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label84.Name = "label84";
-      this.label84.Size = new System.Drawing.Size(13, 13);
+      this.label84.Size = new System.Drawing.Size(18, 20);
       this.label84.TabIndex = 110;
       this.label84.Text = "0";
       // 
@@ -1075,10 +1124,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_ROLL_FRICTION_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_ROLL_FRICTION_GAIN.LargeChange = 10;
-      this.tb_ROLL_FRICTION_GAIN.Location = new System.Drawing.Point(444, 402);
+      this.tb_ROLL_FRICTION_GAIN.Location = new System.Drawing.Point(666, 618);
+      this.tb_ROLL_FRICTION_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_ROLL_FRICTION_GAIN.Maximum = 100;
       this.tb_ROLL_FRICTION_GAIN.Name = "tb_ROLL_FRICTION_GAIN";
-      this.tb_ROLL_FRICTION_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_ROLL_FRICTION_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_ROLL_FRICTION_GAIN.TabIndex = 19;
       this.tb_ROLL_FRICTION_GAIN.TickFrequency = 5;
       this.tb_ROLL_FRICTION_GAIN.Scroll += new System.EventHandler(this.tb_ROLL_FRICTION_GAIN_Scroll);
@@ -1087,9 +1137,10 @@ namespace Arduino_FFB_Yoke_App
       // lb_ROLL_INERTIA_GAIN
       // 
       this.lb_ROLL_INERTIA_GAIN.AutoSize = true;
-      this.lb_ROLL_INERTIA_GAIN.Location = new System.Drawing.Point(181, 388);
+      this.lb_ROLL_INERTIA_GAIN.Location = new System.Drawing.Point(272, 597);
+      this.lb_ROLL_INERTIA_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_ROLL_INERTIA_GAIN.Name = "lb_ROLL_INERTIA_GAIN";
-      this.lb_ROLL_INERTIA_GAIN.Size = new System.Drawing.Size(61, 13);
+      this.lb_ROLL_INERTIA_GAIN.Size = new System.Drawing.Size(92, 20);
       this.lb_ROLL_INERTIA_GAIN.TabIndex = 101;
       this.lb_ROLL_INERTIA_GAIN.Text = "Inertia Gain";
       // 
@@ -1097,9 +1148,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label92.AutoSize = true;
       this.label92.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label92.Location = new System.Drawing.Point(108, 434);
+      this.label92.Location = new System.Drawing.Point(162, 668);
+      this.label92.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label92.Name = "label92";
-      this.label92.Size = new System.Drawing.Size(19, 13);
+      this.label92.Size = new System.Drawing.Size(27, 20);
       this.label92.TabIndex = 100;
       this.label92.Text = "25";
       // 
@@ -1107,9 +1159,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label93.AutoSize = true;
       this.label93.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label93.Location = new System.Drawing.Point(299, 434);
+      this.label93.Location = new System.Drawing.Point(448, 668);
+      this.label93.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label93.Name = "label93";
-      this.label93.Size = new System.Drawing.Size(19, 13);
+      this.label93.Size = new System.Drawing.Size(27, 20);
       this.label93.TabIndex = 99;
       this.label93.Text = "75";
       // 
@@ -1117,9 +1170,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label94.AutoSize = true;
       this.label94.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label94.Location = new System.Drawing.Point(204, 434);
+      this.label94.Location = new System.Drawing.Point(306, 668);
+      this.label94.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label94.Name = "label94";
-      this.label94.Size = new System.Drawing.Size(19, 13);
+      this.label94.Size = new System.Drawing.Size(27, 20);
       this.label94.TabIndex = 98;
       this.label94.Text = "50";
       // 
@@ -1127,9 +1181,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label95.AutoSize = true;
       this.label95.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label95.Location = new System.Drawing.Point(388, 434);
+      this.label95.Location = new System.Drawing.Point(582, 668);
+      this.label95.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label95.Name = "label95";
-      this.label95.Size = new System.Drawing.Size(25, 13);
+      this.label95.Size = new System.Drawing.Size(36, 20);
       this.label95.TabIndex = 97;
       this.label95.Text = "100";
       // 
@@ -1137,9 +1192,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label96.AutoSize = true;
       this.label96.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label96.Location = new System.Drawing.Point(20, 434);
+      this.label96.Location = new System.Drawing.Point(30, 668);
+      this.label96.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label96.Name = "label96";
-      this.label96.Size = new System.Drawing.Size(13, 13);
+      this.label96.Size = new System.Drawing.Size(18, 20);
       this.label96.TabIndex = 96;
       this.label96.Text = "0";
       // 
@@ -1147,10 +1203,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_ROLL_INERTIA_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_ROLL_INERTIA_GAIN.LargeChange = 10;
-      this.tb_ROLL_INERTIA_GAIN.Location = new System.Drawing.Point(13, 402);
+      this.tb_ROLL_INERTIA_GAIN.Location = new System.Drawing.Point(20, 618);
+      this.tb_ROLL_INERTIA_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_ROLL_INERTIA_GAIN.Maximum = 100;
       this.tb_ROLL_INERTIA_GAIN.Name = "tb_ROLL_INERTIA_GAIN";
-      this.tb_ROLL_INERTIA_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_ROLL_INERTIA_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_ROLL_INERTIA_GAIN.TabIndex = 17;
       this.tb_ROLL_INERTIA_GAIN.TickFrequency = 5;
       this.tb_ROLL_INERTIA_GAIN.Scroll += new System.EventHandler(this.tb_ROLL_INERTIA_GAIN_Scroll);
@@ -1160,9 +1217,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label97.AutoSize = true;
       this.label97.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label97.Location = new System.Drawing.Point(540, 370);
+      this.label97.Location = new System.Drawing.Point(810, 569);
+      this.label97.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label97.Name = "label97";
-      this.label97.Size = new System.Drawing.Size(19, 13);
+      this.label97.Size = new System.Drawing.Size(27, 20);
       this.label97.TabIndex = 94;
       this.label97.Text = "25";
       // 
@@ -1170,9 +1228,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label98.AutoSize = true;
       this.label98.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label98.Location = new System.Drawing.Point(731, 370);
+      this.label98.Location = new System.Drawing.Point(1096, 569);
+      this.label98.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label98.Name = "label98";
-      this.label98.Size = new System.Drawing.Size(19, 13);
+      this.label98.Size = new System.Drawing.Size(27, 20);
       this.label98.TabIndex = 93;
       this.label98.Text = "75";
       // 
@@ -1180,9 +1239,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label99.AutoSize = true;
       this.label99.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label99.Location = new System.Drawing.Point(636, 370);
+      this.label99.Location = new System.Drawing.Point(954, 569);
+      this.label99.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label99.Name = "label99";
-      this.label99.Size = new System.Drawing.Size(19, 13);
+      this.label99.Size = new System.Drawing.Size(27, 20);
       this.label99.TabIndex = 92;
       this.label99.Text = "50";
       // 
@@ -1190,9 +1250,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label100.AutoSize = true;
       this.label100.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label100.Location = new System.Drawing.Point(816, 370);
+      this.label100.Location = new System.Drawing.Point(1224, 569);
+      this.label100.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label100.Name = "label100";
-      this.label100.Size = new System.Drawing.Size(25, 13);
+      this.label100.Size = new System.Drawing.Size(36, 20);
       this.label100.TabIndex = 91;
       this.label100.Text = "100";
       // 
@@ -1200,18 +1261,20 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label101.AutoSize = true;
       this.label101.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label101.Location = new System.Drawing.Point(452, 370);
+      this.label101.Location = new System.Drawing.Point(678, 569);
+      this.label101.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label101.Name = "label101";
-      this.label101.Size = new System.Drawing.Size(13, 13);
+      this.label101.Size = new System.Drawing.Size(18, 20);
       this.label101.TabIndex = 90;
       this.label101.Text = "0";
       // 
       // lb_ROLL_DAMPER_GAIN
       // 
       this.lb_ROLL_DAMPER_GAIN.AutoSize = true;
-      this.lb_ROLL_DAMPER_GAIN.Location = new System.Drawing.Point(613, 327);
+      this.lb_ROLL_DAMPER_GAIN.Location = new System.Drawing.Point(920, 503);
+      this.lb_ROLL_DAMPER_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_ROLL_DAMPER_GAIN.Name = "lb_ROLL_DAMPER_GAIN";
-      this.lb_ROLL_DAMPER_GAIN.Size = new System.Drawing.Size(69, 13);
+      this.lb_ROLL_DAMPER_GAIN.Size = new System.Drawing.Size(104, 20);
       this.lb_ROLL_DAMPER_GAIN.TabIndex = 89;
       this.lb_ROLL_DAMPER_GAIN.Text = "Damper Gain";
       // 
@@ -1219,10 +1282,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_ROLL_DAMPER_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_ROLL_DAMPER_GAIN.LargeChange = 10;
-      this.tb_ROLL_DAMPER_GAIN.Location = new System.Drawing.Point(444, 340);
+      this.tb_ROLL_DAMPER_GAIN.Location = new System.Drawing.Point(666, 523);
+      this.tb_ROLL_DAMPER_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_ROLL_DAMPER_GAIN.Maximum = 100;
       this.tb_ROLL_DAMPER_GAIN.Name = "tb_ROLL_DAMPER_GAIN";
-      this.tb_ROLL_DAMPER_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_ROLL_DAMPER_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_ROLL_DAMPER_GAIN.TabIndex = 16;
       this.tb_ROLL_DAMPER_GAIN.TickFrequency = 5;
       this.tb_ROLL_DAMPER_GAIN.Scroll += new System.EventHandler(this.tb_ROLL_DAMPER_GAIN_Scroll);
@@ -1231,9 +1295,10 @@ namespace Arduino_FFB_Yoke_App
       // lb_ROLL_SPRING_GAIN
       // 
       this.lb_ROLL_SPRING_GAIN.AutoSize = true;
-      this.lb_ROLL_SPRING_GAIN.Location = new System.Drawing.Point(180, 327);
+      this.lb_ROLL_SPRING_GAIN.Location = new System.Drawing.Point(270, 503);
+      this.lb_ROLL_SPRING_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_ROLL_SPRING_GAIN.Name = "lb_ROLL_SPRING_GAIN";
-      this.lb_ROLL_SPRING_GAIN.Size = new System.Drawing.Size(62, 13);
+      this.lb_ROLL_SPRING_GAIN.Size = new System.Drawing.Size(93, 20);
       this.lb_ROLL_SPRING_GAIN.TabIndex = 87;
       this.lb_ROLL_SPRING_GAIN.Text = "Spring Gain";
       // 
@@ -1241,9 +1306,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label104.AutoSize = true;
       this.label104.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label104.Location = new System.Drawing.Point(108, 370);
+      this.label104.Location = new System.Drawing.Point(162, 569);
+      this.label104.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label104.Name = "label104";
-      this.label104.Size = new System.Drawing.Size(19, 13);
+      this.label104.Size = new System.Drawing.Size(27, 20);
       this.label104.TabIndex = 86;
       this.label104.Text = "25";
       // 
@@ -1251,9 +1317,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label105.AutoSize = true;
       this.label105.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label105.Location = new System.Drawing.Point(299, 370);
+      this.label105.Location = new System.Drawing.Point(448, 569);
+      this.label105.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label105.Name = "label105";
-      this.label105.Size = new System.Drawing.Size(19, 13);
+      this.label105.Size = new System.Drawing.Size(27, 20);
       this.label105.TabIndex = 85;
       this.label105.Text = "75";
       // 
@@ -1261,9 +1328,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label106.AutoSize = true;
       this.label106.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label106.Location = new System.Drawing.Point(204, 370);
+      this.label106.Location = new System.Drawing.Point(306, 569);
+      this.label106.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label106.Name = "label106";
-      this.label106.Size = new System.Drawing.Size(19, 13);
+      this.label106.Size = new System.Drawing.Size(27, 20);
       this.label106.TabIndex = 84;
       this.label106.Text = "50";
       // 
@@ -1271,9 +1339,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label107.AutoSize = true;
       this.label107.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label107.Location = new System.Drawing.Point(388, 370);
+      this.label107.Location = new System.Drawing.Point(582, 569);
+      this.label107.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label107.Name = "label107";
-      this.label107.Size = new System.Drawing.Size(25, 13);
+      this.label107.Size = new System.Drawing.Size(36, 20);
       this.label107.TabIndex = 83;
       this.label107.Text = "100";
       // 
@@ -1281,9 +1350,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label108.AutoSize = true;
       this.label108.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label108.Location = new System.Drawing.Point(20, 370);
+      this.label108.Location = new System.Drawing.Point(30, 569);
+      this.label108.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label108.Name = "label108";
-      this.label108.Size = new System.Drawing.Size(13, 13);
+      this.label108.Size = new System.Drawing.Size(18, 20);
       this.label108.TabIndex = 82;
       this.label108.Text = "0";
       // 
@@ -1291,10 +1361,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_ROLL_SPRING_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_ROLL_SPRING_GAIN.LargeChange = 10;
-      this.tb_ROLL_SPRING_GAIN.Location = new System.Drawing.Point(13, 340);
+      this.tb_ROLL_SPRING_GAIN.Location = new System.Drawing.Point(20, 523);
+      this.tb_ROLL_SPRING_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_ROLL_SPRING_GAIN.Maximum = 100;
       this.tb_ROLL_SPRING_GAIN.Name = "tb_ROLL_SPRING_GAIN";
-      this.tb_ROLL_SPRING_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_ROLL_SPRING_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_ROLL_SPRING_GAIN.TabIndex = 15;
       this.tb_ROLL_SPRING_GAIN.TickFrequency = 5;
       this.tb_ROLL_SPRING_GAIN.Scroll += new System.EventHandler(this.tb_ROLL_SPRING_GAIN_Scroll);
@@ -1304,9 +1375,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label37.AutoSize = true;
       this.label37.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label37.Location = new System.Drawing.Point(540, 306);
+      this.label37.Location = new System.Drawing.Point(810, 471);
+      this.label37.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label37.Name = "label37";
-      this.label37.Size = new System.Drawing.Size(19, 13);
+      this.label37.Size = new System.Drawing.Size(27, 20);
       this.label37.TabIndex = 80;
       this.label37.Text = "25";
       // 
@@ -1314,9 +1386,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label38.AutoSize = true;
       this.label38.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label38.Location = new System.Drawing.Point(731, 306);
+      this.label38.Location = new System.Drawing.Point(1096, 471);
+      this.label38.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label38.Name = "label38";
-      this.label38.Size = new System.Drawing.Size(19, 13);
+      this.label38.Size = new System.Drawing.Size(27, 20);
       this.label38.TabIndex = 79;
       this.label38.Text = "75";
       // 
@@ -1324,9 +1397,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label39.AutoSize = true;
       this.label39.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label39.Location = new System.Drawing.Point(636, 306);
+      this.label39.Location = new System.Drawing.Point(954, 471);
+      this.label39.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label39.Name = "label39";
-      this.label39.Size = new System.Drawing.Size(19, 13);
+      this.label39.Size = new System.Drawing.Size(27, 20);
       this.label39.TabIndex = 78;
       this.label39.Text = "50";
       // 
@@ -1334,9 +1408,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label40.AutoSize = true;
       this.label40.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label40.Location = new System.Drawing.Point(816, 306);
+      this.label40.Location = new System.Drawing.Point(1224, 471);
+      this.label40.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label40.Name = "label40";
-      this.label40.Size = new System.Drawing.Size(25, 13);
+      this.label40.Size = new System.Drawing.Size(36, 20);
       this.label40.TabIndex = 77;
       this.label40.Text = "100";
       // 
@@ -1344,18 +1419,20 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label41.AutoSize = true;
       this.label41.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label41.Location = new System.Drawing.Point(452, 306);
+      this.label41.Location = new System.Drawing.Point(678, 471);
+      this.label41.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label41.Name = "label41";
-      this.label41.Size = new System.Drawing.Size(13, 13);
+      this.label41.Size = new System.Drawing.Size(18, 20);
       this.label41.TabIndex = 76;
       this.label41.Text = "0";
       // 
       // lb_ROLL_SAWTOOTH_UP_GAIN
       // 
       this.lb_ROLL_SAWTOOTH_UP_GAIN.AutoSize = true;
-      this.lb_ROLL_SAWTOOTH_UP_GAIN.Location = new System.Drawing.Point(607, 260);
+      this.lb_ROLL_SAWTOOTH_UP_GAIN.Location = new System.Drawing.Point(910, 400);
+      this.lb_ROLL_SAWTOOTH_UP_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_ROLL_SAWTOOTH_UP_GAIN.Name = "lb_ROLL_SAWTOOTH_UP_GAIN";
-      this.lb_ROLL_SAWTOOTH_UP_GAIN.Size = new System.Drawing.Size(94, 13);
+      this.lb_ROLL_SAWTOOTH_UP_GAIN.Size = new System.Drawing.Size(140, 20);
       this.lb_ROLL_SAWTOOTH_UP_GAIN.TabIndex = 75;
       this.lb_ROLL_SAWTOOTH_UP_GAIN.Text = "Sawtooth Up Gain";
       // 
@@ -1363,10 +1440,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_ROLL_SAWTOOTH_UP_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_ROLL_SAWTOOTH_UP_GAIN.LargeChange = 10;
-      this.tb_ROLL_SAWTOOTH_UP_GAIN.Location = new System.Drawing.Point(444, 274);
+      this.tb_ROLL_SAWTOOTH_UP_GAIN.Location = new System.Drawing.Point(666, 422);
+      this.tb_ROLL_SAWTOOTH_UP_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_ROLL_SAWTOOTH_UP_GAIN.Maximum = 100;
       this.tb_ROLL_SAWTOOTH_UP_GAIN.Name = "tb_ROLL_SAWTOOTH_UP_GAIN";
-      this.tb_ROLL_SAWTOOTH_UP_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_ROLL_SAWTOOTH_UP_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_ROLL_SAWTOOTH_UP_GAIN.TabIndex = 14;
       this.tb_ROLL_SAWTOOTH_UP_GAIN.TickFrequency = 5;
       this.tb_ROLL_SAWTOOTH_UP_GAIN.Scroll += new System.EventHandler(this.tb_ROLL_SAWTOOTH_UP_GAIN_Scroll);
@@ -1375,9 +1453,10 @@ namespace Arduino_FFB_Yoke_App
       // lb_ROLL_SAWTOOT_DOWN_GAIN
       // 
       this.lb_ROLL_SAWTOOT_DOWN_GAIN.AutoSize = true;
-      this.lb_ROLL_SAWTOOT_DOWN_GAIN.Location = new System.Drawing.Point(168, 260);
+      this.lb_ROLL_SAWTOOT_DOWN_GAIN.Location = new System.Drawing.Point(252, 400);
+      this.lb_ROLL_SAWTOOT_DOWN_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_ROLL_SAWTOOT_DOWN_GAIN.Name = "lb_ROLL_SAWTOOT_DOWN_GAIN";
-      this.lb_ROLL_SAWTOOT_DOWN_GAIN.Size = new System.Drawing.Size(108, 13);
+      this.lb_ROLL_SAWTOOT_DOWN_GAIN.Size = new System.Drawing.Size(160, 20);
       this.lb_ROLL_SAWTOOT_DOWN_GAIN.TabIndex = 73;
       this.lb_ROLL_SAWTOOT_DOWN_GAIN.Text = "Sawtooth Down Gain";
       // 
@@ -1385,9 +1464,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label44.AutoSize = true;
       this.label44.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label44.Location = new System.Drawing.Point(108, 306);
+      this.label44.Location = new System.Drawing.Point(162, 471);
+      this.label44.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label44.Name = "label44";
-      this.label44.Size = new System.Drawing.Size(19, 13);
+      this.label44.Size = new System.Drawing.Size(27, 20);
       this.label44.TabIndex = 72;
       this.label44.Text = "25";
       // 
@@ -1395,9 +1475,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label45.AutoSize = true;
       this.label45.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label45.Location = new System.Drawing.Point(299, 306);
+      this.label45.Location = new System.Drawing.Point(448, 471);
+      this.label45.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label45.Name = "label45";
-      this.label45.Size = new System.Drawing.Size(19, 13);
+      this.label45.Size = new System.Drawing.Size(27, 20);
       this.label45.TabIndex = 71;
       this.label45.Text = "75";
       // 
@@ -1405,9 +1486,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label46.AutoSize = true;
       this.label46.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label46.Location = new System.Drawing.Point(204, 306);
+      this.label46.Location = new System.Drawing.Point(306, 471);
+      this.label46.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label46.Name = "label46";
-      this.label46.Size = new System.Drawing.Size(19, 13);
+      this.label46.Size = new System.Drawing.Size(27, 20);
       this.label46.TabIndex = 70;
       this.label46.Text = "50";
       // 
@@ -1415,9 +1497,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label47.AutoSize = true;
       this.label47.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label47.Location = new System.Drawing.Point(388, 306);
+      this.label47.Location = new System.Drawing.Point(582, 471);
+      this.label47.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label47.Name = "label47";
-      this.label47.Size = new System.Drawing.Size(25, 13);
+      this.label47.Size = new System.Drawing.Size(36, 20);
       this.label47.TabIndex = 69;
       this.label47.Text = "100";
       // 
@@ -1425,9 +1508,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label48.AutoSize = true;
       this.label48.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label48.Location = new System.Drawing.Point(20, 306);
+      this.label48.Location = new System.Drawing.Point(30, 471);
+      this.label48.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label48.Name = "label48";
-      this.label48.Size = new System.Drawing.Size(13, 13);
+      this.label48.Size = new System.Drawing.Size(18, 20);
       this.label48.TabIndex = 68;
       this.label48.Text = "0";
       // 
@@ -1435,10 +1519,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_ROLL_SAWTOOT_DOWN_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_ROLL_SAWTOOT_DOWN_GAIN.LargeChange = 10;
-      this.tb_ROLL_SAWTOOT_DOWN_GAIN.Location = new System.Drawing.Point(13, 274);
+      this.tb_ROLL_SAWTOOT_DOWN_GAIN.Location = new System.Drawing.Point(20, 422);
+      this.tb_ROLL_SAWTOOT_DOWN_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_ROLL_SAWTOOT_DOWN_GAIN.Maximum = 100;
       this.tb_ROLL_SAWTOOT_DOWN_GAIN.Name = "tb_ROLL_SAWTOOT_DOWN_GAIN";
-      this.tb_ROLL_SAWTOOT_DOWN_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_ROLL_SAWTOOT_DOWN_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_ROLL_SAWTOOT_DOWN_GAIN.TabIndex = 13;
       this.tb_ROLL_SAWTOOT_DOWN_GAIN.TickFrequency = 5;
       this.tb_ROLL_SAWTOOT_DOWN_GAIN.Scroll += new System.EventHandler(this.tb_ROLL_SAWTOOT_DOWN_GAIN_Scroll);
@@ -1448,9 +1533,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label49.AutoSize = true;
       this.label49.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label49.Location = new System.Drawing.Point(540, 244);
+      this.label49.Location = new System.Drawing.Point(810, 375);
+      this.label49.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label49.Name = "label49";
-      this.label49.Size = new System.Drawing.Size(19, 13);
+      this.label49.Size = new System.Drawing.Size(27, 20);
       this.label49.TabIndex = 66;
       this.label49.Text = "25";
       // 
@@ -1458,9 +1544,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label50.AutoSize = true;
       this.label50.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label50.Location = new System.Drawing.Point(731, 244);
+      this.label50.Location = new System.Drawing.Point(1096, 375);
+      this.label50.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label50.Name = "label50";
-      this.label50.Size = new System.Drawing.Size(19, 13);
+      this.label50.Size = new System.Drawing.Size(27, 20);
       this.label50.TabIndex = 65;
       this.label50.Text = "75";
       // 
@@ -1468,9 +1555,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label51.AutoSize = true;
       this.label51.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label51.Location = new System.Drawing.Point(636, 244);
+      this.label51.Location = new System.Drawing.Point(954, 375);
+      this.label51.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label51.Name = "label51";
-      this.label51.Size = new System.Drawing.Size(19, 13);
+      this.label51.Size = new System.Drawing.Size(27, 20);
       this.label51.TabIndex = 64;
       this.label51.Text = "50";
       // 
@@ -1478,9 +1566,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label52.AutoSize = true;
       this.label52.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label52.Location = new System.Drawing.Point(816, 244);
+      this.label52.Location = new System.Drawing.Point(1224, 375);
+      this.label52.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label52.Name = "label52";
-      this.label52.Size = new System.Drawing.Size(25, 13);
+      this.label52.Size = new System.Drawing.Size(36, 20);
       this.label52.TabIndex = 63;
       this.label52.Text = "100";
       // 
@@ -1488,18 +1577,20 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label53.AutoSize = true;
       this.label53.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label53.Location = new System.Drawing.Point(452, 244);
+      this.label53.Location = new System.Drawing.Point(678, 375);
+      this.label53.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label53.Name = "label53";
-      this.label53.Size = new System.Drawing.Size(13, 13);
+      this.label53.Size = new System.Drawing.Size(18, 20);
       this.label53.TabIndex = 62;
       this.label53.Text = "0";
       // 
       // lb_ROLL_TRIANGLE_GAIN
       // 
       this.lb_ROLL_TRIANGLE_GAIN.AutoSize = true;
-      this.lb_ROLL_TRIANGLE_GAIN.Location = new System.Drawing.Point(613, 199);
+      this.lb_ROLL_TRIANGLE_GAIN.Location = new System.Drawing.Point(920, 306);
+      this.lb_ROLL_TRIANGLE_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_ROLL_TRIANGLE_GAIN.Name = "lb_ROLL_TRIANGLE_GAIN";
-      this.lb_ROLL_TRIANGLE_GAIN.Size = new System.Drawing.Size(70, 13);
+      this.lb_ROLL_TRIANGLE_GAIN.Size = new System.Drawing.Size(103, 20);
       this.lb_ROLL_TRIANGLE_GAIN.TabIndex = 61;
       this.lb_ROLL_TRIANGLE_GAIN.Text = "Triangle Gain";
       // 
@@ -1507,10 +1598,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_ROLL_TRIANGLE_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_ROLL_TRIANGLE_GAIN.LargeChange = 10;
-      this.tb_ROLL_TRIANGLE_GAIN.Location = new System.Drawing.Point(444, 212);
+      this.tb_ROLL_TRIANGLE_GAIN.Location = new System.Drawing.Point(666, 326);
+      this.tb_ROLL_TRIANGLE_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_ROLL_TRIANGLE_GAIN.Maximum = 100;
       this.tb_ROLL_TRIANGLE_GAIN.Name = "tb_ROLL_TRIANGLE_GAIN";
-      this.tb_ROLL_TRIANGLE_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_ROLL_TRIANGLE_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_ROLL_TRIANGLE_GAIN.TabIndex = 12;
       this.tb_ROLL_TRIANGLE_GAIN.TickFrequency = 5;
       this.tb_ROLL_TRIANGLE_GAIN.Scroll += new System.EventHandler(this.tb_ROLL_TRIANGLE_GAIN_Scroll);
@@ -1519,9 +1611,10 @@ namespace Arduino_FFB_Yoke_App
       // lb_ROLL_SIN_GAIN
       // 
       this.lb_ROLL_SIN_GAIN.AutoSize = true;
-      this.lb_ROLL_SIN_GAIN.Location = new System.Drawing.Point(189, 199);
+      this.lb_ROLL_SIN_GAIN.Location = new System.Drawing.Point(284, 306);
+      this.lb_ROLL_SIN_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_ROLL_SIN_GAIN.Name = "lb_ROLL_SIN_GAIN";
-      this.lb_ROLL_SIN_GAIN.Size = new System.Drawing.Size(53, 13);
+      this.lb_ROLL_SIN_GAIN.Size = new System.Drawing.Size(79, 20);
       this.lb_ROLL_SIN_GAIN.TabIndex = 59;
       this.lb_ROLL_SIN_GAIN.Text = "Sine Gain";
       // 
@@ -1529,9 +1622,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label56.AutoSize = true;
       this.label56.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label56.Location = new System.Drawing.Point(108, 244);
+      this.label56.Location = new System.Drawing.Point(162, 375);
+      this.label56.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label56.Name = "label56";
-      this.label56.Size = new System.Drawing.Size(19, 13);
+      this.label56.Size = new System.Drawing.Size(27, 20);
       this.label56.TabIndex = 58;
       this.label56.Text = "25";
       // 
@@ -1539,9 +1633,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label57.AutoSize = true;
       this.label57.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label57.Location = new System.Drawing.Point(299, 244);
+      this.label57.Location = new System.Drawing.Point(448, 375);
+      this.label57.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label57.Name = "label57";
-      this.label57.Size = new System.Drawing.Size(19, 13);
+      this.label57.Size = new System.Drawing.Size(27, 20);
       this.label57.TabIndex = 57;
       this.label57.Text = "75";
       // 
@@ -1549,9 +1644,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label58.AutoSize = true;
       this.label58.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label58.Location = new System.Drawing.Point(204, 244);
+      this.label58.Location = new System.Drawing.Point(306, 375);
+      this.label58.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label58.Name = "label58";
-      this.label58.Size = new System.Drawing.Size(19, 13);
+      this.label58.Size = new System.Drawing.Size(27, 20);
       this.label58.TabIndex = 56;
       this.label58.Text = "50";
       // 
@@ -1559,9 +1655,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label59.AutoSize = true;
       this.label59.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label59.Location = new System.Drawing.Point(388, 244);
+      this.label59.Location = new System.Drawing.Point(582, 375);
+      this.label59.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label59.Name = "label59";
-      this.label59.Size = new System.Drawing.Size(25, 13);
+      this.label59.Size = new System.Drawing.Size(36, 20);
       this.label59.TabIndex = 55;
       this.label59.Text = "100";
       // 
@@ -1569,9 +1666,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label60.AutoSize = true;
       this.label60.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label60.Location = new System.Drawing.Point(20, 244);
+      this.label60.Location = new System.Drawing.Point(30, 375);
+      this.label60.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label60.Name = "label60";
-      this.label60.Size = new System.Drawing.Size(13, 13);
+      this.label60.Size = new System.Drawing.Size(18, 20);
       this.label60.TabIndex = 54;
       this.label60.Text = "0";
       // 
@@ -1579,10 +1677,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_ROLL_SIN_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_ROLL_SIN_GAIN.LargeChange = 10;
-      this.tb_ROLL_SIN_GAIN.Location = new System.Drawing.Point(13, 212);
+      this.tb_ROLL_SIN_GAIN.Location = new System.Drawing.Point(20, 326);
+      this.tb_ROLL_SIN_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_ROLL_SIN_GAIN.Maximum = 100;
       this.tb_ROLL_SIN_GAIN.Name = "tb_ROLL_SIN_GAIN";
-      this.tb_ROLL_SIN_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_ROLL_SIN_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_ROLL_SIN_GAIN.TabIndex = 11;
       this.tb_ROLL_SIN_GAIN.TickFrequency = 5;
       this.tb_ROLL_SIN_GAIN.Scroll += new System.EventHandler(this.tb_ROLL_SIN_GAIN_Scroll);
@@ -1592,9 +1691,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label16.AutoSize = true;
       this.label16.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label16.Location = new System.Drawing.Point(540, 175);
+      this.label16.Location = new System.Drawing.Point(810, 269);
+      this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label16.Name = "label16";
-      this.label16.Size = new System.Drawing.Size(19, 13);
+      this.label16.Size = new System.Drawing.Size(27, 20);
       this.label16.TabIndex = 52;
       this.label16.Text = "25";
       // 
@@ -1602,9 +1702,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label21.AutoSize = true;
       this.label21.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label21.Location = new System.Drawing.Point(731, 175);
+      this.label21.Location = new System.Drawing.Point(1096, 269);
+      this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label21.Name = "label21";
-      this.label21.Size = new System.Drawing.Size(19, 13);
+      this.label21.Size = new System.Drawing.Size(27, 20);
       this.label21.TabIndex = 51;
       this.label21.Text = "75";
       // 
@@ -1612,9 +1713,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label22.AutoSize = true;
       this.label22.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label22.Location = new System.Drawing.Point(636, 175);
+      this.label22.Location = new System.Drawing.Point(954, 269);
+      this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label22.Name = "label22";
-      this.label22.Size = new System.Drawing.Size(19, 13);
+      this.label22.Size = new System.Drawing.Size(27, 20);
       this.label22.TabIndex = 50;
       this.label22.Text = "50";
       // 
@@ -1622,9 +1724,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label23.AutoSize = true;
       this.label23.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label23.Location = new System.Drawing.Point(816, 175);
+      this.label23.Location = new System.Drawing.Point(1224, 269);
+      this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label23.Name = "label23";
-      this.label23.Size = new System.Drawing.Size(25, 13);
+      this.label23.Size = new System.Drawing.Size(36, 20);
       this.label23.TabIndex = 49;
       this.label23.Text = "100";
       // 
@@ -1632,18 +1735,20 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label24.AutoSize = true;
       this.label24.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label24.Location = new System.Drawing.Point(452, 175);
+      this.label24.Location = new System.Drawing.Point(678, 269);
+      this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label24.Name = "label24";
-      this.label24.Size = new System.Drawing.Size(13, 13);
+      this.label24.Size = new System.Drawing.Size(18, 20);
       this.label24.TabIndex = 48;
       this.label24.Text = "0";
       // 
       // lb_ROLL_SQUARE_GAIN
       // 
       this.lb_ROLL_SQUARE_GAIN.AutoSize = true;
-      this.lb_ROLL_SQUARE_GAIN.Location = new System.Drawing.Point(616, 132);
+      this.lb_ROLL_SQUARE_GAIN.Location = new System.Drawing.Point(924, 203);
+      this.lb_ROLL_SQUARE_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_ROLL_SQUARE_GAIN.Name = "lb_ROLL_SQUARE_GAIN";
-      this.lb_ROLL_SQUARE_GAIN.Size = new System.Drawing.Size(66, 13);
+      this.lb_ROLL_SQUARE_GAIN.Size = new System.Drawing.Size(99, 20);
       this.lb_ROLL_SQUARE_GAIN.TabIndex = 47;
       this.lb_ROLL_SQUARE_GAIN.Text = "Square Gain";
       // 
@@ -1651,10 +1756,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_ROLL_SQUARE_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_ROLL_SQUARE_GAIN.LargeChange = 10;
-      this.tb_ROLL_SQUARE_GAIN.Location = new System.Drawing.Point(444, 145);
+      this.tb_ROLL_SQUARE_GAIN.Location = new System.Drawing.Point(666, 223);
+      this.tb_ROLL_SQUARE_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_ROLL_SQUARE_GAIN.Maximum = 100;
       this.tb_ROLL_SQUARE_GAIN.Name = "tb_ROLL_SQUARE_GAIN";
-      this.tb_ROLL_SQUARE_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_ROLL_SQUARE_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_ROLL_SQUARE_GAIN.TabIndex = 10;
       this.tb_ROLL_SQUARE_GAIN.TickFrequency = 5;
       this.tb_ROLL_SQUARE_GAIN.Scroll += new System.EventHandler(this.tb_ROLL_SQUARE_GAIN_Scroll);
@@ -1663,9 +1769,10 @@ namespace Arduino_FFB_Yoke_App
       // lb_ROLL_RAMP_GAIN
       // 
       this.lb_ROLL_RAMP_GAIN.AutoSize = true;
-      this.lb_ROLL_RAMP_GAIN.Location = new System.Drawing.Point(187, 132);
+      this.lb_ROLL_RAMP_GAIN.Location = new System.Drawing.Point(280, 203);
+      this.lb_ROLL_RAMP_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_ROLL_RAMP_GAIN.Name = "lb_ROLL_RAMP_GAIN";
-      this.lb_ROLL_RAMP_GAIN.Size = new System.Drawing.Size(60, 13);
+      this.lb_ROLL_RAMP_GAIN.Size = new System.Drawing.Size(90, 20);
       this.lb_ROLL_RAMP_GAIN.TabIndex = 45;
       this.lb_ROLL_RAMP_GAIN.Text = "Ramp Gain";
       // 
@@ -1673,9 +1780,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label32.AutoSize = true;
       this.label32.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label32.Location = new System.Drawing.Point(108, 175);
+      this.label32.Location = new System.Drawing.Point(162, 269);
+      this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label32.Name = "label32";
-      this.label32.Size = new System.Drawing.Size(19, 13);
+      this.label32.Size = new System.Drawing.Size(27, 20);
       this.label32.TabIndex = 44;
       this.label32.Text = "25";
       // 
@@ -1683,9 +1791,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label33.AutoSize = true;
       this.label33.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label33.Location = new System.Drawing.Point(299, 175);
+      this.label33.Location = new System.Drawing.Point(448, 269);
+      this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label33.Name = "label33";
-      this.label33.Size = new System.Drawing.Size(19, 13);
+      this.label33.Size = new System.Drawing.Size(27, 20);
       this.label33.TabIndex = 43;
       this.label33.Text = "75";
       // 
@@ -1693,9 +1802,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label34.AutoSize = true;
       this.label34.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label34.Location = new System.Drawing.Point(204, 175);
+      this.label34.Location = new System.Drawing.Point(306, 269);
+      this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label34.Name = "label34";
-      this.label34.Size = new System.Drawing.Size(19, 13);
+      this.label34.Size = new System.Drawing.Size(27, 20);
       this.label34.TabIndex = 42;
       this.label34.Text = "50";
       // 
@@ -1703,9 +1813,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label35.AutoSize = true;
       this.label35.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label35.Location = new System.Drawing.Point(388, 175);
+      this.label35.Location = new System.Drawing.Point(582, 269);
+      this.label35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label35.Name = "label35";
-      this.label35.Size = new System.Drawing.Size(25, 13);
+      this.label35.Size = new System.Drawing.Size(36, 20);
       this.label35.TabIndex = 41;
       this.label35.Text = "100";
       // 
@@ -1713,9 +1824,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label36.AutoSize = true;
       this.label36.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label36.Location = new System.Drawing.Point(20, 175);
+      this.label36.Location = new System.Drawing.Point(30, 269);
+      this.label36.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label36.Name = "label36";
-      this.label36.Size = new System.Drawing.Size(13, 13);
+      this.label36.Size = new System.Drawing.Size(18, 20);
       this.label36.TabIndex = 40;
       this.label36.Text = "0";
       // 
@@ -1723,10 +1835,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_ROLL_RAMP_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_ROLL_RAMP_GAIN.LargeChange = 10;
-      this.tb_ROLL_RAMP_GAIN.Location = new System.Drawing.Point(13, 145);
+      this.tb_ROLL_RAMP_GAIN.Location = new System.Drawing.Point(20, 223);
+      this.tb_ROLL_RAMP_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_ROLL_RAMP_GAIN.Maximum = 100;
       this.tb_ROLL_RAMP_GAIN.Name = "tb_ROLL_RAMP_GAIN";
-      this.tb_ROLL_RAMP_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_ROLL_RAMP_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_ROLL_RAMP_GAIN.TabIndex = 9;
       this.tb_ROLL_RAMP_GAIN.TickFrequency = 5;
       this.tb_ROLL_RAMP_GAIN.Scroll += new System.EventHandler(this.tb_ROLL_RAMP_GAIN_Scroll);
@@ -1736,9 +1849,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label25.AutoSize = true;
       this.label25.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label25.Location = new System.Drawing.Point(540, 115);
+      this.label25.Location = new System.Drawing.Point(810, 177);
+      this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label25.Name = "label25";
-      this.label25.Size = new System.Drawing.Size(19, 13);
+      this.label25.Size = new System.Drawing.Size(27, 20);
       this.label25.TabIndex = 38;
       this.label25.Text = "25";
       // 
@@ -1746,9 +1860,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label26.AutoSize = true;
       this.label26.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label26.Location = new System.Drawing.Point(731, 115);
+      this.label26.Location = new System.Drawing.Point(1096, 177);
+      this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label26.Name = "label26";
-      this.label26.Size = new System.Drawing.Size(19, 13);
+      this.label26.Size = new System.Drawing.Size(27, 20);
       this.label26.TabIndex = 37;
       this.label26.Text = "75";
       // 
@@ -1756,9 +1871,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label27.AutoSize = true;
       this.label27.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label27.Location = new System.Drawing.Point(636, 115);
+      this.label27.Location = new System.Drawing.Point(954, 177);
+      this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label27.Name = "label27";
-      this.label27.Size = new System.Drawing.Size(19, 13);
+      this.label27.Size = new System.Drawing.Size(27, 20);
       this.label27.TabIndex = 36;
       this.label27.Text = "50";
       // 
@@ -1766,9 +1882,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label28.AutoSize = true;
       this.label28.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label28.Location = new System.Drawing.Point(816, 115);
+      this.label28.Location = new System.Drawing.Point(1224, 177);
+      this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label28.Name = "label28";
-      this.label28.Size = new System.Drawing.Size(25, 13);
+      this.label28.Size = new System.Drawing.Size(36, 20);
       this.label28.TabIndex = 35;
       this.label28.Text = "100";
       // 
@@ -1776,18 +1893,20 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label29.AutoSize = true;
       this.label29.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label29.Location = new System.Drawing.Point(452, 115);
+      this.label29.Location = new System.Drawing.Point(678, 177);
+      this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label29.Name = "label29";
-      this.label29.Size = new System.Drawing.Size(13, 13);
+      this.label29.Size = new System.Drawing.Size(18, 20);
       this.label29.TabIndex = 34;
       this.label29.Text = "0";
       // 
       // lb_ROLL_CONSTANT_GAIN
       // 
       this.lb_ROLL_CONSTANT_GAIN.AutoSize = true;
-      this.lb_ROLL_CONSTANT_GAIN.Location = new System.Drawing.Point(607, 69);
+      this.lb_ROLL_CONSTANT_GAIN.Location = new System.Drawing.Point(910, 106);
+      this.lb_ROLL_CONSTANT_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_ROLL_CONSTANT_GAIN.Name = "lb_ROLL_CONSTANT_GAIN";
-      this.lb_ROLL_CONSTANT_GAIN.Size = new System.Drawing.Size(74, 13);
+      this.lb_ROLL_CONSTANT_GAIN.Size = new System.Drawing.Size(112, 20);
       this.lb_ROLL_CONSTANT_GAIN.TabIndex = 33;
       this.lb_ROLL_CONSTANT_GAIN.Text = "Constant Gain";
       // 
@@ -1795,10 +1914,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_ROLL_CONSTANT_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_ROLL_CONSTANT_GAIN.LargeChange = 10;
-      this.tb_ROLL_CONSTANT_GAIN.Location = new System.Drawing.Point(444, 83);
+      this.tb_ROLL_CONSTANT_GAIN.Location = new System.Drawing.Point(666, 128);
+      this.tb_ROLL_CONSTANT_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_ROLL_CONSTANT_GAIN.Maximum = 100;
       this.tb_ROLL_CONSTANT_GAIN.Name = "tb_ROLL_CONSTANT_GAIN";
-      this.tb_ROLL_CONSTANT_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_ROLL_CONSTANT_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_ROLL_CONSTANT_GAIN.TabIndex = 8;
       this.tb_ROLL_CONSTANT_GAIN.TickFrequency = 5;
       this.tb_ROLL_CONSTANT_GAIN.Scroll += new System.EventHandler(this.tb_ROLL_CONSTANT_GAIN_Scroll);
@@ -1807,9 +1927,10 @@ namespace Arduino_FFB_Yoke_App
       // lb_ROLL_TOTAL_GAIN
       // 
       this.lb_ROLL_TOTAL_GAIN.AutoSize = true;
-      this.lb_ROLL_TOTAL_GAIN.Location = new System.Drawing.Point(187, 69);
+      this.lb_ROLL_TOTAL_GAIN.Location = new System.Drawing.Point(280, 106);
+      this.lb_ROLL_TOTAL_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_ROLL_TOTAL_GAIN.Name = "lb_ROLL_TOTAL_GAIN";
-      this.lb_ROLL_TOTAL_GAIN.Size = new System.Drawing.Size(56, 13);
+      this.lb_ROLL_TOTAL_GAIN.Size = new System.Drawing.Size(82, 20);
       this.lb_ROLL_TOTAL_GAIN.TabIndex = 31;
       this.lb_ROLL_TOTAL_GAIN.Text = "Total Gain";
       // 
@@ -1817,9 +1938,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label20.AutoSize = true;
       this.label20.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label20.Location = new System.Drawing.Point(108, 115);
+      this.label20.Location = new System.Drawing.Point(162, 177);
+      this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label20.Name = "label20";
-      this.label20.Size = new System.Drawing.Size(19, 13);
+      this.label20.Size = new System.Drawing.Size(27, 20);
       this.label20.TabIndex = 30;
       this.label20.Text = "25";
       // 
@@ -1827,9 +1949,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label18.AutoSize = true;
       this.label18.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label18.Location = new System.Drawing.Point(299, 115);
+      this.label18.Location = new System.Drawing.Point(448, 177);
+      this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label18.Name = "label18";
-      this.label18.Size = new System.Drawing.Size(19, 13);
+      this.label18.Size = new System.Drawing.Size(27, 20);
       this.label18.TabIndex = 29;
       this.label18.Text = "75";
       // 
@@ -1837,9 +1960,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label17.AutoSize = true;
       this.label17.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label17.Location = new System.Drawing.Point(204, 115);
+      this.label17.Location = new System.Drawing.Point(306, 177);
+      this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label17.Name = "label17";
-      this.label17.Size = new System.Drawing.Size(19, 13);
+      this.label17.Size = new System.Drawing.Size(27, 20);
       this.label17.TabIndex = 28;
       this.label17.Text = "50";
       // 
@@ -1847,9 +1971,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label15.AutoSize = true;
       this.label15.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label15.Location = new System.Drawing.Point(388, 115);
+      this.label15.Location = new System.Drawing.Point(582, 177);
+      this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label15.Name = "label15";
-      this.label15.Size = new System.Drawing.Size(25, 13);
+      this.label15.Size = new System.Drawing.Size(36, 20);
       this.label15.TabIndex = 27;
       this.label15.Text = "100";
       // 
@@ -1857,9 +1982,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label11.AutoSize = true;
       this.label11.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label11.Location = new System.Drawing.Point(20, 115);
+      this.label11.Location = new System.Drawing.Point(30, 177);
+      this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label11.Name = "label11";
-      this.label11.Size = new System.Drawing.Size(13, 13);
+      this.label11.Size = new System.Drawing.Size(18, 20);
       this.label11.TabIndex = 26;
       this.label11.Text = "0";
       // 
@@ -1867,10 +1993,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_ROLL_TOTAL_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_ROLL_TOTAL_GAIN.LargeChange = 10;
-      this.tb_ROLL_TOTAL_GAIN.Location = new System.Drawing.Point(13, 83);
+      this.tb_ROLL_TOTAL_GAIN.Location = new System.Drawing.Point(20, 128);
+      this.tb_ROLL_TOTAL_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_ROLL_TOTAL_GAIN.Maximum = 100;
       this.tb_ROLL_TOTAL_GAIN.Name = "tb_ROLL_TOTAL_GAIN";
-      this.tb_ROLL_TOTAL_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_ROLL_TOTAL_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_ROLL_TOTAL_GAIN.TabIndex = 7;
       this.tb_ROLL_TOTAL_GAIN.TickFrequency = 5;
       this.tb_ROLL_TOTAL_GAIN.Scroll += new System.EventHandler(this.tb_ROLL_TOTAL_GAIN_Scroll);
@@ -1880,10 +2007,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_ROLL_PWM_MAX.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_ROLL_PWM_MAX.LargeChange = 10;
-      this.tb_ROLL_PWM_MAX.Location = new System.Drawing.Point(585, 21);
+      this.tb_ROLL_PWM_MAX.Location = new System.Drawing.Point(878, 32);
+      this.tb_ROLL_PWM_MAX.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_ROLL_PWM_MAX.Maximum = 255;
       this.tb_ROLL_PWM_MAX.Name = "tb_ROLL_PWM_MAX";
-      this.tb_ROLL_PWM_MAX.Size = new System.Drawing.Size(250, 45);
+      this.tb_ROLL_PWM_MAX.Size = new System.Drawing.Size(375, 69);
       this.tb_ROLL_PWM_MAX.TabIndex = 6;
       this.tb_ROLL_PWM_MAX.TickFrequency = 15;
       this.tb_ROLL_PWM_MAX.Scroll += new System.EventHandler(this.tb_ROLL_PWM_MAX_Scroll);
@@ -2010,10 +2138,11 @@ namespace Arduino_FFB_Yoke_App
       this.tabPageMainSettingsPitch.Controls.Add(this.label224);
       this.tabPageMainSettingsPitch.Controls.Add(this.tb_PITCH_TOTAL_GAIN);
       this.tabPageMainSettingsPitch.Controls.Add(this.tb_PITCH_PWM_MAX);
-      this.tabPageMainSettingsPitch.Location = new System.Drawing.Point(4, 22);
+      this.tabPageMainSettingsPitch.Location = new System.Drawing.Point(4, 29);
+      this.tabPageMainSettingsPitch.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tabPageMainSettingsPitch.Name = "tabPageMainSettingsPitch";
-      this.tabPageMainSettingsPitch.Padding = new System.Windows.Forms.Padding(3);
-      this.tabPageMainSettingsPitch.Size = new System.Drawing.Size(855, 601);
+      this.tabPageMainSettingsPitch.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+      this.tabPageMainSettingsPitch.Size = new System.Drawing.Size(1286, 932);
       this.tabPageMainSettingsPitch.TabIndex = 1;
       this.tabPageMainSettingsPitch.Text = "Pitch";
       // 
@@ -2021,9 +2150,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label119.AutoSize = true;
       this.label119.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label119.Location = new System.Drawing.Point(810, 52);
+      this.label119.Location = new System.Drawing.Point(1215, 80);
+      this.label119.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label119.Name = "label119";
-      this.label119.Size = new System.Drawing.Size(25, 13);
+      this.label119.Size = new System.Drawing.Size(36, 20);
       this.label119.TabIndex = 274;
       this.label119.Text = "255";
       // 
@@ -2031,9 +2161,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label120.AutoSize = true;
       this.label120.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label120.Location = new System.Drawing.Point(524, 52);
+      this.label120.Location = new System.Drawing.Point(786, 80);
+      this.label120.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label120.Name = "label120";
-      this.label120.Size = new System.Drawing.Size(25, 13);
+      this.label120.Size = new System.Drawing.Size(36, 20);
       this.label120.TabIndex = 273;
       this.label120.Text = "255";
       // 
@@ -2041,9 +2172,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label121.AutoSize = true;
       this.label121.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label121.Location = new System.Drawing.Point(592, 52);
+      this.label121.Location = new System.Drawing.Point(888, 80);
+      this.label121.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label121.Name = "label121";
-      this.label121.Size = new System.Drawing.Size(13, 13);
+      this.label121.Size = new System.Drawing.Size(18, 20);
       this.label121.TabIndex = 272;
       this.label121.Text = "0";
       // 
@@ -2051,9 +2183,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label122.AutoSize = true;
       this.label122.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label122.Location = new System.Drawing.Point(305, 52);
+      this.label122.Location = new System.Drawing.Point(458, 80);
+      this.label122.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label122.Name = "label122";
-      this.label122.Size = new System.Drawing.Size(13, 13);
+      this.label122.Size = new System.Drawing.Size(18, 20);
       this.label122.TabIndex = 271;
       this.label122.Text = "0";
       // 
@@ -2061,9 +2194,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label123.AutoSize = true;
       this.label123.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label123.Location = new System.Drawing.Point(122, 53);
+      this.label123.Location = new System.Drawing.Point(183, 82);
+      this.label123.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label123.Name = "label123";
-      this.label123.Size = new System.Drawing.Size(37, 13);
+      this.label123.Size = new System.Drawing.Size(54, 20);
       this.label123.TabIndex = 270;
       this.label123.Text = "16250";
       // 
@@ -2071,9 +2205,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label124.AutoSize = true;
       this.label124.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label124.Location = new System.Drawing.Point(21, 52);
+      this.label124.Location = new System.Drawing.Point(32, 80);
+      this.label124.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label124.Name = "label124";
-      this.label124.Size = new System.Drawing.Size(13, 13);
+      this.label124.Size = new System.Drawing.Size(18, 20);
       this.label124.TabIndex = 269;
       this.label124.Text = "0";
       // 
@@ -2081,27 +2216,30 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label125.AutoSize = true;
       this.label125.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label125.Location = new System.Drawing.Point(225, 52);
+      this.label125.Location = new System.Drawing.Point(338, 80);
+      this.label125.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label125.Name = "label125";
-      this.label125.Size = new System.Drawing.Size(37, 13);
+      this.label125.Size = new System.Drawing.Size(54, 20);
       this.label125.TabIndex = 268;
       this.label125.Text = "32500";
       // 
       // lb_PITCH_PWM_MAX
       // 
       this.lb_PITCH_PWM_MAX.AutoSize = true;
-      this.lb_PITCH_PWM_MAX.Location = new System.Drawing.Point(661, 6);
+      this.lb_PITCH_PWM_MAX.Location = new System.Drawing.Point(992, 9);
+      this.lb_PITCH_PWM_MAX.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_PITCH_PWM_MAX.Name = "lb_PITCH_PWM_MAX";
-      this.lb_PITCH_PWM_MAX.Size = new System.Drawing.Size(90, 13);
+      this.lb_PITCH_PWM_MAX.Size = new System.Drawing.Size(131, 20);
       this.lb_PITCH_PWM_MAX.TabIndex = 267;
       this.lb_PITCH_PWM_MAX.Text = "Max Motor Power";
       // 
       // lb_PITCH_PWM_MIN
       // 
       this.lb_PITCH_PWM_MIN.AutoSize = true;
-      this.lb_PITCH_PWM_MIN.Location = new System.Drawing.Point(373, 6);
+      this.lb_PITCH_PWM_MIN.Location = new System.Drawing.Point(560, 9);
+      this.lb_PITCH_PWM_MIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_PITCH_PWM_MIN.Name = "lb_PITCH_PWM_MIN";
-      this.lb_PITCH_PWM_MIN.Size = new System.Drawing.Size(92, 13);
+      this.lb_PITCH_PWM_MIN.Size = new System.Drawing.Size(137, 20);
       this.lb_PITCH_PWM_MIN.TabIndex = 266;
       this.lb_PITCH_PWM_MIN.Text = "Start Motor Power";
       // 
@@ -2109,10 +2247,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_PITCH_PWM_MIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_PITCH_PWM_MIN.LargeChange = 10;
-      this.tb_PITCH_PWM_MIN.Location = new System.Drawing.Point(298, 21);
+      this.tb_PITCH_PWM_MIN.Location = new System.Drawing.Point(447, 32);
+      this.tb_PITCH_PWM_MIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_PITCH_PWM_MIN.Maximum = 255;
       this.tb_PITCH_PWM_MIN.Name = "tb_PITCH_PWM_MIN";
-      this.tb_PITCH_PWM_MIN.Size = new System.Drawing.Size(250, 45);
+      this.tb_PITCH_PWM_MIN.Size = new System.Drawing.Size(375, 69);
       this.tb_PITCH_PWM_MIN.TabIndex = 151;
       this.tb_PITCH_PWM_MIN.TickFrequency = 15;
       this.tb_PITCH_PWM_MIN.Scroll += new System.EventHandler(this.tb_PITCH_PWM_MIN_Scroll);
@@ -2121,9 +2260,10 @@ namespace Arduino_FFB_Yoke_App
       // lb_PITCH_FORCE_MAX
       // 
       this.lb_PITCH_FORCE_MAX.AutoSize = true;
-      this.lb_PITCH_FORCE_MAX.Location = new System.Drawing.Point(79, 6);
+      this.lb_PITCH_FORCE_MAX.Location = new System.Drawing.Point(118, 9);
+      this.lb_PITCH_FORCE_MAX.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_PITCH_FORCE_MAX.Name = "lb_PITCH_FORCE_MAX";
-      this.lb_PITCH_FORCE_MAX.Size = new System.Drawing.Size(106, 13);
+      this.lb_PITCH_FORCE_MAX.Size = new System.Drawing.Size(155, 20);
       this.lb_PITCH_FORCE_MAX.TabIndex = 265;
       this.lb_PITCH_FORCE_MAX.Text = "Max Accepted Force";
       // 
@@ -2131,10 +2271,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_PITCH_FORCE_MAX.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_PITCH_FORCE_MAX.LargeChange = 1000;
-      this.tb_PITCH_FORCE_MAX.Location = new System.Drawing.Point(13, 21);
+      this.tb_PITCH_FORCE_MAX.Location = new System.Drawing.Point(20, 32);
+      this.tb_PITCH_FORCE_MAX.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_PITCH_FORCE_MAX.Maximum = 32500;
       this.tb_PITCH_FORCE_MAX.Name = "tb_PITCH_FORCE_MAX";
-      this.tb_PITCH_FORCE_MAX.Size = new System.Drawing.Size(250, 45);
+      this.tb_PITCH_FORCE_MAX.Size = new System.Drawing.Size(375, 69);
       this.tb_PITCH_FORCE_MAX.SmallChange = 100;
       this.tb_PITCH_FORCE_MAX.TabIndex = 150;
       this.tb_PITCH_FORCE_MAX.TickFrequency = 1500;
@@ -2145,9 +2286,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label129.AutoSize = true;
       this.label129.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label129.Location = new System.Drawing.Point(539, 561);
+      this.label129.Location = new System.Drawing.Point(808, 863);
+      this.label129.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label129.Name = "label129";
-      this.label129.Size = new System.Drawing.Size(25, 13);
+      this.label129.Size = new System.Drawing.Size(36, 20);
       this.label129.TabIndex = 264;
       this.label129.Text = "250";
       // 
@@ -2155,9 +2297,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label130.AutoSize = true;
       this.label130.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label130.Location = new System.Drawing.Point(727, 561);
+      this.label130.Location = new System.Drawing.Point(1090, 863);
+      this.label130.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label130.Name = "label130";
-      this.label130.Size = new System.Drawing.Size(25, 13);
+      this.label130.Size = new System.Drawing.Size(36, 20);
       this.label130.TabIndex = 263;
       this.label130.Text = "750";
       // 
@@ -2165,9 +2308,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label131.AutoSize = true;
       this.label131.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label131.Location = new System.Drawing.Point(633, 561);
+      this.label131.Location = new System.Drawing.Point(950, 863);
+      this.label131.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label131.Name = "label131";
-      this.label131.Size = new System.Drawing.Size(25, 13);
+      this.label131.Size = new System.Drawing.Size(36, 20);
       this.label131.TabIndex = 262;
       this.label131.Text = "500";
       // 
@@ -2175,9 +2319,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label132.AutoSize = true;
       this.label132.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label132.Location = new System.Drawing.Point(810, 561);
+      this.label132.Location = new System.Drawing.Point(1215, 863);
+      this.label132.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label132.Name = "label132";
-      this.label132.Size = new System.Drawing.Size(31, 13);
+      this.label132.Size = new System.Drawing.Size(45, 20);
       this.label132.TabIndex = 261;
       this.label132.Text = "1000";
       // 
@@ -2185,18 +2330,20 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label133.AutoSize = true;
       this.label133.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label133.Location = new System.Drawing.Point(452, 561);
+      this.label133.Location = new System.Drawing.Point(678, 863);
+      this.label133.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label133.Name = "label133";
-      this.label133.Size = new System.Drawing.Size(13, 13);
+      this.label133.Size = new System.Drawing.Size(18, 20);
       this.label133.TabIndex = 260;
       this.label133.Text = "0";
       // 
       // lb_PITCH_DAMPER_MAX_VELOCITY
       // 
       this.lb_PITCH_DAMPER_MAX_VELOCITY.AutoSize = true;
-      this.lb_PITCH_DAMPER_MAX_VELOCITY.Location = new System.Drawing.Point(595, 518);
+      this.lb_PITCH_DAMPER_MAX_VELOCITY.Location = new System.Drawing.Point(892, 797);
+      this.lb_PITCH_DAMPER_MAX_VELOCITY.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_PITCH_DAMPER_MAX_VELOCITY.Name = "lb_PITCH_DAMPER_MAX_VELOCITY";
-      this.lb_PITCH_DAMPER_MAX_VELOCITY.Size = new System.Drawing.Size(107, 13);
+      this.lb_PITCH_DAMPER_MAX_VELOCITY.Size = new System.Drawing.Size(158, 20);
       this.lb_PITCH_DAMPER_MAX_VELOCITY.TabIndex = 259;
       this.lb_PITCH_DAMPER_MAX_VELOCITY.Text = "Damper Max Velocity";
       // 
@@ -2204,10 +2351,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_PITCH_DAMPER_MAX_VELOCITY.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_PITCH_DAMPER_MAX_VELOCITY.LargeChange = 10;
-      this.tb_PITCH_DAMPER_MAX_VELOCITY.Location = new System.Drawing.Point(444, 531);
+      this.tb_PITCH_DAMPER_MAX_VELOCITY.Location = new System.Drawing.Point(666, 817);
+      this.tb_PITCH_DAMPER_MAX_VELOCITY.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_PITCH_DAMPER_MAX_VELOCITY.Maximum = 1000;
       this.tb_PITCH_DAMPER_MAX_VELOCITY.Name = "tb_PITCH_DAMPER_MAX_VELOCITY";
-      this.tb_PITCH_DAMPER_MAX_VELOCITY.Size = new System.Drawing.Size(400, 45);
+      this.tb_PITCH_DAMPER_MAX_VELOCITY.Size = new System.Drawing.Size(600, 69);
       this.tb_PITCH_DAMPER_MAX_VELOCITY.TabIndex = 168;
       this.tb_PITCH_DAMPER_MAX_VELOCITY.TickFrequency = 25;
       this.tb_PITCH_DAMPER_MAX_VELOCITY.Scroll += new System.EventHandler(this.tb_PITCH_DAMPER_MAX_VELOCITY_Scroll);
@@ -2216,9 +2364,10 @@ namespace Arduino_FFB_Yoke_App
       // lb_PITCH_INERTIA_MAX_ACCELERATION
       // 
       this.lb_PITCH_INERTIA_MAX_ACCELERATION.AutoSize = true;
-      this.lb_PITCH_INERTIA_MAX_ACCELERATION.Location = new System.Drawing.Point(155, 518);
+      this.lb_PITCH_INERTIA_MAX_ACCELERATION.Location = new System.Drawing.Point(232, 797);
+      this.lb_PITCH_INERTIA_MAX_ACCELERATION.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_PITCH_INERTIA_MAX_ACCELERATION.Name = "lb_PITCH_INERTIA_MAX_ACCELERATION";
-      this.lb_PITCH_INERTIA_MAX_ACCELERATION.Size = new System.Drawing.Size(121, 13);
+      this.lb_PITCH_INERTIA_MAX_ACCELERATION.Size = new System.Drawing.Size(179, 20);
       this.lb_PITCH_INERTIA_MAX_ACCELERATION.TabIndex = 258;
       this.lb_PITCH_INERTIA_MAX_ACCELERATION.Text = "Inertia Max Acceleration";
       // 
@@ -2226,9 +2375,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label136.AutoSize = true;
       this.label136.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label136.Location = new System.Drawing.Point(108, 561);
+      this.label136.Location = new System.Drawing.Point(162, 863);
+      this.label136.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label136.Name = "label136";
-      this.label136.Size = new System.Drawing.Size(25, 13);
+      this.label136.Size = new System.Drawing.Size(36, 20);
       this.label136.TabIndex = 257;
       this.label136.Text = "250";
       // 
@@ -2236,9 +2386,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label137.AutoSize = true;
       this.label137.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label137.Location = new System.Drawing.Point(294, 561);
+      this.label137.Location = new System.Drawing.Point(441, 863);
+      this.label137.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label137.Name = "label137";
-      this.label137.Size = new System.Drawing.Size(25, 13);
+      this.label137.Size = new System.Drawing.Size(36, 20);
       this.label137.TabIndex = 256;
       this.label137.Text = "750";
       // 
@@ -2246,9 +2397,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label138.AutoSize = true;
       this.label138.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label138.Location = new System.Drawing.Point(200, 561);
+      this.label138.Location = new System.Drawing.Point(300, 863);
+      this.label138.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label138.Name = "label138";
-      this.label138.Size = new System.Drawing.Size(25, 13);
+      this.label138.Size = new System.Drawing.Size(36, 20);
       this.label138.TabIndex = 255;
       this.label138.Text = "500";
       // 
@@ -2256,9 +2408,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label139.AutoSize = true;
       this.label139.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label139.Location = new System.Drawing.Point(381, 561);
+      this.label139.Location = new System.Drawing.Point(572, 863);
+      this.label139.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label139.Name = "label139";
-      this.label139.Size = new System.Drawing.Size(31, 13);
+      this.label139.Size = new System.Drawing.Size(45, 20);
       this.label139.TabIndex = 254;
       this.label139.Text = "1000";
       // 
@@ -2266,9 +2419,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label140.AutoSize = true;
       this.label140.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label140.Location = new System.Drawing.Point(20, 561);
+      this.label140.Location = new System.Drawing.Point(30, 863);
+      this.label140.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label140.Name = "label140";
-      this.label140.Size = new System.Drawing.Size(13, 13);
+      this.label140.Size = new System.Drawing.Size(18, 20);
       this.label140.TabIndex = 253;
       this.label140.Text = "0";
       // 
@@ -2276,10 +2430,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_PITCH_INERTIA_MAX_ACCELERATION.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_PITCH_INERTIA_MAX_ACCELERATION.LargeChange = 10;
-      this.tb_PITCH_INERTIA_MAX_ACCELERATION.Location = new System.Drawing.Point(13, 531);
+      this.tb_PITCH_INERTIA_MAX_ACCELERATION.Location = new System.Drawing.Point(20, 817);
+      this.tb_PITCH_INERTIA_MAX_ACCELERATION.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_PITCH_INERTIA_MAX_ACCELERATION.Maximum = 1000;
       this.tb_PITCH_INERTIA_MAX_ACCELERATION.Name = "tb_PITCH_INERTIA_MAX_ACCELERATION";
-      this.tb_PITCH_INERTIA_MAX_ACCELERATION.Size = new System.Drawing.Size(400, 45);
+      this.tb_PITCH_INERTIA_MAX_ACCELERATION.Size = new System.Drawing.Size(600, 69);
       this.tb_PITCH_INERTIA_MAX_ACCELERATION.TabIndex = 167;
       this.tb_PITCH_INERTIA_MAX_ACCELERATION.TickFrequency = 25;
       this.tb_PITCH_INERTIA_MAX_ACCELERATION.Scroll += new System.EventHandler(this.tb_PITCH_INERTIA_MAX_ACCELERATION_Scroll);
@@ -2289,9 +2444,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label141.AutoSize = true;
       this.label141.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label141.Location = new System.Drawing.Point(108, 502);
+      this.label141.Location = new System.Drawing.Point(162, 772);
+      this.label141.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label141.Name = "label141";
-      this.label141.Size = new System.Drawing.Size(25, 13);
+      this.label141.Size = new System.Drawing.Size(36, 20);
       this.label141.TabIndex = 252;
       this.label141.Text = "250";
       // 
@@ -2299,9 +2455,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label142.AutoSize = true;
       this.label142.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label142.Location = new System.Drawing.Point(295, 502);
+      this.label142.Location = new System.Drawing.Point(442, 772);
+      this.label142.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label142.Name = "label142";
-      this.label142.Size = new System.Drawing.Size(25, 13);
+      this.label142.Size = new System.Drawing.Size(36, 20);
       this.label142.TabIndex = 251;
       this.label142.Text = "750";
       // 
@@ -2309,9 +2466,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label143.AutoSize = true;
       this.label143.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label143.Location = new System.Drawing.Point(203, 502);
+      this.label143.Location = new System.Drawing.Point(304, 772);
+      this.label143.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label143.Name = "label143";
-      this.label143.Size = new System.Drawing.Size(25, 13);
+      this.label143.Size = new System.Drawing.Size(36, 20);
       this.label143.TabIndex = 250;
       this.label143.Text = "500";
       // 
@@ -2319,9 +2477,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label144.AutoSize = true;
       this.label144.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label144.Location = new System.Drawing.Point(379, 502);
+      this.label144.Location = new System.Drawing.Point(568, 772);
+      this.label144.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label144.Name = "label144";
-      this.label144.Size = new System.Drawing.Size(31, 13);
+      this.label144.Size = new System.Drawing.Size(45, 20);
       this.label144.TabIndex = 249;
       this.label144.Text = "1000";
       // 
@@ -2329,18 +2488,20 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label145.AutoSize = true;
       this.label145.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label145.Location = new System.Drawing.Point(21, 502);
+      this.label145.Location = new System.Drawing.Point(32, 772);
+      this.label145.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label145.Name = "label145";
-      this.label145.Size = new System.Drawing.Size(13, 13);
+      this.label145.Size = new System.Drawing.Size(18, 20);
       this.label145.TabIndex = 248;
       this.label145.Text = "0";
       // 
       // lb_PITCH_FRICTION_MAX_POSITION_CHANGE
       // 
       this.lb_PITCH_FRICTION_MAX_POSITION_CHANGE.AutoSize = true;
-      this.lb_PITCH_FRICTION_MAX_POSITION_CHANGE.Location = new System.Drawing.Point(144, 457);
+      this.lb_PITCH_FRICTION_MAX_POSITION_CHANGE.Location = new System.Drawing.Point(216, 703);
+      this.lb_PITCH_FRICTION_MAX_POSITION_CHANGE.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_PITCH_FRICTION_MAX_POSITION_CHANGE.Name = "lb_PITCH_FRICTION_MAX_POSITION_CHANGE";
-      this.lb_PITCH_FRICTION_MAX_POSITION_CHANGE.Size = new System.Drawing.Size(144, 13);
+      this.lb_PITCH_FRICTION_MAX_POSITION_CHANGE.Size = new System.Drawing.Size(214, 20);
       this.lb_PITCH_FRICTION_MAX_POSITION_CHANGE.TabIndex = 247;
       this.lb_PITCH_FRICTION_MAX_POSITION_CHANGE.Text = "Friction Max Position Change";
       // 
@@ -2348,10 +2509,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_PITCH_FRICTION_MAX_POSITION_CHANGE.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_PITCH_FRICTION_MAX_POSITION_CHANGE.LargeChange = 10;
-      this.tb_PITCH_FRICTION_MAX_POSITION_CHANGE.Location = new System.Drawing.Point(13, 470);
+      this.tb_PITCH_FRICTION_MAX_POSITION_CHANGE.Location = new System.Drawing.Point(20, 723);
+      this.tb_PITCH_FRICTION_MAX_POSITION_CHANGE.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_PITCH_FRICTION_MAX_POSITION_CHANGE.Maximum = 1000;
       this.tb_PITCH_FRICTION_MAX_POSITION_CHANGE.Name = "tb_PITCH_FRICTION_MAX_POSITION_CHANGE";
-      this.tb_PITCH_FRICTION_MAX_POSITION_CHANGE.Size = new System.Drawing.Size(400, 45);
+      this.tb_PITCH_FRICTION_MAX_POSITION_CHANGE.Size = new System.Drawing.Size(600, 69);
       this.tb_PITCH_FRICTION_MAX_POSITION_CHANGE.TabIndex = 166;
       this.tb_PITCH_FRICTION_MAX_POSITION_CHANGE.TickFrequency = 25;
       this.tb_PITCH_FRICTION_MAX_POSITION_CHANGE.Scroll += new System.EventHandler(this.tb_PITCH_FRICTION_MAX_POSITION_CHANGE_Scroll);
@@ -2360,9 +2522,10 @@ namespace Arduino_FFB_Yoke_App
       // lb_PITCH_FRICTION_GAIN
       // 
       this.lb_PITCH_FRICTION_GAIN.AutoSize = true;
-      this.lb_PITCH_FRICTION_GAIN.Location = new System.Drawing.Point(612, 389);
+      this.lb_PITCH_FRICTION_GAIN.Location = new System.Drawing.Point(918, 598);
+      this.lb_PITCH_FRICTION_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_PITCH_FRICTION_GAIN.Name = "lb_PITCH_FRICTION_GAIN";
-      this.lb_PITCH_FRICTION_GAIN.Size = new System.Drawing.Size(66, 13);
+      this.lb_PITCH_FRICTION_GAIN.Size = new System.Drawing.Size(99, 20);
       this.lb_PITCH_FRICTION_GAIN.TabIndex = 246;
       this.lb_PITCH_FRICTION_GAIN.Text = "Friction Gain";
       // 
@@ -2370,9 +2533,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label148.AutoSize = true;
       this.label148.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label148.Location = new System.Drawing.Point(539, 434);
+      this.label148.Location = new System.Drawing.Point(808, 668);
+      this.label148.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label148.Name = "label148";
-      this.label148.Size = new System.Drawing.Size(19, 13);
+      this.label148.Size = new System.Drawing.Size(27, 20);
       this.label148.TabIndex = 245;
       this.label148.Text = "25";
       // 
@@ -2380,9 +2544,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label149.AutoSize = true;
       this.label149.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label149.Location = new System.Drawing.Point(729, 434);
+      this.label149.Location = new System.Drawing.Point(1094, 668);
+      this.label149.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label149.Name = "label149";
-      this.label149.Size = new System.Drawing.Size(19, 13);
+      this.label149.Size = new System.Drawing.Size(27, 20);
       this.label149.TabIndex = 244;
       this.label149.Text = "75";
       // 
@@ -2390,9 +2555,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label150.AutoSize = true;
       this.label150.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label150.Location = new System.Drawing.Point(635, 434);
+      this.label150.Location = new System.Drawing.Point(952, 668);
+      this.label150.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label150.Name = "label150";
-      this.label150.Size = new System.Drawing.Size(19, 13);
+      this.label150.Size = new System.Drawing.Size(27, 20);
       this.label150.TabIndex = 243;
       this.label150.Text = "50";
       // 
@@ -2400,9 +2566,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label151.AutoSize = true;
       this.label151.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label151.Location = new System.Drawing.Point(819, 434);
+      this.label151.Location = new System.Drawing.Point(1228, 668);
+      this.label151.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label151.Name = "label151";
-      this.label151.Size = new System.Drawing.Size(25, 13);
+      this.label151.Size = new System.Drawing.Size(36, 20);
       this.label151.TabIndex = 242;
       this.label151.Text = "100";
       // 
@@ -2410,9 +2577,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label152.AutoSize = true;
       this.label152.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label152.Location = new System.Drawing.Point(451, 434);
+      this.label152.Location = new System.Drawing.Point(676, 668);
+      this.label152.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label152.Name = "label152";
-      this.label152.Size = new System.Drawing.Size(13, 13);
+      this.label152.Size = new System.Drawing.Size(18, 20);
       this.label152.TabIndex = 241;
       this.label152.Text = "0";
       // 
@@ -2420,10 +2588,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_PITCH_FRICTION_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_PITCH_FRICTION_GAIN.LargeChange = 10;
-      this.tb_PITCH_FRICTION_GAIN.Location = new System.Drawing.Point(444, 402);
+      this.tb_PITCH_FRICTION_GAIN.Location = new System.Drawing.Point(666, 618);
+      this.tb_PITCH_FRICTION_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_PITCH_FRICTION_GAIN.Maximum = 100;
       this.tb_PITCH_FRICTION_GAIN.Name = "tb_PITCH_FRICTION_GAIN";
-      this.tb_PITCH_FRICTION_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_PITCH_FRICTION_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_PITCH_FRICTION_GAIN.TabIndex = 165;
       this.tb_PITCH_FRICTION_GAIN.TickFrequency = 5;
       this.tb_PITCH_FRICTION_GAIN.Scroll += new System.EventHandler(this.tb_PITCH_FRICTION_GAIN_Scroll);
@@ -2432,9 +2601,10 @@ namespace Arduino_FFB_Yoke_App
       // lb_PITCH_INERTIA_GAIN
       // 
       this.lb_PITCH_INERTIA_GAIN.AutoSize = true;
-      this.lb_PITCH_INERTIA_GAIN.Location = new System.Drawing.Point(181, 388);
+      this.lb_PITCH_INERTIA_GAIN.Location = new System.Drawing.Point(272, 597);
+      this.lb_PITCH_INERTIA_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_PITCH_INERTIA_GAIN.Name = "lb_PITCH_INERTIA_GAIN";
-      this.lb_PITCH_INERTIA_GAIN.Size = new System.Drawing.Size(61, 13);
+      this.lb_PITCH_INERTIA_GAIN.Size = new System.Drawing.Size(92, 20);
       this.lb_PITCH_INERTIA_GAIN.TabIndex = 234;
       this.lb_PITCH_INERTIA_GAIN.Text = "Inertia Gain";
       // 
@@ -2442,9 +2612,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label160.AutoSize = true;
       this.label160.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label160.Location = new System.Drawing.Point(108, 434);
+      this.label160.Location = new System.Drawing.Point(162, 668);
+      this.label160.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label160.Name = "label160";
-      this.label160.Size = new System.Drawing.Size(19, 13);
+      this.label160.Size = new System.Drawing.Size(27, 20);
       this.label160.TabIndex = 233;
       this.label160.Text = "25";
       // 
@@ -2452,9 +2623,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label161.AutoSize = true;
       this.label161.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label161.Location = new System.Drawing.Point(299, 434);
+      this.label161.Location = new System.Drawing.Point(448, 668);
+      this.label161.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label161.Name = "label161";
-      this.label161.Size = new System.Drawing.Size(19, 13);
+      this.label161.Size = new System.Drawing.Size(27, 20);
       this.label161.TabIndex = 232;
       this.label161.Text = "75";
       // 
@@ -2462,9 +2634,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label162.AutoSize = true;
       this.label162.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label162.Location = new System.Drawing.Point(204, 434);
+      this.label162.Location = new System.Drawing.Point(306, 668);
+      this.label162.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label162.Name = "label162";
-      this.label162.Size = new System.Drawing.Size(19, 13);
+      this.label162.Size = new System.Drawing.Size(27, 20);
       this.label162.TabIndex = 231;
       this.label162.Text = "50";
       // 
@@ -2472,9 +2645,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label163.AutoSize = true;
       this.label163.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label163.Location = new System.Drawing.Point(388, 434);
+      this.label163.Location = new System.Drawing.Point(582, 668);
+      this.label163.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label163.Name = "label163";
-      this.label163.Size = new System.Drawing.Size(25, 13);
+      this.label163.Size = new System.Drawing.Size(36, 20);
       this.label163.TabIndex = 230;
       this.label163.Text = "100";
       // 
@@ -2482,9 +2656,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label164.AutoSize = true;
       this.label164.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label164.Location = new System.Drawing.Point(20, 434);
+      this.label164.Location = new System.Drawing.Point(30, 668);
+      this.label164.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label164.Name = "label164";
-      this.label164.Size = new System.Drawing.Size(13, 13);
+      this.label164.Size = new System.Drawing.Size(18, 20);
       this.label164.TabIndex = 229;
       this.label164.Text = "0";
       // 
@@ -2492,10 +2667,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_PITCH_INERTIA_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_PITCH_INERTIA_GAIN.LargeChange = 10;
-      this.tb_PITCH_INERTIA_GAIN.Location = new System.Drawing.Point(13, 402);
+      this.tb_PITCH_INERTIA_GAIN.Location = new System.Drawing.Point(20, 618);
+      this.tb_PITCH_INERTIA_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_PITCH_INERTIA_GAIN.Maximum = 100;
       this.tb_PITCH_INERTIA_GAIN.Name = "tb_PITCH_INERTIA_GAIN";
-      this.tb_PITCH_INERTIA_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_PITCH_INERTIA_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_PITCH_INERTIA_GAIN.TabIndex = 163;
       this.tb_PITCH_INERTIA_GAIN.TickFrequency = 5;
       this.tb_PITCH_INERTIA_GAIN.Scroll += new System.EventHandler(this.tb_PITCH_INERTIA_GAIN_Scroll);
@@ -2505,9 +2681,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label165.AutoSize = true;
       this.label165.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label165.Location = new System.Drawing.Point(540, 370);
+      this.label165.Location = new System.Drawing.Point(810, 569);
+      this.label165.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label165.Name = "label165";
-      this.label165.Size = new System.Drawing.Size(19, 13);
+      this.label165.Size = new System.Drawing.Size(27, 20);
       this.label165.TabIndex = 228;
       this.label165.Text = "25";
       // 
@@ -2515,9 +2692,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label166.AutoSize = true;
       this.label166.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label166.Location = new System.Drawing.Point(731, 370);
+      this.label166.Location = new System.Drawing.Point(1096, 569);
+      this.label166.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label166.Name = "label166";
-      this.label166.Size = new System.Drawing.Size(19, 13);
+      this.label166.Size = new System.Drawing.Size(27, 20);
       this.label166.TabIndex = 227;
       this.label166.Text = "75";
       // 
@@ -2525,9 +2703,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label167.AutoSize = true;
       this.label167.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label167.Location = new System.Drawing.Point(636, 370);
+      this.label167.Location = new System.Drawing.Point(954, 569);
+      this.label167.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label167.Name = "label167";
-      this.label167.Size = new System.Drawing.Size(19, 13);
+      this.label167.Size = new System.Drawing.Size(27, 20);
       this.label167.TabIndex = 226;
       this.label167.Text = "50";
       // 
@@ -2535,9 +2714,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label168.AutoSize = true;
       this.label168.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label168.Location = new System.Drawing.Point(816, 370);
+      this.label168.Location = new System.Drawing.Point(1224, 569);
+      this.label168.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label168.Name = "label168";
-      this.label168.Size = new System.Drawing.Size(25, 13);
+      this.label168.Size = new System.Drawing.Size(36, 20);
       this.label168.TabIndex = 225;
       this.label168.Text = "100";
       // 
@@ -2545,18 +2725,20 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label169.AutoSize = true;
       this.label169.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label169.Location = new System.Drawing.Point(452, 370);
+      this.label169.Location = new System.Drawing.Point(678, 569);
+      this.label169.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label169.Name = "label169";
-      this.label169.Size = new System.Drawing.Size(13, 13);
+      this.label169.Size = new System.Drawing.Size(18, 20);
       this.label169.TabIndex = 224;
       this.label169.Text = "0";
       // 
       // lb_PITCH_DAMPER_GAIN
       // 
       this.lb_PITCH_DAMPER_GAIN.AutoSize = true;
-      this.lb_PITCH_DAMPER_GAIN.Location = new System.Drawing.Point(613, 327);
+      this.lb_PITCH_DAMPER_GAIN.Location = new System.Drawing.Point(920, 503);
+      this.lb_PITCH_DAMPER_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_PITCH_DAMPER_GAIN.Name = "lb_PITCH_DAMPER_GAIN";
-      this.lb_PITCH_DAMPER_GAIN.Size = new System.Drawing.Size(69, 13);
+      this.lb_PITCH_DAMPER_GAIN.Size = new System.Drawing.Size(104, 20);
       this.lb_PITCH_DAMPER_GAIN.TabIndex = 223;
       this.lb_PITCH_DAMPER_GAIN.Text = "Damper Gain";
       // 
@@ -2564,10 +2746,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_PITCH_DAMPER_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_PITCH_DAMPER_GAIN.LargeChange = 10;
-      this.tb_PITCH_DAMPER_GAIN.Location = new System.Drawing.Point(444, 340);
+      this.tb_PITCH_DAMPER_GAIN.Location = new System.Drawing.Point(666, 523);
+      this.tb_PITCH_DAMPER_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_PITCH_DAMPER_GAIN.Maximum = 100;
       this.tb_PITCH_DAMPER_GAIN.Name = "tb_PITCH_DAMPER_GAIN";
-      this.tb_PITCH_DAMPER_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_PITCH_DAMPER_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_PITCH_DAMPER_GAIN.TabIndex = 162;
       this.tb_PITCH_DAMPER_GAIN.TickFrequency = 5;
       this.tb_PITCH_DAMPER_GAIN.Scroll += new System.EventHandler(this.tb_PITCH_DAMPER_GAIN_Scroll);
@@ -2576,9 +2759,10 @@ namespace Arduino_FFB_Yoke_App
       // lb_PITCH_SPRING_GAIN
       // 
       this.lb_PITCH_SPRING_GAIN.AutoSize = true;
-      this.lb_PITCH_SPRING_GAIN.Location = new System.Drawing.Point(180, 327);
+      this.lb_PITCH_SPRING_GAIN.Location = new System.Drawing.Point(270, 503);
+      this.lb_PITCH_SPRING_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_PITCH_SPRING_GAIN.Name = "lb_PITCH_SPRING_GAIN";
-      this.lb_PITCH_SPRING_GAIN.Size = new System.Drawing.Size(62, 13);
+      this.lb_PITCH_SPRING_GAIN.Size = new System.Drawing.Size(93, 20);
       this.lb_PITCH_SPRING_GAIN.TabIndex = 222;
       this.lb_PITCH_SPRING_GAIN.Text = "Spring Gain";
       // 
@@ -2586,9 +2770,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label172.AutoSize = true;
       this.label172.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label172.Location = new System.Drawing.Point(108, 370);
+      this.label172.Location = new System.Drawing.Point(162, 569);
+      this.label172.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label172.Name = "label172";
-      this.label172.Size = new System.Drawing.Size(19, 13);
+      this.label172.Size = new System.Drawing.Size(27, 20);
       this.label172.TabIndex = 221;
       this.label172.Text = "25";
       // 
@@ -2596,9 +2781,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label173.AutoSize = true;
       this.label173.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label173.Location = new System.Drawing.Point(299, 370);
+      this.label173.Location = new System.Drawing.Point(448, 569);
+      this.label173.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label173.Name = "label173";
-      this.label173.Size = new System.Drawing.Size(19, 13);
+      this.label173.Size = new System.Drawing.Size(27, 20);
       this.label173.TabIndex = 220;
       this.label173.Text = "75";
       // 
@@ -2606,9 +2792,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label174.AutoSize = true;
       this.label174.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label174.Location = new System.Drawing.Point(204, 370);
+      this.label174.Location = new System.Drawing.Point(306, 569);
+      this.label174.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label174.Name = "label174";
-      this.label174.Size = new System.Drawing.Size(19, 13);
+      this.label174.Size = new System.Drawing.Size(27, 20);
       this.label174.TabIndex = 219;
       this.label174.Text = "50";
       // 
@@ -2616,9 +2803,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label175.AutoSize = true;
       this.label175.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label175.Location = new System.Drawing.Point(388, 370);
+      this.label175.Location = new System.Drawing.Point(582, 569);
+      this.label175.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label175.Name = "label175";
-      this.label175.Size = new System.Drawing.Size(25, 13);
+      this.label175.Size = new System.Drawing.Size(36, 20);
       this.label175.TabIndex = 218;
       this.label175.Text = "100";
       // 
@@ -2626,9 +2814,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label176.AutoSize = true;
       this.label176.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label176.Location = new System.Drawing.Point(20, 370);
+      this.label176.Location = new System.Drawing.Point(30, 569);
+      this.label176.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label176.Name = "label176";
-      this.label176.Size = new System.Drawing.Size(13, 13);
+      this.label176.Size = new System.Drawing.Size(18, 20);
       this.label176.TabIndex = 217;
       this.label176.Text = "0";
       // 
@@ -2636,10 +2825,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_PITCH_SPRING_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_PITCH_SPRING_GAIN.LargeChange = 10;
-      this.tb_PITCH_SPRING_GAIN.Location = new System.Drawing.Point(13, 340);
+      this.tb_PITCH_SPRING_GAIN.Location = new System.Drawing.Point(20, 523);
+      this.tb_PITCH_SPRING_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_PITCH_SPRING_GAIN.Maximum = 100;
       this.tb_PITCH_SPRING_GAIN.Name = "tb_PITCH_SPRING_GAIN";
-      this.tb_PITCH_SPRING_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_PITCH_SPRING_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_PITCH_SPRING_GAIN.TabIndex = 161;
       this.tb_PITCH_SPRING_GAIN.TickFrequency = 5;
       this.tb_PITCH_SPRING_GAIN.Scroll += new System.EventHandler(this.tb_PITCH_SPRING_GAIN_Scroll);
@@ -2649,9 +2839,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label177.AutoSize = true;
       this.label177.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label177.Location = new System.Drawing.Point(540, 306);
+      this.label177.Location = new System.Drawing.Point(810, 471);
+      this.label177.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label177.Name = "label177";
-      this.label177.Size = new System.Drawing.Size(19, 13);
+      this.label177.Size = new System.Drawing.Size(27, 20);
       this.label177.TabIndex = 216;
       this.label177.Text = "25";
       // 
@@ -2659,9 +2850,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label178.AutoSize = true;
       this.label178.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label178.Location = new System.Drawing.Point(731, 306);
+      this.label178.Location = new System.Drawing.Point(1096, 471);
+      this.label178.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label178.Name = "label178";
-      this.label178.Size = new System.Drawing.Size(19, 13);
+      this.label178.Size = new System.Drawing.Size(27, 20);
       this.label178.TabIndex = 215;
       this.label178.Text = "75";
       // 
@@ -2669,9 +2861,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label179.AutoSize = true;
       this.label179.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label179.Location = new System.Drawing.Point(636, 306);
+      this.label179.Location = new System.Drawing.Point(954, 471);
+      this.label179.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label179.Name = "label179";
-      this.label179.Size = new System.Drawing.Size(19, 13);
+      this.label179.Size = new System.Drawing.Size(27, 20);
       this.label179.TabIndex = 214;
       this.label179.Text = "50";
       // 
@@ -2679,9 +2872,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label180.AutoSize = true;
       this.label180.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label180.Location = new System.Drawing.Point(816, 306);
+      this.label180.Location = new System.Drawing.Point(1224, 471);
+      this.label180.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label180.Name = "label180";
-      this.label180.Size = new System.Drawing.Size(25, 13);
+      this.label180.Size = new System.Drawing.Size(36, 20);
       this.label180.TabIndex = 213;
       this.label180.Text = "100";
       // 
@@ -2689,18 +2883,20 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label181.AutoSize = true;
       this.label181.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label181.Location = new System.Drawing.Point(452, 306);
+      this.label181.Location = new System.Drawing.Point(678, 471);
+      this.label181.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label181.Name = "label181";
-      this.label181.Size = new System.Drawing.Size(13, 13);
+      this.label181.Size = new System.Drawing.Size(18, 20);
       this.label181.TabIndex = 212;
       this.label181.Text = "0";
       // 
       // lb_PITCH_SAWTOOTH_UP_GAIN
       // 
       this.lb_PITCH_SAWTOOTH_UP_GAIN.AutoSize = true;
-      this.lb_PITCH_SAWTOOTH_UP_GAIN.Location = new System.Drawing.Point(607, 260);
+      this.lb_PITCH_SAWTOOTH_UP_GAIN.Location = new System.Drawing.Point(910, 400);
+      this.lb_PITCH_SAWTOOTH_UP_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_PITCH_SAWTOOTH_UP_GAIN.Name = "lb_PITCH_SAWTOOTH_UP_GAIN";
-      this.lb_PITCH_SAWTOOTH_UP_GAIN.Size = new System.Drawing.Size(94, 13);
+      this.lb_PITCH_SAWTOOTH_UP_GAIN.Size = new System.Drawing.Size(140, 20);
       this.lb_PITCH_SAWTOOTH_UP_GAIN.TabIndex = 211;
       this.lb_PITCH_SAWTOOTH_UP_GAIN.Text = "Sawtooth Up Gain";
       // 
@@ -2708,10 +2904,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_PITCH_SAWTOOTH_UP_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_PITCH_SAWTOOTH_UP_GAIN.LargeChange = 10;
-      this.tb_PITCH_SAWTOOTH_UP_GAIN.Location = new System.Drawing.Point(444, 274);
+      this.tb_PITCH_SAWTOOTH_UP_GAIN.Location = new System.Drawing.Point(666, 422);
+      this.tb_PITCH_SAWTOOTH_UP_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_PITCH_SAWTOOTH_UP_GAIN.Maximum = 100;
       this.tb_PITCH_SAWTOOTH_UP_GAIN.Name = "tb_PITCH_SAWTOOTH_UP_GAIN";
-      this.tb_PITCH_SAWTOOTH_UP_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_PITCH_SAWTOOTH_UP_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_PITCH_SAWTOOTH_UP_GAIN.TabIndex = 160;
       this.tb_PITCH_SAWTOOTH_UP_GAIN.TickFrequency = 5;
       this.tb_PITCH_SAWTOOTH_UP_GAIN.Scroll += new System.EventHandler(this.tb_PITCH_SAWTOOT_UP_GAIN_Scroll);
@@ -2720,9 +2917,10 @@ namespace Arduino_FFB_Yoke_App
       // lb_PITCH_SAWTOOT_DOWN_GAIN
       // 
       this.lb_PITCH_SAWTOOT_DOWN_GAIN.AutoSize = true;
-      this.lb_PITCH_SAWTOOT_DOWN_GAIN.Location = new System.Drawing.Point(168, 260);
+      this.lb_PITCH_SAWTOOT_DOWN_GAIN.Location = new System.Drawing.Point(252, 400);
+      this.lb_PITCH_SAWTOOT_DOWN_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_PITCH_SAWTOOT_DOWN_GAIN.Name = "lb_PITCH_SAWTOOT_DOWN_GAIN";
-      this.lb_PITCH_SAWTOOT_DOWN_GAIN.Size = new System.Drawing.Size(108, 13);
+      this.lb_PITCH_SAWTOOT_DOWN_GAIN.Size = new System.Drawing.Size(160, 20);
       this.lb_PITCH_SAWTOOT_DOWN_GAIN.TabIndex = 210;
       this.lb_PITCH_SAWTOOT_DOWN_GAIN.Text = "Sawtooth Down Gain";
       // 
@@ -2730,9 +2928,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label184.AutoSize = true;
       this.label184.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label184.Location = new System.Drawing.Point(108, 306);
+      this.label184.Location = new System.Drawing.Point(162, 471);
+      this.label184.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label184.Name = "label184";
-      this.label184.Size = new System.Drawing.Size(19, 13);
+      this.label184.Size = new System.Drawing.Size(27, 20);
       this.label184.TabIndex = 209;
       this.label184.Text = "25";
       // 
@@ -2740,9 +2939,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label185.AutoSize = true;
       this.label185.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label185.Location = new System.Drawing.Point(299, 306);
+      this.label185.Location = new System.Drawing.Point(448, 471);
+      this.label185.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label185.Name = "label185";
-      this.label185.Size = new System.Drawing.Size(19, 13);
+      this.label185.Size = new System.Drawing.Size(27, 20);
       this.label185.TabIndex = 208;
       this.label185.Text = "75";
       // 
@@ -2750,9 +2950,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label186.AutoSize = true;
       this.label186.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label186.Location = new System.Drawing.Point(204, 306);
+      this.label186.Location = new System.Drawing.Point(306, 471);
+      this.label186.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label186.Name = "label186";
-      this.label186.Size = new System.Drawing.Size(19, 13);
+      this.label186.Size = new System.Drawing.Size(27, 20);
       this.label186.TabIndex = 207;
       this.label186.Text = "50";
       // 
@@ -2760,9 +2961,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label187.AutoSize = true;
       this.label187.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label187.Location = new System.Drawing.Point(388, 306);
+      this.label187.Location = new System.Drawing.Point(582, 471);
+      this.label187.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label187.Name = "label187";
-      this.label187.Size = new System.Drawing.Size(25, 13);
+      this.label187.Size = new System.Drawing.Size(36, 20);
       this.label187.TabIndex = 206;
       this.label187.Text = "100";
       // 
@@ -2770,9 +2972,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label188.AutoSize = true;
       this.label188.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label188.Location = new System.Drawing.Point(20, 306);
+      this.label188.Location = new System.Drawing.Point(30, 471);
+      this.label188.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label188.Name = "label188";
-      this.label188.Size = new System.Drawing.Size(13, 13);
+      this.label188.Size = new System.Drawing.Size(18, 20);
       this.label188.TabIndex = 205;
       this.label188.Text = "0";
       // 
@@ -2780,10 +2983,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_PITCH_SAWTOOT_DOWN_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_PITCH_SAWTOOT_DOWN_GAIN.LargeChange = 10;
-      this.tb_PITCH_SAWTOOT_DOWN_GAIN.Location = new System.Drawing.Point(13, 274);
+      this.tb_PITCH_SAWTOOT_DOWN_GAIN.Location = new System.Drawing.Point(20, 422);
+      this.tb_PITCH_SAWTOOT_DOWN_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_PITCH_SAWTOOT_DOWN_GAIN.Maximum = 100;
       this.tb_PITCH_SAWTOOT_DOWN_GAIN.Name = "tb_PITCH_SAWTOOT_DOWN_GAIN";
-      this.tb_PITCH_SAWTOOT_DOWN_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_PITCH_SAWTOOT_DOWN_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_PITCH_SAWTOOT_DOWN_GAIN.TabIndex = 159;
       this.tb_PITCH_SAWTOOT_DOWN_GAIN.TickFrequency = 5;
       this.tb_PITCH_SAWTOOT_DOWN_GAIN.Scroll += new System.EventHandler(this.tb_PITCH_SAWTOOT_DOWN_GAIN_Scroll);
@@ -2793,9 +2997,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label189.AutoSize = true;
       this.label189.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label189.Location = new System.Drawing.Point(540, 244);
+      this.label189.Location = new System.Drawing.Point(810, 375);
+      this.label189.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label189.Name = "label189";
-      this.label189.Size = new System.Drawing.Size(19, 13);
+      this.label189.Size = new System.Drawing.Size(27, 20);
       this.label189.TabIndex = 204;
       this.label189.Text = "25";
       // 
@@ -2803,9 +3008,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label190.AutoSize = true;
       this.label190.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label190.Location = new System.Drawing.Point(731, 244);
+      this.label190.Location = new System.Drawing.Point(1096, 375);
+      this.label190.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label190.Name = "label190";
-      this.label190.Size = new System.Drawing.Size(19, 13);
+      this.label190.Size = new System.Drawing.Size(27, 20);
       this.label190.TabIndex = 203;
       this.label190.Text = "75";
       // 
@@ -2813,9 +3019,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label191.AutoSize = true;
       this.label191.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label191.Location = new System.Drawing.Point(636, 244);
+      this.label191.Location = new System.Drawing.Point(954, 375);
+      this.label191.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label191.Name = "label191";
-      this.label191.Size = new System.Drawing.Size(19, 13);
+      this.label191.Size = new System.Drawing.Size(27, 20);
       this.label191.TabIndex = 202;
       this.label191.Text = "50";
       // 
@@ -2823,9 +3030,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label192.AutoSize = true;
       this.label192.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label192.Location = new System.Drawing.Point(816, 244);
+      this.label192.Location = new System.Drawing.Point(1224, 375);
+      this.label192.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label192.Name = "label192";
-      this.label192.Size = new System.Drawing.Size(25, 13);
+      this.label192.Size = new System.Drawing.Size(36, 20);
       this.label192.TabIndex = 201;
       this.label192.Text = "100";
       // 
@@ -2833,18 +3041,20 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label193.AutoSize = true;
       this.label193.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label193.Location = new System.Drawing.Point(452, 244);
+      this.label193.Location = new System.Drawing.Point(678, 375);
+      this.label193.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label193.Name = "label193";
-      this.label193.Size = new System.Drawing.Size(13, 13);
+      this.label193.Size = new System.Drawing.Size(18, 20);
       this.label193.TabIndex = 200;
       this.label193.Text = "0";
       // 
       // lb_PITCH_TRIANGLE_GAIN
       // 
       this.lb_PITCH_TRIANGLE_GAIN.AutoSize = true;
-      this.lb_PITCH_TRIANGLE_GAIN.Location = new System.Drawing.Point(613, 199);
+      this.lb_PITCH_TRIANGLE_GAIN.Location = new System.Drawing.Point(920, 306);
+      this.lb_PITCH_TRIANGLE_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_PITCH_TRIANGLE_GAIN.Name = "lb_PITCH_TRIANGLE_GAIN";
-      this.lb_PITCH_TRIANGLE_GAIN.Size = new System.Drawing.Size(70, 13);
+      this.lb_PITCH_TRIANGLE_GAIN.Size = new System.Drawing.Size(103, 20);
       this.lb_PITCH_TRIANGLE_GAIN.TabIndex = 199;
       this.lb_PITCH_TRIANGLE_GAIN.Text = "Triangle Gain";
       // 
@@ -2852,10 +3062,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_PITCH_TRIANGLE_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_PITCH_TRIANGLE_GAIN.LargeChange = 10;
-      this.tb_PITCH_TRIANGLE_GAIN.Location = new System.Drawing.Point(444, 212);
+      this.tb_PITCH_TRIANGLE_GAIN.Location = new System.Drawing.Point(666, 326);
+      this.tb_PITCH_TRIANGLE_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_PITCH_TRIANGLE_GAIN.Maximum = 100;
       this.tb_PITCH_TRIANGLE_GAIN.Name = "tb_PITCH_TRIANGLE_GAIN";
-      this.tb_PITCH_TRIANGLE_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_PITCH_TRIANGLE_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_PITCH_TRIANGLE_GAIN.TabIndex = 158;
       this.tb_PITCH_TRIANGLE_GAIN.TickFrequency = 5;
       this.tb_PITCH_TRIANGLE_GAIN.Scroll += new System.EventHandler(this.tb_PITCH_TRIANGLE_GAIN_Scroll);
@@ -2864,9 +3075,10 @@ namespace Arduino_FFB_Yoke_App
       // lb_PITCH_SIN_GAIN
       // 
       this.lb_PITCH_SIN_GAIN.AutoSize = true;
-      this.lb_PITCH_SIN_GAIN.Location = new System.Drawing.Point(189, 199);
+      this.lb_PITCH_SIN_GAIN.Location = new System.Drawing.Point(284, 306);
+      this.lb_PITCH_SIN_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_PITCH_SIN_GAIN.Name = "lb_PITCH_SIN_GAIN";
-      this.lb_PITCH_SIN_GAIN.Size = new System.Drawing.Size(53, 13);
+      this.lb_PITCH_SIN_GAIN.Size = new System.Drawing.Size(79, 20);
       this.lb_PITCH_SIN_GAIN.TabIndex = 198;
       this.lb_PITCH_SIN_GAIN.Text = "Sine Gain";
       // 
@@ -2874,9 +3086,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label196.AutoSize = true;
       this.label196.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label196.Location = new System.Drawing.Point(108, 244);
+      this.label196.Location = new System.Drawing.Point(162, 375);
+      this.label196.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label196.Name = "label196";
-      this.label196.Size = new System.Drawing.Size(19, 13);
+      this.label196.Size = new System.Drawing.Size(27, 20);
       this.label196.TabIndex = 197;
       this.label196.Text = "25";
       // 
@@ -2884,9 +3097,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label197.AutoSize = true;
       this.label197.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label197.Location = new System.Drawing.Point(299, 244);
+      this.label197.Location = new System.Drawing.Point(448, 375);
+      this.label197.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label197.Name = "label197";
-      this.label197.Size = new System.Drawing.Size(19, 13);
+      this.label197.Size = new System.Drawing.Size(27, 20);
       this.label197.TabIndex = 196;
       this.label197.Text = "75";
       // 
@@ -2894,9 +3108,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label198.AutoSize = true;
       this.label198.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label198.Location = new System.Drawing.Point(204, 244);
+      this.label198.Location = new System.Drawing.Point(306, 375);
+      this.label198.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label198.Name = "label198";
-      this.label198.Size = new System.Drawing.Size(19, 13);
+      this.label198.Size = new System.Drawing.Size(27, 20);
       this.label198.TabIndex = 195;
       this.label198.Text = "50";
       // 
@@ -2904,9 +3119,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label199.AutoSize = true;
       this.label199.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label199.Location = new System.Drawing.Point(388, 244);
+      this.label199.Location = new System.Drawing.Point(582, 375);
+      this.label199.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label199.Name = "label199";
-      this.label199.Size = new System.Drawing.Size(25, 13);
+      this.label199.Size = new System.Drawing.Size(36, 20);
       this.label199.TabIndex = 194;
       this.label199.Text = "100";
       // 
@@ -2914,9 +3130,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label200.AutoSize = true;
       this.label200.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label200.Location = new System.Drawing.Point(20, 244);
+      this.label200.Location = new System.Drawing.Point(30, 375);
+      this.label200.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label200.Name = "label200";
-      this.label200.Size = new System.Drawing.Size(13, 13);
+      this.label200.Size = new System.Drawing.Size(18, 20);
       this.label200.TabIndex = 193;
       this.label200.Text = "0";
       // 
@@ -2924,10 +3141,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_PITCH_SIN_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_PITCH_SIN_GAIN.LargeChange = 10;
-      this.tb_PITCH_SIN_GAIN.Location = new System.Drawing.Point(13, 212);
+      this.tb_PITCH_SIN_GAIN.Location = new System.Drawing.Point(20, 326);
+      this.tb_PITCH_SIN_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_PITCH_SIN_GAIN.Maximum = 100;
       this.tb_PITCH_SIN_GAIN.Name = "tb_PITCH_SIN_GAIN";
-      this.tb_PITCH_SIN_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_PITCH_SIN_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_PITCH_SIN_GAIN.TabIndex = 157;
       this.tb_PITCH_SIN_GAIN.TickFrequency = 5;
       this.tb_PITCH_SIN_GAIN.Scroll += new System.EventHandler(this.tb_PITCH_SIN_GAIN_Scroll);
@@ -2937,9 +3155,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label201.AutoSize = true;
       this.label201.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label201.Location = new System.Drawing.Point(540, 175);
+      this.label201.Location = new System.Drawing.Point(810, 269);
+      this.label201.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label201.Name = "label201";
-      this.label201.Size = new System.Drawing.Size(19, 13);
+      this.label201.Size = new System.Drawing.Size(27, 20);
       this.label201.TabIndex = 192;
       this.label201.Text = "25";
       // 
@@ -2947,9 +3166,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label202.AutoSize = true;
       this.label202.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label202.Location = new System.Drawing.Point(731, 175);
+      this.label202.Location = new System.Drawing.Point(1096, 269);
+      this.label202.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label202.Name = "label202";
-      this.label202.Size = new System.Drawing.Size(19, 13);
+      this.label202.Size = new System.Drawing.Size(27, 20);
       this.label202.TabIndex = 191;
       this.label202.Text = "75";
       // 
@@ -2957,9 +3177,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label203.AutoSize = true;
       this.label203.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label203.Location = new System.Drawing.Point(636, 175);
+      this.label203.Location = new System.Drawing.Point(954, 269);
+      this.label203.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label203.Name = "label203";
-      this.label203.Size = new System.Drawing.Size(19, 13);
+      this.label203.Size = new System.Drawing.Size(27, 20);
       this.label203.TabIndex = 190;
       this.label203.Text = "50";
       // 
@@ -2967,9 +3188,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label204.AutoSize = true;
       this.label204.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label204.Location = new System.Drawing.Point(816, 175);
+      this.label204.Location = new System.Drawing.Point(1224, 269);
+      this.label204.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label204.Name = "label204";
-      this.label204.Size = new System.Drawing.Size(25, 13);
+      this.label204.Size = new System.Drawing.Size(36, 20);
       this.label204.TabIndex = 189;
       this.label204.Text = "100";
       // 
@@ -2977,18 +3199,20 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label205.AutoSize = true;
       this.label205.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label205.Location = new System.Drawing.Point(452, 175);
+      this.label205.Location = new System.Drawing.Point(678, 269);
+      this.label205.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label205.Name = "label205";
-      this.label205.Size = new System.Drawing.Size(13, 13);
+      this.label205.Size = new System.Drawing.Size(18, 20);
       this.label205.TabIndex = 188;
       this.label205.Text = "0";
       // 
       // lb_PITCH_SQUARE_GAIN
       // 
       this.lb_PITCH_SQUARE_GAIN.AutoSize = true;
-      this.lb_PITCH_SQUARE_GAIN.Location = new System.Drawing.Point(616, 132);
+      this.lb_PITCH_SQUARE_GAIN.Location = new System.Drawing.Point(924, 203);
+      this.lb_PITCH_SQUARE_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_PITCH_SQUARE_GAIN.Name = "lb_PITCH_SQUARE_GAIN";
-      this.lb_PITCH_SQUARE_GAIN.Size = new System.Drawing.Size(66, 13);
+      this.lb_PITCH_SQUARE_GAIN.Size = new System.Drawing.Size(99, 20);
       this.lb_PITCH_SQUARE_GAIN.TabIndex = 187;
       this.lb_PITCH_SQUARE_GAIN.Text = "Square Gain";
       // 
@@ -2996,10 +3220,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_PITCH_SQUARE_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_PITCH_SQUARE_GAIN.LargeChange = 10;
-      this.tb_PITCH_SQUARE_GAIN.Location = new System.Drawing.Point(444, 145);
+      this.tb_PITCH_SQUARE_GAIN.Location = new System.Drawing.Point(666, 223);
+      this.tb_PITCH_SQUARE_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_PITCH_SQUARE_GAIN.Maximum = 100;
       this.tb_PITCH_SQUARE_GAIN.Name = "tb_PITCH_SQUARE_GAIN";
-      this.tb_PITCH_SQUARE_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_PITCH_SQUARE_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_PITCH_SQUARE_GAIN.TabIndex = 156;
       this.tb_PITCH_SQUARE_GAIN.TickFrequency = 5;
       this.tb_PITCH_SQUARE_GAIN.Scroll += new System.EventHandler(this.tb_PITCH_SQUARE_GAIN_Scroll);
@@ -3008,9 +3233,10 @@ namespace Arduino_FFB_Yoke_App
       // lb_PITCH_RAMP_GAIN
       // 
       this.lb_PITCH_RAMP_GAIN.AutoSize = true;
-      this.lb_PITCH_RAMP_GAIN.Location = new System.Drawing.Point(187, 132);
+      this.lb_PITCH_RAMP_GAIN.Location = new System.Drawing.Point(280, 203);
+      this.lb_PITCH_RAMP_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_PITCH_RAMP_GAIN.Name = "lb_PITCH_RAMP_GAIN";
-      this.lb_PITCH_RAMP_GAIN.Size = new System.Drawing.Size(60, 13);
+      this.lb_PITCH_RAMP_GAIN.Size = new System.Drawing.Size(90, 20);
       this.lb_PITCH_RAMP_GAIN.TabIndex = 186;
       this.lb_PITCH_RAMP_GAIN.Text = "Ramp Gain";
       // 
@@ -3018,9 +3244,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label208.AutoSize = true;
       this.label208.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label208.Location = new System.Drawing.Point(108, 175);
+      this.label208.Location = new System.Drawing.Point(162, 269);
+      this.label208.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label208.Name = "label208";
-      this.label208.Size = new System.Drawing.Size(19, 13);
+      this.label208.Size = new System.Drawing.Size(27, 20);
       this.label208.TabIndex = 185;
       this.label208.Text = "25";
       // 
@@ -3028,9 +3255,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label209.AutoSize = true;
       this.label209.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label209.Location = new System.Drawing.Point(299, 175);
+      this.label209.Location = new System.Drawing.Point(448, 269);
+      this.label209.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label209.Name = "label209";
-      this.label209.Size = new System.Drawing.Size(19, 13);
+      this.label209.Size = new System.Drawing.Size(27, 20);
       this.label209.TabIndex = 184;
       this.label209.Text = "75";
       // 
@@ -3038,9 +3266,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label210.AutoSize = true;
       this.label210.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label210.Location = new System.Drawing.Point(204, 175);
+      this.label210.Location = new System.Drawing.Point(306, 269);
+      this.label210.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label210.Name = "label210";
-      this.label210.Size = new System.Drawing.Size(19, 13);
+      this.label210.Size = new System.Drawing.Size(27, 20);
       this.label210.TabIndex = 183;
       this.label210.Text = "50";
       // 
@@ -3048,9 +3277,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label211.AutoSize = true;
       this.label211.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label211.Location = new System.Drawing.Point(388, 175);
+      this.label211.Location = new System.Drawing.Point(582, 269);
+      this.label211.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label211.Name = "label211";
-      this.label211.Size = new System.Drawing.Size(25, 13);
+      this.label211.Size = new System.Drawing.Size(36, 20);
       this.label211.TabIndex = 182;
       this.label211.Text = "100";
       // 
@@ -3058,9 +3288,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label212.AutoSize = true;
       this.label212.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label212.Location = new System.Drawing.Point(20, 175);
+      this.label212.Location = new System.Drawing.Point(30, 269);
+      this.label212.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label212.Name = "label212";
-      this.label212.Size = new System.Drawing.Size(13, 13);
+      this.label212.Size = new System.Drawing.Size(18, 20);
       this.label212.TabIndex = 181;
       this.label212.Text = "0";
       // 
@@ -3068,10 +3299,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_PITCH_RAMP_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_PITCH_RAMP_GAIN.LargeChange = 10;
-      this.tb_PITCH_RAMP_GAIN.Location = new System.Drawing.Point(13, 145);
+      this.tb_PITCH_RAMP_GAIN.Location = new System.Drawing.Point(20, 223);
+      this.tb_PITCH_RAMP_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_PITCH_RAMP_GAIN.Maximum = 100;
       this.tb_PITCH_RAMP_GAIN.Name = "tb_PITCH_RAMP_GAIN";
-      this.tb_PITCH_RAMP_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_PITCH_RAMP_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_PITCH_RAMP_GAIN.TabIndex = 155;
       this.tb_PITCH_RAMP_GAIN.TickFrequency = 5;
       this.tb_PITCH_RAMP_GAIN.Scroll += new System.EventHandler(this.tb_PITCH_RAMP_GAIN_Scroll);
@@ -3081,9 +3313,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label213.AutoSize = true;
       this.label213.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label213.Location = new System.Drawing.Point(540, 115);
+      this.label213.Location = new System.Drawing.Point(810, 177);
+      this.label213.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label213.Name = "label213";
-      this.label213.Size = new System.Drawing.Size(19, 13);
+      this.label213.Size = new System.Drawing.Size(27, 20);
       this.label213.TabIndex = 180;
       this.label213.Text = "25";
       // 
@@ -3091,9 +3324,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label214.AutoSize = true;
       this.label214.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label214.Location = new System.Drawing.Point(731, 115);
+      this.label214.Location = new System.Drawing.Point(1096, 177);
+      this.label214.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label214.Name = "label214";
-      this.label214.Size = new System.Drawing.Size(19, 13);
+      this.label214.Size = new System.Drawing.Size(27, 20);
       this.label214.TabIndex = 179;
       this.label214.Text = "75";
       // 
@@ -3101,9 +3335,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label215.AutoSize = true;
       this.label215.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label215.Location = new System.Drawing.Point(636, 115);
+      this.label215.Location = new System.Drawing.Point(954, 177);
+      this.label215.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label215.Name = "label215";
-      this.label215.Size = new System.Drawing.Size(19, 13);
+      this.label215.Size = new System.Drawing.Size(27, 20);
       this.label215.TabIndex = 178;
       this.label215.Text = "50";
       // 
@@ -3111,9 +3346,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label216.AutoSize = true;
       this.label216.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label216.Location = new System.Drawing.Point(816, 115);
+      this.label216.Location = new System.Drawing.Point(1224, 177);
+      this.label216.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label216.Name = "label216";
-      this.label216.Size = new System.Drawing.Size(25, 13);
+      this.label216.Size = new System.Drawing.Size(36, 20);
       this.label216.TabIndex = 177;
       this.label216.Text = "100";
       // 
@@ -3121,18 +3357,20 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label217.AutoSize = true;
       this.label217.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label217.Location = new System.Drawing.Point(452, 115);
+      this.label217.Location = new System.Drawing.Point(678, 177);
+      this.label217.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label217.Name = "label217";
-      this.label217.Size = new System.Drawing.Size(13, 13);
+      this.label217.Size = new System.Drawing.Size(18, 20);
       this.label217.TabIndex = 176;
       this.label217.Text = "0";
       // 
       // lb_PITCH_CONSTANT_GAIN
       // 
       this.lb_PITCH_CONSTANT_GAIN.AutoSize = true;
-      this.lb_PITCH_CONSTANT_GAIN.Location = new System.Drawing.Point(607, 69);
+      this.lb_PITCH_CONSTANT_GAIN.Location = new System.Drawing.Point(910, 106);
+      this.lb_PITCH_CONSTANT_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_PITCH_CONSTANT_GAIN.Name = "lb_PITCH_CONSTANT_GAIN";
-      this.lb_PITCH_CONSTANT_GAIN.Size = new System.Drawing.Size(74, 13);
+      this.lb_PITCH_CONSTANT_GAIN.Size = new System.Drawing.Size(112, 20);
       this.lb_PITCH_CONSTANT_GAIN.TabIndex = 175;
       this.lb_PITCH_CONSTANT_GAIN.Text = "Constant Gain";
       // 
@@ -3140,10 +3378,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_PITCH_CONSTANT_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_PITCH_CONSTANT_GAIN.LargeChange = 10;
-      this.tb_PITCH_CONSTANT_GAIN.Location = new System.Drawing.Point(444, 83);
+      this.tb_PITCH_CONSTANT_GAIN.Location = new System.Drawing.Point(666, 128);
+      this.tb_PITCH_CONSTANT_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_PITCH_CONSTANT_GAIN.Maximum = 100;
       this.tb_PITCH_CONSTANT_GAIN.Name = "tb_PITCH_CONSTANT_GAIN";
-      this.tb_PITCH_CONSTANT_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_PITCH_CONSTANT_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_PITCH_CONSTANT_GAIN.TabIndex = 154;
       this.tb_PITCH_CONSTANT_GAIN.TickFrequency = 5;
       this.tb_PITCH_CONSTANT_GAIN.Scroll += new System.EventHandler(this.tb_PITCH_CONSTANT_GAIN_Scroll);
@@ -3152,9 +3391,10 @@ namespace Arduino_FFB_Yoke_App
       // lb_PITCH_TOTAL_GAIN
       // 
       this.lb_PITCH_TOTAL_GAIN.AutoSize = true;
-      this.lb_PITCH_TOTAL_GAIN.Location = new System.Drawing.Point(187, 69);
+      this.lb_PITCH_TOTAL_GAIN.Location = new System.Drawing.Point(280, 106);
+      this.lb_PITCH_TOTAL_GAIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lb_PITCH_TOTAL_GAIN.Name = "lb_PITCH_TOTAL_GAIN";
-      this.lb_PITCH_TOTAL_GAIN.Size = new System.Drawing.Size(56, 13);
+      this.lb_PITCH_TOTAL_GAIN.Size = new System.Drawing.Size(82, 20);
       this.lb_PITCH_TOTAL_GAIN.TabIndex = 174;
       this.lb_PITCH_TOTAL_GAIN.Text = "Total Gain";
       // 
@@ -3162,9 +3402,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label220.AutoSize = true;
       this.label220.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label220.Location = new System.Drawing.Point(108, 115);
+      this.label220.Location = new System.Drawing.Point(162, 177);
+      this.label220.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label220.Name = "label220";
-      this.label220.Size = new System.Drawing.Size(19, 13);
+      this.label220.Size = new System.Drawing.Size(27, 20);
       this.label220.TabIndex = 173;
       this.label220.Text = "25";
       // 
@@ -3172,9 +3413,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label221.AutoSize = true;
       this.label221.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label221.Location = new System.Drawing.Point(299, 115);
+      this.label221.Location = new System.Drawing.Point(448, 177);
+      this.label221.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label221.Name = "label221";
-      this.label221.Size = new System.Drawing.Size(19, 13);
+      this.label221.Size = new System.Drawing.Size(27, 20);
       this.label221.TabIndex = 172;
       this.label221.Text = "75";
       // 
@@ -3182,9 +3424,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label222.AutoSize = true;
       this.label222.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label222.Location = new System.Drawing.Point(204, 115);
+      this.label222.Location = new System.Drawing.Point(306, 177);
+      this.label222.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label222.Name = "label222";
-      this.label222.Size = new System.Drawing.Size(19, 13);
+      this.label222.Size = new System.Drawing.Size(27, 20);
       this.label222.TabIndex = 171;
       this.label222.Text = "50";
       // 
@@ -3192,9 +3435,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label223.AutoSize = true;
       this.label223.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label223.Location = new System.Drawing.Point(388, 115);
+      this.label223.Location = new System.Drawing.Point(582, 177);
+      this.label223.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label223.Name = "label223";
-      this.label223.Size = new System.Drawing.Size(25, 13);
+      this.label223.Size = new System.Drawing.Size(36, 20);
       this.label223.TabIndex = 170;
       this.label223.Text = "100";
       // 
@@ -3202,9 +3446,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label224.AutoSize = true;
       this.label224.BackColor = System.Drawing.SystemColors.ControlLightLight;
-      this.label224.Location = new System.Drawing.Point(20, 115);
+      this.label224.Location = new System.Drawing.Point(30, 177);
+      this.label224.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label224.Name = "label224";
-      this.label224.Size = new System.Drawing.Size(13, 13);
+      this.label224.Size = new System.Drawing.Size(18, 20);
       this.label224.TabIndex = 169;
       this.label224.Text = "0";
       // 
@@ -3212,10 +3457,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_PITCH_TOTAL_GAIN.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_PITCH_TOTAL_GAIN.LargeChange = 10;
-      this.tb_PITCH_TOTAL_GAIN.Location = new System.Drawing.Point(13, 83);
+      this.tb_PITCH_TOTAL_GAIN.Location = new System.Drawing.Point(20, 128);
+      this.tb_PITCH_TOTAL_GAIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_PITCH_TOTAL_GAIN.Maximum = 100;
       this.tb_PITCH_TOTAL_GAIN.Name = "tb_PITCH_TOTAL_GAIN";
-      this.tb_PITCH_TOTAL_GAIN.Size = new System.Drawing.Size(400, 45);
+      this.tb_PITCH_TOTAL_GAIN.Size = new System.Drawing.Size(600, 69);
       this.tb_PITCH_TOTAL_GAIN.TabIndex = 153;
       this.tb_PITCH_TOTAL_GAIN.TickFrequency = 5;
       this.tb_PITCH_TOTAL_GAIN.Scroll += new System.EventHandler(this.tb_PITCH_TOTAL_GAIN_Scroll);
@@ -3225,10 +3471,11 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.tb_PITCH_PWM_MAX.BackColor = System.Drawing.SystemColors.ControlLightLight;
       this.tb_PITCH_PWM_MAX.LargeChange = 10;
-      this.tb_PITCH_PWM_MAX.Location = new System.Drawing.Point(585, 21);
+      this.tb_PITCH_PWM_MAX.Location = new System.Drawing.Point(878, 32);
+      this.tb_PITCH_PWM_MAX.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_PITCH_PWM_MAX.Maximum = 255;
       this.tb_PITCH_PWM_MAX.Name = "tb_PITCH_PWM_MAX";
-      this.tb_PITCH_PWM_MAX.Size = new System.Drawing.Size(250, 45);
+      this.tb_PITCH_PWM_MAX.Size = new System.Drawing.Size(375, 69);
       this.tb_PITCH_PWM_MAX.TabIndex = 152;
       this.tb_PITCH_PWM_MAX.TickFrequency = 15;
       this.tb_PITCH_PWM_MAX.Scroll += new System.EventHandler(this.tb_PITCH_PWM_MAX_Scroll);
@@ -3245,18 +3492,21 @@ namespace Arduino_FFB_Yoke_App
       this.groupBox3.Controls.Add(this.btSettingsWriteToYoke);
       this.groupBox3.Controls.Add(this.btSettingsReadFromYoke);
       this.groupBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-      this.groupBox3.Location = new System.Drawing.Point(879, 32);
+      this.groupBox3.Location = new System.Drawing.Point(1318, 49);
+      this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.groupBox3.Name = "groupBox3";
-      this.groupBox3.Size = new System.Drawing.Size(156, 603);
+      this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+      this.groupBox3.Size = new System.Drawing.Size(234, 928);
       this.groupBox3.TabIndex = 1;
       this.groupBox3.TabStop = false;
       // 
       // btSettingsClearEeprom
       // 
       this.btSettingsClearEeprom.Enabled = false;
-      this.btSettingsClearEeprom.Location = new System.Drawing.Point(9, 101);
+      this.btSettingsClearEeprom.Location = new System.Drawing.Point(14, 155);
+      this.btSettingsClearEeprom.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.btSettingsClearEeprom.Name = "btSettingsClearEeprom";
-      this.btSettingsClearEeprom.Size = new System.Drawing.Size(137, 23);
+      this.btSettingsClearEeprom.Size = new System.Drawing.Size(206, 35);
       this.btSettingsClearEeprom.TabIndex = 203;
       this.btSettingsClearEeprom.Text = "Clear EEProm";
       this.mainToolTip.SetToolTip(this.btSettingsClearEeprom, "Clear EEPROM Data of Yoke, Defauls will be loaded on restart");
@@ -3266,9 +3516,10 @@ namespace Arduino_FFB_Yoke_App
       // btSettingsWriteToEEProm
       // 
       this.btSettingsWriteToEEProm.Enabled = false;
-      this.btSettingsWriteToEEProm.Location = new System.Drawing.Point(9, 72);
+      this.btSettingsWriteToEEProm.Location = new System.Drawing.Point(14, 111);
+      this.btSettingsWriteToEEProm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.btSettingsWriteToEEProm.Name = "btSettingsWriteToEEProm";
-      this.btSettingsWriteToEEProm.Size = new System.Drawing.Size(137, 23);
+      this.btSettingsWriteToEEProm.Size = new System.Drawing.Size(206, 35);
       this.btSettingsWriteToEEProm.TabIndex = 202;
       this.btSettingsWriteToEEProm.Text = "Save to EEProm";
       this.mainToolTip.SetToolTip(this.btSettingsWriteToEEProm, "Save transmitted Settings to EEPROM");
@@ -3278,9 +3529,10 @@ namespace Arduino_FFB_Yoke_App
       // btSettingsWriteToYoke
       // 
       this.btSettingsWriteToYoke.Enabled = false;
-      this.btSettingsWriteToYoke.Location = new System.Drawing.Point(9, 43);
+      this.btSettingsWriteToYoke.Location = new System.Drawing.Point(14, 66);
+      this.btSettingsWriteToYoke.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.btSettingsWriteToYoke.Name = "btSettingsWriteToYoke";
-      this.btSettingsWriteToYoke.Size = new System.Drawing.Size(137, 23);
+      this.btSettingsWriteToYoke.Size = new System.Drawing.Size(206, 35);
       this.btSettingsWriteToYoke.TabIndex = 201;
       this.btSettingsWriteToYoke.Text = "Write to Yoke";
       this.mainToolTip.SetToolTip(this.btSettingsWriteToYoke, "Write Settings to Yoke");
@@ -3290,9 +3542,10 @@ namespace Arduino_FFB_Yoke_App
       // btSettingsReadFromYoke
       // 
       this.btSettingsReadFromYoke.Enabled = false;
-      this.btSettingsReadFromYoke.Location = new System.Drawing.Point(9, 15);
+      this.btSettingsReadFromYoke.Location = new System.Drawing.Point(14, 23);
+      this.btSettingsReadFromYoke.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.btSettingsReadFromYoke.Name = "btSettingsReadFromYoke";
-      this.btSettingsReadFromYoke.Size = new System.Drawing.Size(137, 23);
+      this.btSettingsReadFromYoke.Size = new System.Drawing.Size(206, 35);
       this.btSettingsReadFromYoke.TabIndex = 200;
       this.btSettingsReadFromYoke.Text = "Read from Yoke";
       this.mainToolTip.SetToolTip(this.btSettingsReadFromYoke, "Read Settinfs from Yoke");
@@ -3304,10 +3557,11 @@ namespace Arduino_FFB_Yoke_App
       this.tabPageMainDebug.Controls.Add(this.btDebugStop);
       this.tabPageMainDebug.Controls.Add(this.btDebugStart);
       this.tabPageMainDebug.Controls.Add(this.tabControlDebug);
-      this.tabPageMainDebug.Location = new System.Drawing.Point(4, 22);
+      this.tabPageMainDebug.Location = new System.Drawing.Point(4, 29);
+      this.tabPageMainDebug.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tabPageMainDebug.Name = "tabPageMainDebug";
-      this.tabPageMainDebug.Padding = new System.Windows.Forms.Padding(3);
-      this.tabPageMainDebug.Size = new System.Drawing.Size(1048, 649);
+      this.tabPageMainDebug.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+      this.tabPageMainDebug.Size = new System.Drawing.Size(1576, 1005);
       this.tabPageMainDebug.TabIndex = 1;
       this.tabPageMainDebug.Text = "Debug";
       this.tabPageMainDebug.UseVisualStyleBackColor = true;
@@ -3315,9 +3569,10 @@ namespace Arduino_FFB_Yoke_App
       // btDebugStop
       // 
       this.btDebugStop.Enabled = false;
-      this.btDebugStop.Location = new System.Drawing.Point(129, 11);
+      this.btDebugStop.Location = new System.Drawing.Point(194, 17);
+      this.btDebugStop.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.btDebugStop.Name = "btDebugStop";
-      this.btDebugStop.Size = new System.Drawing.Size(120, 23);
+      this.btDebugStop.Size = new System.Drawing.Size(180, 35);
       this.btDebugStop.TabIndex = 7;
       this.btDebugStop.Text = "Stop";
       this.mainToolTip.SetToolTip(this.btDebugStop, "Stop debug");
@@ -3327,9 +3582,10 @@ namespace Arduino_FFB_Yoke_App
       // btDebugStart
       // 
       this.btDebugStart.Enabled = false;
-      this.btDebugStart.Location = new System.Drawing.Point(3, 11);
+      this.btDebugStart.Location = new System.Drawing.Point(4, 17);
+      this.btDebugStart.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.btDebugStart.Name = "btDebugStart";
-      this.btDebugStart.Size = new System.Drawing.Size(120, 23);
+      this.btDebugStart.Size = new System.Drawing.Size(180, 35);
       this.btDebugStart.TabIndex = 6;
       this.btDebugStart.Text = "Start";
       this.mainToolTip.SetToolTip(this.btDebugStart, "Start debug and read data every 1 Second");
@@ -3344,10 +3600,11 @@ namespace Arduino_FFB_Yoke_App
       this.tabControlDebug.Controls.Add(this.tabButtons);
       this.tabControlDebug.Controls.Add(this.tabRoll);
       this.tabControlDebug.Controls.Add(this.tabPitch);
-      this.tabControlDebug.Location = new System.Drawing.Point(3, 40);
+      this.tabControlDebug.Location = new System.Drawing.Point(4, 62);
+      this.tabControlDebug.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tabControlDebug.Name = "tabControlDebug";
       this.tabControlDebug.SelectedIndex = 0;
-      this.tabControlDebug.Size = new System.Drawing.Size(1042, 606);
+      this.tabControlDebug.Size = new System.Drawing.Size(1563, 932);
       this.tabControlDebug.TabIndex = 5;
       // 
       // tabButtons
@@ -3386,10 +3643,11 @@ namespace Arduino_FFB_Yoke_App
       this.tabButtons.Controls.Add(this.cb_yoke_5);
       this.tabButtons.Controls.Add(this.cb_yoke_8);
       this.tabButtons.Controls.Add(this.pbDebugYoke);
-      this.tabButtons.Location = new System.Drawing.Point(4, 22);
+      this.tabButtons.Location = new System.Drawing.Point(4, 29);
+      this.tabButtons.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tabButtons.Name = "tabButtons";
-      this.tabButtons.Padding = new System.Windows.Forms.Padding(3);
-      this.tabButtons.Size = new System.Drawing.Size(1034, 580);
+      this.tabButtons.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+      this.tabButtons.Size = new System.Drawing.Size(1555, 899);
       this.tabButtons.TabIndex = 0;
       this.tabButtons.Text = "Buttons";
       // 
@@ -3397,9 +3655,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label229.AutoSize = true;
       this.label229.BackColor = System.Drawing.Color.Transparent;
-      this.label229.Location = new System.Drawing.Point(903, 324);
+      this.label229.Location = new System.Drawing.Point(1354, 498);
+      this.label229.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label229.Name = "label229";
-      this.label229.Size = new System.Drawing.Size(61, 13);
+      this.label229.Size = new System.Drawing.Size(92, 20);
       this.label229.TabIndex = 31;
       this.label229.Text = "Left Sensor";
       // 
@@ -3408,9 +3667,10 @@ namespace Arduino_FFB_Yoke_App
       this.tb_sensor_left_green.BackColor = System.Drawing.Color.Transparent;
       this.tb_sensor_left_green.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
       this.tb_sensor_left_green.Image = ((System.Drawing.Image)(resources.GetObject("tb_sensor_left_green.Image")));
-      this.tb_sensor_left_green.Location = new System.Drawing.Point(970, 310);
+      this.tb_sensor_left_green.Location = new System.Drawing.Point(1455, 477);
+      this.tb_sensor_left_green.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_sensor_left_green.Name = "tb_sensor_left_green";
-      this.tb_sensor_left_green.Size = new System.Drawing.Size(42, 42);
+      this.tb_sensor_left_green.Size = new System.Drawing.Size(61, 62);
       this.tb_sensor_left_green.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
       this.tb_sensor_left_green.TabIndex = 30;
       this.tb_sensor_left_green.TabStop = false;
@@ -3421,9 +3681,10 @@ namespace Arduino_FFB_Yoke_App
       this.tb_sensor_left_black.BackColor = System.Drawing.Color.Transparent;
       this.tb_sensor_left_black.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
       this.tb_sensor_left_black.Image = ((System.Drawing.Image)(resources.GetObject("tb_sensor_left_black.Image")));
-      this.tb_sensor_left_black.Location = new System.Drawing.Point(970, 310);
+      this.tb_sensor_left_black.Location = new System.Drawing.Point(1455, 477);
+      this.tb_sensor_left_black.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_sensor_left_black.Name = "tb_sensor_left_black";
-      this.tb_sensor_left_black.Size = new System.Drawing.Size(42, 42);
+      this.tb_sensor_left_black.Size = new System.Drawing.Size(61, 62);
       this.tb_sensor_left_black.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
       this.tb_sensor_left_black.TabIndex = 29;
       this.tb_sensor_left_black.TabStop = false;
@@ -3432,9 +3693,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label228.AutoSize = true;
       this.label228.BackColor = System.Drawing.Color.Transparent;
-      this.label228.Location = new System.Drawing.Point(896, 374);
+      this.label228.Location = new System.Drawing.Point(1344, 575);
+      this.label228.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label228.Name = "label228";
-      this.label228.Size = new System.Drawing.Size(68, 13);
+      this.label228.Size = new System.Drawing.Size(102, 20);
       this.label228.TabIndex = 28;
       this.label228.Text = "Right Sensor";
       // 
@@ -3443,9 +3705,10 @@ namespace Arduino_FFB_Yoke_App
       this.tb_sensor_right_green.BackColor = System.Drawing.Color.Transparent;
       this.tb_sensor_right_green.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
       this.tb_sensor_right_green.Image = ((System.Drawing.Image)(resources.GetObject("tb_sensor_right_green.Image")));
-      this.tb_sensor_right_green.Location = new System.Drawing.Point(970, 358);
+      this.tb_sensor_right_green.Location = new System.Drawing.Point(1455, 551);
+      this.tb_sensor_right_green.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_sensor_right_green.Name = "tb_sensor_right_green";
-      this.tb_sensor_right_green.Size = new System.Drawing.Size(42, 42);
+      this.tb_sensor_right_green.Size = new System.Drawing.Size(61, 62);
       this.tb_sensor_right_green.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
       this.tb_sensor_right_green.TabIndex = 27;
       this.tb_sensor_right_green.TabStop = false;
@@ -3456,9 +3719,10 @@ namespace Arduino_FFB_Yoke_App
       this.tb_sensor_right_black.BackColor = System.Drawing.Color.Transparent;
       this.tb_sensor_right_black.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
       this.tb_sensor_right_black.Image = ((System.Drawing.Image)(resources.GetObject("tb_sensor_right_black.Image")));
-      this.tb_sensor_right_black.Location = new System.Drawing.Point(970, 358);
+      this.tb_sensor_right_black.Location = new System.Drawing.Point(1455, 551);
+      this.tb_sensor_right_black.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_sensor_right_black.Name = "tb_sensor_right_black";
-      this.tb_sensor_right_black.Size = new System.Drawing.Size(42, 42);
+      this.tb_sensor_right_black.Size = new System.Drawing.Size(61, 62);
       this.tb_sensor_right_black.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
       this.tb_sensor_right_black.TabIndex = 26;
       this.tb_sensor_right_black.TabStop = false;
@@ -3467,9 +3731,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label227.AutoSize = true;
       this.label227.BackColor = System.Drawing.Color.Transparent;
-      this.label227.Location = new System.Drawing.Point(907, 421);
+      this.label227.Location = new System.Drawing.Point(1360, 648);
+      this.label227.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label227.Name = "label227";
-      this.label227.Size = new System.Drawing.Size(57, 13);
+      this.label227.Size = new System.Drawing.Size(85, 20);
       this.label227.TabIndex = 25;
       this.label227.Text = "Up Sensor";
       // 
@@ -3478,9 +3743,10 @@ namespace Arduino_FFB_Yoke_App
       this.tb_sensor_up_green.BackColor = System.Drawing.Color.Transparent;
       this.tb_sensor_up_green.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
       this.tb_sensor_up_green.Image = ((System.Drawing.Image)(resources.GetObject("tb_sensor_up_green.Image")));
-      this.tb_sensor_up_green.Location = new System.Drawing.Point(970, 406);
+      this.tb_sensor_up_green.Location = new System.Drawing.Point(1455, 625);
+      this.tb_sensor_up_green.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_sensor_up_green.Name = "tb_sensor_up_green";
-      this.tb_sensor_up_green.Size = new System.Drawing.Size(42, 42);
+      this.tb_sensor_up_green.Size = new System.Drawing.Size(61, 62);
       this.tb_sensor_up_green.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
       this.tb_sensor_up_green.TabIndex = 24;
       this.tb_sensor_up_green.TabStop = false;
@@ -3491,9 +3757,10 @@ namespace Arduino_FFB_Yoke_App
       this.tb_sensor_up_black.BackColor = System.Drawing.Color.Transparent;
       this.tb_sensor_up_black.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
       this.tb_sensor_up_black.Image = ((System.Drawing.Image)(resources.GetObject("tb_sensor_up_black.Image")));
-      this.tb_sensor_up_black.Location = new System.Drawing.Point(970, 406);
+      this.tb_sensor_up_black.Location = new System.Drawing.Point(1455, 625);
+      this.tb_sensor_up_black.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_sensor_up_black.Name = "tb_sensor_up_black";
-      this.tb_sensor_up_black.Size = new System.Drawing.Size(42, 42);
+      this.tb_sensor_up_black.Size = new System.Drawing.Size(61, 62);
       this.tb_sensor_up_black.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
       this.tb_sensor_up_black.TabIndex = 23;
       this.tb_sensor_up_black.TabStop = false;
@@ -3502,9 +3769,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label226.AutoSize = true;
       this.label226.BackColor = System.Drawing.Color.Transparent;
-      this.label226.Location = new System.Drawing.Point(893, 469);
+      this.label226.Location = new System.Drawing.Point(1340, 722);
+      this.label226.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label226.Name = "label226";
-      this.label226.Size = new System.Drawing.Size(71, 13);
+      this.label226.Size = new System.Drawing.Size(105, 20);
       this.label226.TabIndex = 22;
       this.label226.Text = "Down Sensor";
       // 
@@ -3513,9 +3781,10 @@ namespace Arduino_FFB_Yoke_App
       this.tb_sensor_down_green.BackColor = System.Drawing.Color.Transparent;
       this.tb_sensor_down_green.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
       this.tb_sensor_down_green.Image = ((System.Drawing.Image)(resources.GetObject("tb_sensor_down_green.Image")));
-      this.tb_sensor_down_green.Location = new System.Drawing.Point(970, 454);
+      this.tb_sensor_down_green.Location = new System.Drawing.Point(1455, 698);
+      this.tb_sensor_down_green.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_sensor_down_green.Name = "tb_sensor_down_green";
-      this.tb_sensor_down_green.Size = new System.Drawing.Size(42, 42);
+      this.tb_sensor_down_green.Size = new System.Drawing.Size(61, 62);
       this.tb_sensor_down_green.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
       this.tb_sensor_down_green.TabIndex = 21;
       this.tb_sensor_down_green.TabStop = false;
@@ -3526,9 +3795,10 @@ namespace Arduino_FFB_Yoke_App
       this.tb_sensor_down_black.BackColor = System.Drawing.Color.Transparent;
       this.tb_sensor_down_black.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
       this.tb_sensor_down_black.Image = ((System.Drawing.Image)(resources.GetObject("tb_sensor_down_black.Image")));
-      this.tb_sensor_down_black.Location = new System.Drawing.Point(970, 454);
+      this.tb_sensor_down_black.Location = new System.Drawing.Point(1455, 698);
+      this.tb_sensor_down_black.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_sensor_down_black.Name = "tb_sensor_down_black";
-      this.tb_sensor_down_black.Size = new System.Drawing.Size(42, 42);
+      this.tb_sensor_down_black.Size = new System.Drawing.Size(61, 62);
       this.tb_sensor_down_black.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
       this.tb_sensor_down_black.TabIndex = 20;
       this.tb_sensor_down_black.TabStop = false;
@@ -3537,9 +3807,10 @@ namespace Arduino_FFB_Yoke_App
       // 
       this.label225.AutoSize = true;
       this.label225.BackColor = System.Drawing.Color.Transparent;
-      this.label225.Location = new System.Drawing.Point(874, 518);
+      this.label225.Location = new System.Drawing.Point(1311, 797);
+      this.label225.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.label225.Name = "label225";
-      this.label225.Size = new System.Drawing.Size(90, 13);
+      this.label225.Size = new System.Drawing.Size(136, 20);
       this.label225.TabIndex = 19;
       this.label225.Text = "Calibration Button";
       // 
@@ -3548,9 +3819,10 @@ namespace Arduino_FFB_Yoke_App
       this.tb_button_calibration_green.BackColor = System.Drawing.Color.Transparent;
       this.tb_button_calibration_green.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
       this.tb_button_calibration_green.Image = ((System.Drawing.Image)(resources.GetObject("tb_button_calibration_green.Image")));
-      this.tb_button_calibration_green.Location = new System.Drawing.Point(970, 502);
+      this.tb_button_calibration_green.Location = new System.Drawing.Point(1455, 772);
+      this.tb_button_calibration_green.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_button_calibration_green.Name = "tb_button_calibration_green";
-      this.tb_button_calibration_green.Size = new System.Drawing.Size(42, 42);
+      this.tb_button_calibration_green.Size = new System.Drawing.Size(61, 62);
       this.tb_button_calibration_green.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
       this.tb_button_calibration_green.TabIndex = 18;
       this.tb_button_calibration_green.TabStop = false;
@@ -3561,9 +3833,10 @@ namespace Arduino_FFB_Yoke_App
       this.tb_button_calibration_black.BackColor = System.Drawing.Color.Transparent;
       this.tb_button_calibration_black.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
       this.tb_button_calibration_black.Image = ((System.Drawing.Image)(resources.GetObject("tb_button_calibration_black.Image")));
-      this.tb_button_calibration_black.Location = new System.Drawing.Point(970, 502);
+      this.tb_button_calibration_black.Location = new System.Drawing.Point(1455, 772);
+      this.tb_button_calibration_black.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tb_button_calibration_black.Name = "tb_button_calibration_black";
-      this.tb_button_calibration_black.Size = new System.Drawing.Size(42, 42);
+      this.tb_button_calibration_black.Size = new System.Drawing.Size(61, 62);
       this.tb_button_calibration_black.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
       this.tb_button_calibration_black.TabIndex = 17;
       this.tb_button_calibration_black.TabStop = false;
@@ -3574,9 +3847,10 @@ namespace Arduino_FFB_Yoke_App
       this.cb_yoke_7.BackColor = System.Drawing.Color.Gray;
       this.cb_yoke_7.Enabled = false;
       this.cb_yoke_7.ForeColor = System.Drawing.SystemColors.ControlText;
-      this.cb_yoke_7.Location = new System.Drawing.Point(298, 167);
+      this.cb_yoke_7.Location = new System.Drawing.Point(447, 257);
+      this.cb_yoke_7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.cb_yoke_7.Name = "cb_yoke_7";
-      this.cb_yoke_7.Size = new System.Drawing.Size(15, 14);
+      this.cb_yoke_7.Size = new System.Drawing.Size(22, 21);
       this.cb_yoke_7.TabIndex = 16;
       this.cb_yoke_7.UseVisualStyleBackColor = false;
       // 
@@ -3586,9 +3860,10 @@ namespace Arduino_FFB_Yoke_App
       this.cb_yoke_13.BackColor = System.Drawing.Color.Gray;
       this.cb_yoke_13.Enabled = false;
       this.cb_yoke_13.ForeColor = System.Drawing.SystemColors.ControlText;
-      this.cb_yoke_13.Location = new System.Drawing.Point(693, 167);
+      this.cb_yoke_13.Location = new System.Drawing.Point(1040, 257);
+      this.cb_yoke_13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.cb_yoke_13.Name = "cb_yoke_13";
-      this.cb_yoke_13.Size = new System.Drawing.Size(15, 14);
+      this.cb_yoke_13.Size = new System.Drawing.Size(22, 21);
       this.cb_yoke_13.TabIndex = 15;
       this.cb_yoke_13.UseVisualStyleBackColor = false;
       // 
@@ -3598,9 +3873,10 @@ namespace Arduino_FFB_Yoke_App
       this.cb_yoke_15.BackColor = System.Drawing.Color.Gray;
       this.cb_yoke_15.Enabled = false;
       this.cb_yoke_15.ForeColor = System.Drawing.SystemColors.ControlText;
-      this.cb_yoke_15.Location = new System.Drawing.Point(777, 164);
+      this.cb_yoke_15.Location = new System.Drawing.Point(1166, 252);
+      this.cb_yoke_15.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.cb_yoke_15.Name = "cb_yoke_15";
-      this.cb_yoke_15.Size = new System.Drawing.Size(15, 14);
+      this.cb_yoke_15.Size = new System.Drawing.Size(22, 21);
       this.cb_yoke_15.TabIndex = 14;
       this.cb_yoke_15.UseVisualStyleBackColor = false;
       // 
@@ -3610,9 +3886,10 @@ namespace Arduino_FFB_Yoke_App
       this.cb_yoke_14.BackColor = System.Drawing.Color.Gray;
       this.cb_yoke_14.Enabled = false;
       this.cb_yoke_14.ForeColor = System.Drawing.SystemColors.ControlText;
-      this.cb_yoke_14.Location = new System.Drawing.Point(774, 142);
+      this.cb_yoke_14.Location = new System.Drawing.Point(1161, 218);
+      this.cb_yoke_14.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.cb_yoke_14.Name = "cb_yoke_14";
-      this.cb_yoke_14.Size = new System.Drawing.Size(15, 14);
+      this.cb_yoke_14.Size = new System.Drawing.Size(22, 21);
       this.cb_yoke_14.TabIndex = 13;
       this.cb_yoke_14.UseVisualStyleBackColor = false;
       // 
@@ -3622,9 +3899,10 @@ namespace Arduino_FFB_Yoke_App
       this.cb_yoke_12.BackColor = System.Drawing.Color.Gray;
       this.cb_yoke_12.Enabled = false;
       this.cb_yoke_12.ForeColor = System.Drawing.SystemColors.ControlText;
-      this.cb_yoke_12.Location = new System.Drawing.Point(790, 126);
+      this.cb_yoke_12.Location = new System.Drawing.Point(1185, 194);
+      this.cb_yoke_12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.cb_yoke_12.Name = "cb_yoke_12";
-      this.cb_yoke_12.Size = new System.Drawing.Size(15, 14);
+      this.cb_yoke_12.Size = new System.Drawing.Size(22, 21);
       this.cb_yoke_12.TabIndex = 12;
       this.cb_yoke_12.UseVisualStyleBackColor = false;
       // 
@@ -3634,9 +3912,10 @@ namespace Arduino_FFB_Yoke_App
       this.cb_yoke_11.BackColor = System.Drawing.Color.Gray;
       this.cb_yoke_11.Enabled = false;
       this.cb_yoke_11.ForeColor = System.Drawing.SystemColors.ControlText;
-      this.cb_yoke_11.Location = new System.Drawing.Point(744, 129);
+      this.cb_yoke_11.Location = new System.Drawing.Point(1116, 198);
+      this.cb_yoke_11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.cb_yoke_11.Name = "cb_yoke_11";
-      this.cb_yoke_11.Size = new System.Drawing.Size(15, 14);
+      this.cb_yoke_11.Size = new System.Drawing.Size(22, 21);
       this.cb_yoke_11.TabIndex = 11;
       this.cb_yoke_11.UseVisualStyleBackColor = false;
       // 
@@ -3646,9 +3925,10 @@ namespace Arduino_FFB_Yoke_App
       this.cb_yoke_10.BackColor = System.Drawing.Color.Gray;
       this.cb_yoke_10.Enabled = false;
       this.cb_yoke_10.ForeColor = System.Drawing.SystemColors.ControlText;
-      this.cb_yoke_10.Location = new System.Drawing.Point(752, 100);
+      this.cb_yoke_10.Location = new System.Drawing.Point(1128, 154);
+      this.cb_yoke_10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.cb_yoke_10.Name = "cb_yoke_10";
-      this.cb_yoke_10.Size = new System.Drawing.Size(15, 14);
+      this.cb_yoke_10.Size = new System.Drawing.Size(22, 21);
       this.cb_yoke_10.TabIndex = 10;
       this.cb_yoke_10.UseVisualStyleBackColor = false;
       // 
@@ -3658,9 +3938,10 @@ namespace Arduino_FFB_Yoke_App
       this.cb_yoke_3.BackColor = System.Drawing.Color.Gray;
       this.cb_yoke_3.Enabled = false;
       this.cb_yoke_3.ForeColor = System.Drawing.SystemColors.ControlText;
-      this.cb_yoke_3.Location = new System.Drawing.Point(216, 90);
+      this.cb_yoke_3.Location = new System.Drawing.Point(324, 138);
+      this.cb_yoke_3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.cb_yoke_3.Name = "cb_yoke_3";
-      this.cb_yoke_3.Size = new System.Drawing.Size(15, 14);
+      this.cb_yoke_3.Size = new System.Drawing.Size(22, 21);
       this.cb_yoke_3.TabIndex = 9;
       this.cb_yoke_3.UseVisualStyleBackColor = false;
       // 
@@ -3670,9 +3951,10 @@ namespace Arduino_FFB_Yoke_App
       this.cb_yoke_2.BackColor = System.Drawing.Color.Gray;
       this.cb_yoke_2.Enabled = false;
       this.cb_yoke_2.ForeColor = System.Drawing.SystemColors.ControlText;
-      this.cb_yoke_2.Location = new System.Drawing.Point(237, 70);
+      this.cb_yoke_2.Location = new System.Drawing.Point(356, 108);
+      this.cb_yoke_2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.cb_yoke_2.Name = "cb_yoke_2";
-      this.cb_yoke_2.Size = new System.Drawing.Size(15, 14);
+      this.cb_yoke_2.Size = new System.Drawing.Size(22, 21);
       this.cb_yoke_2.TabIndex = 8;
       this.cb_yoke_2.UseVisualStyleBackColor = false;
       // 
@@ -3682,9 +3964,10 @@ namespace Arduino_FFB_Yoke_App
       this.cb_yoke_0.BackColor = System.Drawing.Color.Gray;
       this.cb_yoke_0.Enabled = false;
       this.cb_yoke_0.ForeColor = System.Drawing.SystemColors.ControlText;
-      this.cb_yoke_0.Location = new System.Drawing.Point(258, 90);
+      this.cb_yoke_0.Location = new System.Drawing.Point(387, 138);
+      this.cb_yoke_0.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.cb_yoke_0.Name = "cb_yoke_0";
-      this.cb_yoke_0.Size = new System.Drawing.Size(15, 14);
+      this.cb_yoke_0.Size = new System.Drawing.Size(22, 21);
       this.cb_yoke_0.TabIndex = 7;
       this.cb_yoke_0.UseVisualStyleBackColor = false;
       // 
@@ -3694,9 +3977,10 @@ namespace Arduino_FFB_Yoke_App
       this.cb_yoke_1.BackColor = System.Drawing.Color.Gray;
       this.cb_yoke_1.Enabled = false;
       this.cb_yoke_1.ForeColor = System.Drawing.SystemColors.ControlText;
-      this.cb_yoke_1.Location = new System.Drawing.Point(237, 110);
+      this.cb_yoke_1.Location = new System.Drawing.Point(356, 169);
+      this.cb_yoke_1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.cb_yoke_1.Name = "cb_yoke_1";
-      this.cb_yoke_1.Size = new System.Drawing.Size(15, 14);
+      this.cb_yoke_1.Size = new System.Drawing.Size(22, 21);
       this.cb_yoke_1.TabIndex = 6;
       this.cb_yoke_1.UseVisualStyleBackColor = false;
       // 
@@ -3706,9 +3990,10 @@ namespace Arduino_FFB_Yoke_App
       this.cb_yoke_4.BackColor = System.Drawing.Color.Gray;
       this.cb_yoke_4.Enabled = false;
       this.cb_yoke_4.ForeColor = System.Drawing.SystemColors.ControlText;
-      this.cb_yoke_4.Location = new System.Drawing.Point(237, 90);
+      this.cb_yoke_4.Location = new System.Drawing.Point(356, 138);
+      this.cb_yoke_4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.cb_yoke_4.Name = "cb_yoke_4";
-      this.cb_yoke_4.Size = new System.Drawing.Size(15, 14);
+      this.cb_yoke_4.Size = new System.Drawing.Size(22, 21);
       this.cb_yoke_4.TabIndex = 5;
       this.cb_yoke_4.UseVisualStyleBackColor = false;
       // 
@@ -3718,9 +4003,10 @@ namespace Arduino_FFB_Yoke_App
       this.cb_yoke_9.BackColor = System.Drawing.Color.Gray;
       this.cb_yoke_9.Enabled = false;
       this.cb_yoke_9.ForeColor = System.Drawing.SystemColors.ControlText;
-      this.cb_yoke_9.Location = new System.Drawing.Point(197, 150);
+      this.cb_yoke_9.Location = new System.Drawing.Point(296, 231);
+      this.cb_yoke_9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.cb_yoke_9.Name = "cb_yoke_9";
-      this.cb_yoke_9.Size = new System.Drawing.Size(15, 14);
+      this.cb_yoke_9.Size = new System.Drawing.Size(22, 21);
       this.cb_yoke_9.TabIndex = 4;
       this.cb_yoke_9.UseVisualStyleBackColor = false;
       // 
@@ -3730,9 +4016,10 @@ namespace Arduino_FFB_Yoke_App
       this.cb_yoke_6.BackColor = System.Drawing.Color.Gray;
       this.cb_yoke_6.Enabled = false;
       this.cb_yoke_6.ForeColor = System.Drawing.SystemColors.ControlText;
-      this.cb_yoke_6.Location = new System.Drawing.Point(237, 150);
+      this.cb_yoke_6.Location = new System.Drawing.Point(356, 231);
+      this.cb_yoke_6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.cb_yoke_6.Name = "cb_yoke_6";
-      this.cb_yoke_6.Size = new System.Drawing.Size(15, 14);
+      this.cb_yoke_6.Size = new System.Drawing.Size(22, 21);
       this.cb_yoke_6.TabIndex = 3;
       this.cb_yoke_6.UseVisualStyleBackColor = false;
       // 
@@ -3742,9 +4029,10 @@ namespace Arduino_FFB_Yoke_App
       this.cb_yoke_5.BackColor = System.Drawing.Color.Gray;
       this.cb_yoke_5.Enabled = false;
       this.cb_yoke_5.ForeColor = System.Drawing.SystemColors.ControlText;
-      this.cb_yoke_5.Location = new System.Drawing.Point(248, 129);
+      this.cb_yoke_5.Location = new System.Drawing.Point(372, 198);
+      this.cb_yoke_5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.cb_yoke_5.Name = "cb_yoke_5";
-      this.cb_yoke_5.Size = new System.Drawing.Size(15, 14);
+      this.cb_yoke_5.Size = new System.Drawing.Size(22, 21);
       this.cb_yoke_5.TabIndex = 2;
       this.cb_yoke_5.UseVisualStyleBackColor = false;
       // 
@@ -3754,9 +4042,10 @@ namespace Arduino_FFB_Yoke_App
       this.cb_yoke_8.BackColor = System.Drawing.Color.Gray;
       this.cb_yoke_8.Enabled = false;
       this.cb_yoke_8.ForeColor = System.Drawing.SystemColors.ControlText;
-      this.cb_yoke_8.Location = new System.Drawing.Point(202, 125);
+      this.cb_yoke_8.Location = new System.Drawing.Point(303, 192);
+      this.cb_yoke_8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.cb_yoke_8.Name = "cb_yoke_8";
-      this.cb_yoke_8.Size = new System.Drawing.Size(15, 14);
+      this.cb_yoke_8.Size = new System.Drawing.Size(22, 21);
       this.cb_yoke_8.TabIndex = 1;
       this.cb_yoke_8.UseVisualStyleBackColor = false;
       // 
@@ -3767,9 +4056,10 @@ namespace Arduino_FFB_Yoke_App
             | System.Windows.Forms.AnchorStyles.Right)));
       this.pbDebugYoke.BackColor = System.Drawing.Color.Transparent;
       this.pbDebugYoke.Image = ((System.Drawing.Image)(resources.GetObject("pbDebugYoke.Image")));
-      this.pbDebugYoke.Location = new System.Drawing.Point(6, 6);
+      this.pbDebugYoke.Location = new System.Drawing.Point(9, 9);
+      this.pbDebugYoke.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.pbDebugYoke.Name = "pbDebugYoke";
-      this.pbDebugYoke.Size = new System.Drawing.Size(1022, 566);
+      this.pbDebugYoke.Size = new System.Drawing.Size(1533, 860);
       this.pbDebugYoke.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
       this.pbDebugYoke.TabIndex = 0;
       this.pbDebugYoke.TabStop = false;
@@ -3781,9 +4071,10 @@ namespace Arduino_FFB_Yoke_App
       this.tabRoll.Controls.Add(this.chart_FORCE_ROLL);
       this.tabRoll.Controls.Add(this.chart_COUNTER_ROLL);
       this.tabRoll.Controls.Add(this.chart_SPEED_ROLL);
-      this.tabRoll.Location = new System.Drawing.Point(4, 22);
+      this.tabRoll.Location = new System.Drawing.Point(4, 29);
+      this.tabRoll.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tabRoll.Name = "tabRoll";
-      this.tabRoll.Size = new System.Drawing.Size(1034, 580);
+      this.tabRoll.Size = new System.Drawing.Size(1555, 899);
       this.tabRoll.TabIndex = 2;
       this.tabRoll.Text = "Roll";
       // 
@@ -3800,7 +4091,8 @@ namespace Arduino_FFB_Yoke_App
       this.chart_FORCE_ROLL.Enabled = false;
       legend1.Name = "Legend1";
       this.chart_FORCE_ROLL.Legends.Add(legend1);
-      this.chart_FORCE_ROLL.Location = new System.Drawing.Point(3, 715);
+      this.chart_FORCE_ROLL.Location = new System.Drawing.Point(4, 1100);
+      this.chart_FORCE_ROLL.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.chart_FORCE_ROLL.Name = "chart_FORCE_ROLL";
       series1.ChartArea = "ChartArea1";
       series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
@@ -3823,7 +4115,7 @@ namespace Arduino_FFB_Yoke_App
       this.chart_FORCE_ROLL.Series.Add(series1);
       this.chart_FORCE_ROLL.Series.Add(series2);
       this.chart_FORCE_ROLL.Series.Add(series3);
-      this.chart_FORCE_ROLL.Size = new System.Drawing.Size(970, 350);
+      this.chart_FORCE_ROLL.Size = new System.Drawing.Size(1455, 538);
       this.chart_FORCE_ROLL.TabIndex = 46;
       this.chart_FORCE_ROLL.Text = "Roll";
       title1.Name = "Title1";
@@ -3843,7 +4135,8 @@ namespace Arduino_FFB_Yoke_App
       this.chart_COUNTER_ROLL.Enabled = false;
       legend2.Name = "Legend1";
       this.chart_COUNTER_ROLL.Legends.Add(legend2);
-      this.chart_COUNTER_ROLL.Location = new System.Drawing.Point(3, 3);
+      this.chart_COUNTER_ROLL.Location = new System.Drawing.Point(4, 5);
+      this.chart_COUNTER_ROLL.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.chart_COUNTER_ROLL.Name = "chart_COUNTER_ROLL";
       series4.ChartArea = "ChartArea1";
       series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
@@ -3866,7 +4159,7 @@ namespace Arduino_FFB_Yoke_App
       this.chart_COUNTER_ROLL.Series.Add(series4);
       this.chart_COUNTER_ROLL.Series.Add(series5);
       this.chart_COUNTER_ROLL.Series.Add(series6);
-      this.chart_COUNTER_ROLL.Size = new System.Drawing.Size(970, 350);
+      this.chart_COUNTER_ROLL.Size = new System.Drawing.Size(1455, 538);
       this.chart_COUNTER_ROLL.TabIndex = 36;
       this.chart_COUNTER_ROLL.Text = "Roll";
       title2.Name = "Title1";
@@ -3886,7 +4179,8 @@ namespace Arduino_FFB_Yoke_App
       this.chart_SPEED_ROLL.Enabled = false;
       legend3.Name = "Legend1";
       this.chart_SPEED_ROLL.Legends.Add(legend3);
-      this.chart_SPEED_ROLL.Location = new System.Drawing.Point(3, 359);
+      this.chart_SPEED_ROLL.Location = new System.Drawing.Point(4, 552);
+      this.chart_SPEED_ROLL.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.chart_SPEED_ROLL.Name = "chart_SPEED_ROLL";
       series7.ChartArea = "ChartArea1";
       series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
@@ -3909,7 +4203,7 @@ namespace Arduino_FFB_Yoke_App
       this.chart_SPEED_ROLL.Series.Add(series7);
       this.chart_SPEED_ROLL.Series.Add(series8);
       this.chart_SPEED_ROLL.Series.Add(series9);
-      this.chart_SPEED_ROLL.Size = new System.Drawing.Size(970, 350);
+      this.chart_SPEED_ROLL.Size = new System.Drawing.Size(1455, 538);
       this.chart_SPEED_ROLL.TabIndex = 34;
       this.chart_SPEED_ROLL.Text = "Roll";
       title3.Name = "Title1";
@@ -3923,9 +4217,10 @@ namespace Arduino_FFB_Yoke_App
       this.tabPitch.Controls.Add(this.chart_FORCE_PITCH);
       this.tabPitch.Controls.Add(this.chart_COUNTER_PITCH);
       this.tabPitch.Controls.Add(this.chart_SPEED_PITCH);
-      this.tabPitch.Location = new System.Drawing.Point(4, 22);
+      this.tabPitch.Location = new System.Drawing.Point(4, 29);
+      this.tabPitch.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.tabPitch.Name = "tabPitch";
-      this.tabPitch.Size = new System.Drawing.Size(1034, 580);
+      this.tabPitch.Size = new System.Drawing.Size(1555, 899);
       this.tabPitch.TabIndex = 3;
       this.tabPitch.Text = "Pitch";
       // 
@@ -3942,7 +4237,8 @@ namespace Arduino_FFB_Yoke_App
       this.chart_FORCE_PITCH.Enabled = false;
       legend4.Name = "Legend1";
       this.chart_FORCE_PITCH.Legends.Add(legend4);
-      this.chart_FORCE_PITCH.Location = new System.Drawing.Point(3, 715);
+      this.chart_FORCE_PITCH.Location = new System.Drawing.Point(4, 1100);
+      this.chart_FORCE_PITCH.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.chart_FORCE_PITCH.Name = "chart_FORCE_PITCH";
       series10.ChartArea = "ChartArea1";
       series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
@@ -3965,7 +4261,7 @@ namespace Arduino_FFB_Yoke_App
       this.chart_FORCE_PITCH.Series.Add(series10);
       this.chart_FORCE_PITCH.Series.Add(series11);
       this.chart_FORCE_PITCH.Series.Add(series12);
-      this.chart_FORCE_PITCH.Size = new System.Drawing.Size(970, 350);
+      this.chart_FORCE_PITCH.Size = new System.Drawing.Size(1455, 538);
       this.chart_FORCE_PITCH.TabIndex = 45;
       this.chart_FORCE_PITCH.Text = "Roll";
       title4.Name = "Title1";
@@ -3985,7 +4281,8 @@ namespace Arduino_FFB_Yoke_App
       this.chart_COUNTER_PITCH.Enabled = false;
       legend5.Name = "Legend1";
       this.chart_COUNTER_PITCH.Legends.Add(legend5);
-      this.chart_COUNTER_PITCH.Location = new System.Drawing.Point(3, 3);
+      this.chart_COUNTER_PITCH.Location = new System.Drawing.Point(4, 5);
+      this.chart_COUNTER_PITCH.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.chart_COUNTER_PITCH.Name = "chart_COUNTER_PITCH";
       series13.ChartArea = "ChartArea1";
       series13.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
@@ -4008,7 +4305,7 @@ namespace Arduino_FFB_Yoke_App
       this.chart_COUNTER_PITCH.Series.Add(series13);
       this.chart_COUNTER_PITCH.Series.Add(series14);
       this.chart_COUNTER_PITCH.Series.Add(series15);
-      this.chart_COUNTER_PITCH.Size = new System.Drawing.Size(970, 350);
+      this.chart_COUNTER_PITCH.Size = new System.Drawing.Size(1455, 538);
       this.chart_COUNTER_PITCH.TabIndex = 44;
       this.chart_COUNTER_PITCH.Text = "Roll";
       title5.Name = "Title1";
@@ -4028,7 +4325,8 @@ namespace Arduino_FFB_Yoke_App
       this.chart_SPEED_PITCH.Enabled = false;
       legend6.Name = "Legend1";
       this.chart_SPEED_PITCH.Legends.Add(legend6);
-      this.chart_SPEED_PITCH.Location = new System.Drawing.Point(3, 359);
+      this.chart_SPEED_PITCH.Location = new System.Drawing.Point(4, 552);
+      this.chart_SPEED_PITCH.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.chart_SPEED_PITCH.Name = "chart_SPEED_PITCH";
       series16.ChartArea = "ChartArea1";
       series16.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
@@ -4051,7 +4349,7 @@ namespace Arduino_FFB_Yoke_App
       this.chart_SPEED_PITCH.Series.Add(series16);
       this.chart_SPEED_PITCH.Series.Add(series17);
       this.chart_SPEED_PITCH.Series.Add(series18);
-      this.chart_SPEED_PITCH.Size = new System.Drawing.Size(970, 350);
+      this.chart_SPEED_PITCH.Size = new System.Drawing.Size(1455, 538);
       this.chart_SPEED_PITCH.TabIndex = 43;
       this.chart_SPEED_PITCH.Text = "Roll";
       title6.Name = "Title1";
@@ -4064,9 +4362,10 @@ namespace Arduino_FFB_Yoke_App
       this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripProgressBar1,
             this.lbStatus});
-      this.statusStrip1.Location = new System.Drawing.Point(0, 746);
+      this.statusStrip1.Location = new System.Drawing.Point(0, 1152);
       this.statusStrip1.Name = "statusStrip1";
-      this.statusStrip1.Size = new System.Drawing.Size(1060, 22);
+      this.statusStrip1.Padding = new System.Windows.Forms.Padding(2, 0, 21, 0);
+      this.statusStrip1.Size = new System.Drawing.Size(1590, 30);
       this.statusStrip1.SizingGrip = false;
       this.statusStrip1.TabIndex = 10;
       this.statusStrip1.Text = "statusStrip1";
@@ -4074,22 +4373,23 @@ namespace Arduino_FFB_Yoke_App
       // toolStripProgressBar1
       // 
       this.toolStripProgressBar1.Name = "toolStripProgressBar1";
-      this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 16);
+      this.toolStripProgressBar1.Size = new System.Drawing.Size(150, 22);
       // 
       // lbStatus
       // 
       this.lbStatus.Name = "lbStatus";
-      this.lbStatus.Size = new System.Drawing.Size(0, 17);
+      this.lbStatus.Size = new System.Drawing.Size(0, 23);
       // 
       // mainMenu
       // 
+      this.mainMenu.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
       this.mainMenu.ImageScalingSize = new System.Drawing.Size(24, 24);
       this.mainMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.helpToolStripMenuItem});
       this.mainMenu.Location = new System.Drawing.Point(0, 0);
       this.mainMenu.Name = "mainMenu";
-      this.mainMenu.Size = new System.Drawing.Size(1060, 24);
+      this.mainMenu.Size = new System.Drawing.Size(1590, 33);
       this.mainMenu.TabIndex = 11;
       this.mainMenu.Text = "menuStrip1";
       // 
@@ -4099,18 +4399,18 @@ namespace Arduino_FFB_Yoke_App
             this.toolStripSeparator1,
             this.quitToolStripMenuItem});
       this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-      this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+      this.fileToolStripMenuItem.Size = new System.Drawing.Size(54, 29);
       this.fileToolStripMenuItem.Text = "File";
       // 
       // toolStripSeparator1
       // 
       this.toolStripSeparator1.Name = "toolStripSeparator1";
-      this.toolStripSeparator1.Size = new System.Drawing.Size(94, 6);
+      this.toolStripSeparator1.Size = new System.Drawing.Size(145, 6);
       // 
       // quitToolStripMenuItem
       // 
       this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
-      this.quitToolStripMenuItem.Size = new System.Drawing.Size(97, 22);
+      this.quitToolStripMenuItem.Size = new System.Drawing.Size(148, 34);
       this.quitToolStripMenuItem.Text = "Quit";
       this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitToolStripMenuItem_Click);
       // 
@@ -4120,20 +4420,22 @@ namespace Arduino_FFB_Yoke_App
             this.websiteToolStripMenuItem,
             this.aboutToolStripMenuItem});
       this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-      this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+      this.helpToolStripMenuItem.Size = new System.Drawing.Size(65, 29);
       this.helpToolStripMenuItem.Text = "Help";
       // 
       // websiteToolStripMenuItem
       // 
       this.websiteToolStripMenuItem.Name = "websiteToolStripMenuItem";
-      this.websiteToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+      this.websiteToolStripMenuItem.Size = new System.Drawing.Size(177, 34);
       this.websiteToolStripMenuItem.Text = "Website";
+      this.websiteToolStripMenuItem.Click += new System.EventHandler(this.websiteToolStripMenuItem_Click);
       // 
       // aboutToolStripMenuItem
       // 
       this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-      this.aboutToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+      this.aboutToolStripMenuItem.Size = new System.Drawing.Size(177, 34);
       this.aboutToolStripMenuItem.Text = "About";
+      this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
       // 
       // timerReplySettingsTimeout
       // 
@@ -4142,9 +4444,9 @@ namespace Arduino_FFB_Yoke_App
       // 
       // Mainform
       // 
-      this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+      this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(1060, 768);
+      this.ClientSize = new System.Drawing.Size(1590, 1182);
       this.Controls.Add(this.statusStrip1);
       this.Controls.Add(this.mainMenu);
       this.Controls.Add(this.tabControlMain);
@@ -4152,6 +4454,7 @@ namespace Arduino_FFB_Yoke_App
       this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
       this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
       this.MainMenuStrip = this.mainMenu;
+      this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
       this.MaximizeBox = false;
       this.MinimizeBox = false;
       this.Name = "Mainform";
