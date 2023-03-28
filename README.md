@@ -1,5 +1,6 @@
 # Arduino_FFB_Yoke_App
-Debug App for Arduino FFB Yoke
+Debug and Control App for Arduino FFB Yoke see [here](https://github.com/gagagu/Arduino_FFB_Yoke/wiki)
+
 
 Written in C# with Visual Stucio 2019
 
